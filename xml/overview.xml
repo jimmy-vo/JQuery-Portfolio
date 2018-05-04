@@ -45,21 +45,21 @@
 		<description>Made my own 4-wheels robot with remoted control and camera stream - RaspiBot</description>
 		<image>RaspiBot</image>
 	</bullet>
-	<bullet>
+<!-- 	<bullet>
 		<date>August 2013</date>
 		<description>Adopted 2 adorable kittens</description>
 		<image>Cat</image>
-	</bullet>
+	</bullet> -->
 	<bullet>
 		<date>July 2013</date>
 		<description>Started Embedded Hardware Design</description>
 		<image>Hardware</image>
 	</bullet>
-	<bullet>
+<!-- 	<bullet>
 		<date>March 2013</date>
 		<description>Adopted a cute snake</description>
 		<image>Snake</image>
-	</bullet>
+	</bullet> -->
 	<bullet>
 		<date>June 2013</date>
 		<description>First Automation project - ultrasonic sensing robot</description>
