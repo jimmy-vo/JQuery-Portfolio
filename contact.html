@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+		<title>Jimmy Vo</title>
+		<link rel="stylesheet" type="text/css" href="styles/common.css">
+		<link rel="stylesheet" type="text/css" href="styles/contact.css">
+		<script type="text/javascript" src="js/utility.js"></script>
+		<script type="text/javascript" src="js/contact.js"></script>
+	</head>
+
+	<body>
+		<img id="background" src="images/wall.jpg" alt="avt">
+		<header id="layout_top">
+			<table>
+				<tr>
+					<td><img id="avatar" src="images/avatar.jpg" alt="avt" ></td>
+					<td>
+						<h1>Hi, I am Jimmy Vo <br/> An embedded engineer and software developer</h1>
+						<ul id="navigation">
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</header>
+
+		<div id="layout">
+			<article id="layout_content">
+
+				<div id="listContact">
+					<h6>Links</h6>
+					<table id="profile">
+						<tr>
+							<td>
+								<h1>Linkedin</h1>
+							</td>
+							<td>
+								<a href="https://www.linkedin.com/in/jimmy-v%C3%B5-74b543119/" target="_blank">https://www.linkedin.com/in/jimmy-v%C3%B5-74b543119/</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h1>GitHub</h1>
+							</td>
+							<td>
+								 <a href="https://github.com/jimmyvo2410" target="_blank">https://github.com/jimmyvo2410</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h1>Facebook</h1>
+							</td>
+							<td>
+								<a href="https://www.facebook.com/jimmy.vo.2410" target="_blank">https://www.facebook.com/jimmy.vo.2410</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h1>Gmail</h1>
+							</td>
+							<td>
+								 <a href="#">jimmy.vo.2410@gmail.com</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h1>Outlook</h1>
+							</td>
+							<td>
+								 <a href="#">jimmy.vo.2410@outlook.com</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h1>&#9660;Resume</h1>
+							</td>
+							<td>
+								 <a href="file/201803Resume.pdf" download>Download pdf file</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+
+				<div id="message">
+					<h6>Message</h6>
+					<form class="textField"  action="index.html"   method="post">
+						<ul>
+							<li>
+								<label for="fullname">Full Name</label>
+								<p class="error" id="fullname_error">Required field</p>
+								<input id="fullname" name="fullname" type="text" />
+							</li>
+							<li>
+								<label for="address">Address</label><p class="error" id="address_error">Required field</p>
+								<input id="address" name="address" type="text" />
+								
+							</li>
+							<li>
+								<label for="number">Number</label>
+								<p class="error" id="number_error">Required field</p>
+								<p class="error" id="numberformat_error">Invalid number</p>
+								<input id="number" name="number" type="number" />
+							</li>
+							<li>
+								<label for="email">Email</label>
+								<p class="error" id="email_error">Required field</p>
+								<p class="error" id="emailformat_error">Invalid email address</p>
+								<input id="email" name="email" type="text" />
+							</li>
+							<li>
+								<label for="textarea">Message</label>
+								<p class="error" id="textarea_error">Required field</p>
+								<textarea id="textarea" name="textarea" rows="5"></textarea>
+							</li>
+							<li class="buttonField">    
+								<button type="reset" id="clear">Clear</button>
+								<button type="submit" id="submit">Send</button>
+							</li>
+						</ul>
+					</form>
+
+				</div>
+			</article>
+
+			<footer id="footer">
+				<div id="footer_wrapper">
+					<ul id="footer_link">
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+					<p>&#169; 2018 Nguyen Duy Vo All Rights Reserved</p>
+					<p>If you have any question, please leave a message in 
+					<a href="contact.html">Contact</a> 
+					or email to
+					<a href="jimmy.vo.2410@gmail.com">jimmy.vo.2410@gmail.com</a>.</p> 		
+				</div>
+			</footer>
+		</div>
+
+	</body>
+</html>

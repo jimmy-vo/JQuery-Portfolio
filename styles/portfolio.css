@@ -1,0 +1,176 @@
+
+ h1, h2, h3, h4, h5, h6,
+ {
+    margin: 0px 5px;
+    padding:    0px;
+    background-color: transparent;
+    background: transparent;
+ }
+/* ##################################################################### */
+/* overide                                                               */
+/* ##################################################################### */
+
+
+/* ##################################################################### */
+/* layout                                                                */
+/* ##################################################################### */
+
+#layout_content div
+{    
+    float: left;
+
+    background: linear-gradient(rgba(43,43,43,0.7), rgba(13,78,81,0.7), rgba(43,43,43,0.7));
+
+    border-radius: 15px;
+
+    margin: 10px 0px;
+    padding:    0px;
+
+	position: relative;
+	width: 100%;
+
+    border: 0px groove  black   ;
+}
+
+#layout_content h6
+{    
+    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+    color: rgb(255, 255, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+    padding: 5px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px groove  black   ;
+    margin: 1px;
+}
+
+#layout_content table
+{
+    border: 0px groove  black   ;
+    width: 98%;
+    margin: 5px 15px;  
+    border-collapse: collapse;
+}
+
+#layout_content tr 
+{
+    border: 0px solid  black   ;
+}
+
+#layout_content  td
+{
+	width: 	100%;
+    vertical-align: top;
+    border-bottom: 2px solid  black   ;
+    padding: 10px 5px ;
+}
+
+#layout_content  tr:last-child td
+{
+    border-bottom: 0px solid  black   ;
+}
+
+#layout_content img
+{
+    object-fit: cover;
+    width: 256px;
+    height: 128px;
+    
+    border-radius:  15px;
+}
+
+#layout_content h1
+{
+    color: rgb(105, 169, 255);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size: 20px; 
+    margin-right:   30px;
+    float:  left;   
+}
+
+#layout_content h2
+{
+    color: lightgrey;
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size: 15px;
+    float: right;
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+#layout_content h3
+{
+    color: rgb(255, 169, 255);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 16px; 
+    clear: both;
+    float: left;
+}
+
+#layout_content h4
+{
+    color: white;
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size: 15px; 
+    margin-top: 10px;
+    padding: 5px;
+    clear: both;
+}
+
+#layout_content li
+{    
+    color: white;
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    margin-left: 35px;
+    clear: both;
+}
+
+/* ##################################################################### */
+/* Profile                                                               */
+/* ##################################################################### */
+
+#profile h1
+{
+    margin-left: 30px;
+    font-size: 20px; 
+}
+
+#profile  td
+{
+	width: 	0%;
+    border-bottom: 0px solid  black   ;
+}
+#profile h2
+{
+    font-size: 20px; 
+    float: left;
+    text-align: left;
+    margin-top: 0px;
+
+    color: rgb(255, 255, 179);
+}
+
+
+/* ##################################################################### */
+/* Skill                                                                 */
+/* ##################################################################### */
+
+#skill h1
+{
+    font-size: 20px; 
+}
+
+#skill h2
+{
+    font-size: 15px; 
+    float: left;
+    text-align: left;
+    margin-top: 0px;
+}

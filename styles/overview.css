@@ -1,0 +1,71 @@
+
+
+/* ##################################################################### */
+/* overide                                                               */
+/* ##################################################################### */
+#layout_content li
+{
+    background: linear-gradient(rgba(43,43,43,0.7), rgba(57,37,38,0.7), rgba(43,43,43,0.7));
+}
+#layout_content .zebra_background
+{
+    background: linear-gradient(rgba(43,43,43,0.7), rgba(13,78,81,0.7), rgba(43,43,43,0.7));
+}
+
+/* ##################################################################### */
+/* layout                                                                */
+/* ##################################################################### */
+
+#layout_content li{    
+    width: 100%;
+    float: left;
+    border-radius:  15px;
+    margin: 20px 0px;
+}
+
+
+#layout_content ul {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+#layout_content img {
+    object-fit: cover;
+    height: 128px;
+    float: left;
+    margin: 9px ;
+    border-radius:  15px;
+}
+
+/* ##################################################################### */
+/* invidual style                                                        */
+/* ##################################################################### */
+
+#layout_content h1 {
+    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+    color: rgb(255, 255, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+    padding: 5px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px groove  black   ;
+    margin: 1px;
+}
+
+#layout_content h2 {
+    color: white;
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    margin-left: 10px;
+    margin-right:  10px;
+    margin-bottom: 15px;
+    padding-top:   10px;
+    font-style: italic;
+    font-size:  20px;
+    background: transparent;
+    clear:  both;   
+}

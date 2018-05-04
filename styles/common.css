@@ -1,0 +1,241 @@
+ body, ul, ol, li, p, div, fieldset, a, h1, h2, h3, h4, h5, h6,  a,  button, aside, head, footer, article 
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+    font-family: "Verdana", Geneva, sans-serif;
+    color: black;
+	background-color: transparent;
+}
+
+#background
+{
+	position: fixed;
+	width: 100%;
+	height:  100%;
+	/*background-size: contain;*/
+	z-index: -111;
+	top: 0px;
+	left: 0px;
+}
+
+/* ##################################################################### */
+/* content																 */
+/* ##################################################################### */
+#layout
+{
+	width: 1100px;
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right:  auto;
+	background: transparent;
+}
+
+#layout_top table
+{
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(to bottom, rgba(43,43,43,1),rgba(43,43,43,1), rgba(43,43,43,1), rgba(13,78,81,0));
+    border-radius:  15px;
+}
+
+#layout_content 
+{
+    font-family: Arial, Verdana, sans-serif;
+    width: 100%;
+	background: transparent;
+	padding: 0px;
+}
+
+/* ##################################################################### */
+/* header																 */
+/* ##################################################################### */
+#layout_top
+{
+	position: fixed;
+	left: 0px;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+
+#avatar
+{
+	width:  160px;
+	margin-top:  5px;
+	margin-left: 5px;
+	border-radius: 20px;
+} 
+
+#layout_top td
+{	
+	vertical-align: top;
+}
+
+
+#layout_top h1 a
+{		
+    color: rgb(105, 255, 255);
+    text-decoration-line: none;
+}
+
+#layout_top h1 a:hover
+{		
+    color: rgb(105, 169, 255);
+    text-decoration-line: underline;
+}
+
+#layout_top h1
+{	
+	padding: 15px 40px;
+	/*width: 90%;*/
+	font-size: 25px;
+	text-shadow: 1px white;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+    color: rgb(105, 169, 255);
+	border-radius: 20px;
+	border: 3px groove black;
+	z-index: -2;
+}
+
+/* ##################################################################### */
+/* navigation															 */
+/* ##################################################################### */
+#navigation
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	clear: 	both;	
+}
+#navigation  li 
+{
+	display: inline;
+	list-style: none;	
+	font-weight: bold;
+	color: white;
+	padding:  10px 10px ;
+	font-size: 25px;
+	margin: 10px;
+	border-radius: 200px;
+
+    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+}
+
+#navigation a,  #footer_link a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#navigation a:hover 
+{
+    text-decoration: none;
+	border-radius: 200px;
+    color: rgb(105, 169, 179);
+}
+
+#navigation li:hover : not(.selected )
+{
+	border: 5px dotted rgb(107 ,163,178);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#navigation li:active, .selected 
+{
+	border: 5px solid rgb(107 ,163,178);
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* ##################################################################### */
+/* footer															 */
+/* ##################################################################### */
+
+#footer
+{
+	clear:both;
+	border-radius: 10px;
+	width: 100%;
+	font-size: 25px;
+	text-shadow: 1px white;
+	margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(rgba(43,43,43, 0.5), rgba(13,78,81, 0.5), rgba(43,43,43, 0.5));
+}
+
+#footer_wrapper
+{
+	margin: 30px 30px;
+	padding: 30px 0px;
+}
+
+#footer_link
+{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+	clear: 	both;	
+}
+
+#footer_link li
+{
+	display: inline;
+	list-style: none;	
+	font-weight: bold;
+	padding:  15px 15px ;
+	width: 200px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#footer_link li a
+{
+	color: white;
+}
+
+#footer a
+{
+	text-decoration: underline;
+}
+#footer a:hover
+{
+    color: rgb(105, 169, 255);
+	text-decoration: underline;
+}
+
+#footer p, #footer a
+{
+	color: rgb(200,200,200);
+	font-size: 15px;
+}
+
+/* ##################################################################### */
+/* Trailor 																 */
+/* ##################################################################### */
+
+#preview 
+{
+    position: fixed;
+    width: 500px;
+    left: 0px;
+    top:  0px;
+    z-index: 999;
+    visibility: hidden;	
+    display: block;
+
+	border-radius: 10px;
+	border: 2px groove rgb(105, 169, 255);
+}

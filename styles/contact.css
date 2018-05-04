@@ -1,0 +1,204 @@
+legend{
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	padding-bottom:10px;
+	text-shadow:1px 1px 1px #000000;
+}
+
+
+.error 
+{
+	color: red;
+	font-size: 18px;
+}
+
+/* ----------------------------------------------------*/
+/* -- text field  -------------------------------------*/
+/* ----------------------------------------------------*/
+.textField {
+    background: linear-gradient(rgb(43,43,43), rgb(57,37,38), rgb(43,43,43));
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	border-radius:15px;
+}
+
+.textField li{
+    float: left;
+    position: relative;
+
+    background: linear-gradient(rgba(79,3,13,0.7), rgba(13,78,81,1), rgba(1,23,13,0.7));
+    color: rgb(105, 169, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+
+	border-radius:15px;
+	line-height:30px;
+	list-style:none;
+
+	padding:10px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	margin: 15px 10px;
+
+    width: 45%;
+
+}
+
+.textField li:nth-child(even){
+    float: right;
+}
+
+.textField li:nth-child(5){
+	clear: both;
+}
+
+.textField label{   
+	color: rgb(105, 169, 255);
+  text-shadow: 4px 0px rgb(10 ,11,29);
+	width: 150px;
+	font-size:25px;
+	padding:  10px;
+	display: inline-block;
+}
+
+.textField p{
+	display: inline-block;	
+	float: right;
+}
+
+.textField label:hover{
+	cursor:pointer;
+}
+
+.textField input, textarea{
+	width: 	98%;
+	font-size:20px;
+	display: block;
+	margin: 10px auto;
+
+	border:none;
+	border-radius:3px;
+	font:italic 20px Georgia, "Times New Roman", Times, serif;
+	padding:5px;
+	
+    resize: none;
+}
+
+.textField  input:focus,
+.textField  textarea:focus {
+	background: #ddeeff;
+	color: green;
+}
+
+#layout_content h6
+{    
+    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+    color: rgb(255, 255, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+    padding: 5px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px groove  black   ;
+    margin: 1px;
+}
+#layout_content div
+{    
+    float: left;
+
+    background: linear-gradient(rgba(43,43,43,0.7), rgba(13,78,81,0.7), rgba(43,43,43,0.7));
+
+    border-radius: 15px;
+
+    margin: 10px 0px;
+    padding:    0px;
+
+	position: relative;
+	width: 100%;
+
+    border: 0px groove  black   ;
+}
+
+/* ----------------------------------------------------*/
+/* -- listContact ------------------------------------*/
+/* ----------------------------------------------------*/
+#listContact h1
+{    
+	color: rgb(105, 169, 255);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    margin-left: 30px;
+    font-size: 20px; 
+}
+
+#listContact  td
+{
+	width: 	0%;
+    border-bottom: 0px solid  black   ;
+    padding: 1px 5px 9px 5px;
+}
+
+#listContact a
+{
+    font-size: 20px; 
+    float: left;
+    text-align: left;
+    margin-top: 0px;
+
+    color: rgb(179, 255, 179);
+	  text-decoration: none;
+}
+
+#listContact a:hover
+{
+    color: rgb(255, 255, 179);
+	  text-decoration: underline;
+}
+
+/* ----------------------------------------------------*/
+/* -- Button Field ------------------------------------*/
+/* ----------------------------------------------------*/
+li.buttonField  {
+	margin-top: 20px;
+	float: left;
+	border: none;
+	background: transparent;
+}
+
+.buttonField button {
+    background: linear-gradient(rgb(72,104,127), rgb(10 ,11,29), rgb(72,104,127));
+    color: white;
+    font-weight: 800;
+    text-shadow: 4px 4px rgb(10 ,11,29);
+    font-size:  25px;
+
+    padding: 3px 30px;
+    border-radius: 15px;
+	text-transform: u;
+	display: block;
+	width: 70%;
+	margin-top: 20px;
+	padding: 15px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.buttonField  button:hover
+{
+	border: 5px dotted rgb(107 ,163,178);
+	margin-top: 10px;
+}
+
+.buttonField button:active
+{
+	border: 5px solid rgb(107 ,163,178);
+	margin-top: 10px;
+}
+
+
