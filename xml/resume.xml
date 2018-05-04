@@ -115,13 +115,16 @@
 				<name>Model base, manual code, code generation for all standard tools</name>
 			</bullet>
 			<bullet>
-				<name>CANoe, IAR, CPuTest, Tessy, Rhapsody, IBM DOORS</name>
+				<name>Module test, integration test, regression test</name>
 			</bullet>
 			<bullet>
-				<name>Software Components (SWC): Active/passive Entry, UDS Diagnostics, RF receiver stack, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</name>
+				<name>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</name>
 			</bullet>
 			<bullet>
-				<name>Basic Software (BSW):  Diag Stack (DEH, IsoTP), System Stack (SysStateM, BleM, ucDrv, Gpt), Memory Stack (NvM), Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</name>
+				<name>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</name>
+			</bullet>
+			<bullet>
+				<name>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</name>
 			</bullet>
 		</area>
 		<area>
@@ -152,9 +155,6 @@
 			</bullet>
 			<bullet>
 				<name>MATLAB m-script, model base and C-file generation for embedded applications</name>
-			</bullet>
-			<bullet>
-				<name>Module test, integration test, regression test</name>
 			</bullet>
 			<bullet>
 				<name>Experienced in independently designing, developing and testing of software module level API’s</name>
