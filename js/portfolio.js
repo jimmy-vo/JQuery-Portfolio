@@ -13,37 +13,6 @@
  */
 
 
-
-/*
- * addProfile
- *
- * param input
- * param iD
- */
-function addProfile(input, iD)
-{
-	var xml = input.getElementsByTagName('bullet');
-	for (var i=0; i<xml.length; i++)
-	{
-		var item = xml[i];
-
-		var label = item.getElementsByTagName('lable')[0].firstChild.nodeValue;
-		var content = item.getElementsByTagName('content')[0].firstChild.nodeValue;
-
-		var element_td1 = document.createElement("td");  
-		element_td1.appendChild(createTextElement("h1", label));
-			
-		var element_td2 = document.createElement("td");  
-		element_td2.appendChild(createTextElement("h2", content));
-
-		var element_row = document.createElement("tr");  
-		element_row.appendChild(element_td1); 
-		element_row.appendChild(element_td2);
-
-		document.getElementById(iD).appendChild(element_row);
-	}
-}
-
 /*
  * addEducation
  *
@@ -215,10 +184,10 @@ function createTextElement(tag, string)
  */
 function load() 
 {	
-	document.getElementsByTagName("li")[1].classList.add("selected");
+  // document.getElementsByTagName("li")[1].classList.add("selected");
   var resume_xml = loadXML("xml/resume.xml");
 
-  addProfile(resume_xml.getElementsByTagName('profile')[0],'profile');
+  addSkill(resume_xml.getElementsByTagName('summary')[0],'summary');
   addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
   addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');
   addExperience(resume_xml.getElementsByTagName('experience')[0], 'experience');

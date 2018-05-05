@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resume>
-	<profile>
-		<bullet>
-			<lable>Full Name:</lable>
-			<content>Duy Nguyen Vo</content>
-		</bullet>
-		<bullet>
-			<lable>Date Of Birth:</lable>
-			<content>October 24, 1992</content>
-		</bullet>
-		<bullet>
-			<lable>Language:</lable>
-			<content>English, Vietnamese</content>
-		</bullet>
-		<bullet>
-			<lable>Living in:</lable>
-			<content>Winnipeg, Canada</content>
-		</bullet>
-	</profile>
+	<summary>
+		<area>
+			<topic> </topic>
+			<bullet>
+				<name>A Red River College(RRC) student with all As (GPA: 4.23)</name>
+			</bullet>
+			<bullet>
+				<name>A flexible, fast learner, and a supportive leader with the ability to categorize and automate software development process</name>
+			</bullet>S
+			<bullet>
+				<name>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web and application development with one-year experience as an automotive software engineer in a global company </name>
+			</bullet>
+			<bullet>
+				<name>Strong analytical, problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time) </name>
+			</bullet>
+			<bullet>
+				<name>Strong interpersonal and communication skills achieved from multi-cultural workplace (Chinese and German)</name>
+			</bullet>
+		</area>
+	</summary>
 
 	<education>
 		<bullet>
@@ -67,7 +69,7 @@
 		<area>
 			<topic>Web Development and Database</topic>
 			<bullet>
-				<name>HTML, CSS, Java script, PHP</name>
+				<name>HTML, CSS, JavaScript, PHP</name>
 			</bullet>
 			<bullet>
 				<name>Web services and HTTP protocol</name>
