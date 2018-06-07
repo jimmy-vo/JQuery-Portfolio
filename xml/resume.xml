@@ -187,7 +187,7 @@
 				<description>Assisted students with programming skills (Web Development 1, Programming 2)</description>
 				<description>Identified and filled out the students’ learning needs by reasoning and visualization</description>
 			</descriptions>
-			<image>InstructorTechCamp.jpg</image>
+			<image>RRC.jpg</image>
 		</bullet>
 		
 		<bullet>
@@ -201,7 +201,7 @@
 				<description>Led the discussion about ethical hacking</description>
 				<description>Instructed the children to build up a simple website with database integrated, to find security holes and to enhance the site security</description>
 			</descriptions>
-			<image>InstructorTechCamp.jpg</image>
+			<image>RRC.jpg</image>
 		</bullet>
 		
 		<bullet>
@@ -225,18 +225,6 @@
 	
 	<volunteer>
 		<bullet>
-			<title>Session Helper</title>
-			<date>April 12, 2018</date>
-			<organization>DigiGirlz Day 2018</organization>
-			<location>Microsoft, Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
-				<description>Robot Cars:Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
-				<description>Cognitive Thinking: Assist students through a series on non-technical activities to illustrate how they use critical and creative thinking.</description>
-			</descriptions>
-			<image>DIGIBG.jpg</image>
-		</bullet>
-		<bullet>
 			<title>Education Assistant</title>
 			<date>March 2018 - Current</date>
 			<organization>Red River College</organization>
@@ -246,7 +234,31 @@
 				<description>Indicated the issues, helped students with troubleshooting and explained network behaviors</description>
 				<description>Helped students with Cisco Lab exercises in Open Lab periods</description>
 			</descriptions>
-			<image>EA.jpg</image>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Guest Speaker</title>
+			<date>May 2018</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>The Campus tour: A day tour where international and ESL students come to see the college's facilities and the college lives.</topic>
+				<description>Invited to come and discuss about the courses and the difficulties of international students at RRC</description>
+				<description>Gave advise to ESL students about what they could do to prepare for the courses</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Session Helper</title>
+			<date>April 12, 2018</date>
+			<organization>DigiGirlz Day 2018</organization>
+			<location>Microsoft, Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
+				<description>Robot Cars:Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
+				<description>Cognitive Thinking: Assist students through a series on non-technical activities to illustrate how they use critical and creative thinking.</description>
+			</descriptions>
+			<image>MS.jpg</image>
 		</bullet>
 		<bullet>
 			<title>Project Team Leader</title>
@@ -259,7 +271,7 @@
 				<description>Built a two-way peer review process</description>
 				<description>Trained the team members on Android development and new technologies</description>
 			</descriptions>
-			<image>Android.jpg</image>
+			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
 			<title>Workshop Assistant</title>
@@ -271,7 +283,7 @@
 				<description>Set up training materials</description>
 				<description>Explored digital media world and many pieces of Unity</description>
 			</descriptions>
-			<image>Unity.jpg</image>
+			<image>NMM.jpg</image>
 		</bullet>
 		<bullet>
 			<title>Student Representative, Activity Faciliator</title>
@@ -284,7 +296,7 @@
 				<description>Represented RRC’s students to answer CTV interview questions about LEGO Mindstorms</description>
 				<description>Led the Coding-And-Networks-Games room, introducing high school students to basic concepts of programming</description>
 			</descriptions>
-			<image>lego.jpg</image>
+			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
 			<title>Note Taker</title>
