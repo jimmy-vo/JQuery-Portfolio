@@ -43,7 +43,7 @@ function addEducation(input, iD)
 		var element_img  = document.createElement("img"); 
 		element_img.src = url;
 		element_img.alt = image + ".jpg";
-		TooltipImageEvent(element_img, url);
+		//TooltipImageEvent(element_img, url);
 
 		var element_td2 = document.createElement("td"); 
 		element_td2.appendChild(element_img);
@@ -128,7 +128,7 @@ function addExperience(input, iD)
 		var element_img = document.createElement("img"); 
 		element_img.src = url;
 		element_img.alt = image + ".jpg";
-		TooltipImageEvent(element_img, url);
+		//TooltipImageEvent(element_img, url);
 
 		var element_td2 = document.createElement("td"); 
 		element_td2.appendChild(element_img);
@@ -184,7 +184,7 @@ function createTextElement(tag, string)
  */
 function load() 
 {	
-  // document.getElementsByTagName("li")[1].classList.add("selected");
+  document.getElementsByTagName("li")[1].classList.add("selected");
   var resume_xml = loadXML("xml/resume.xml");
 
   addSkill(resume_xml.getElementsByTagName('summary')[0],'summary');

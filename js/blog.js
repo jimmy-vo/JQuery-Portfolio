@@ -70,7 +70,7 @@ function AddItem(date, description, images, count)
 function load() 
 {	
 	document.getElementsByTagName("li")[0].classList.add("selected");
-	var overview_xml = loadXML("xml/overview.xml");
+	var overview_xml = loadXML("xml/blog.xml");
 
 	for (var i=0; i<overview_xml.getElementsByTagName('bullet').length; i++)
 	{

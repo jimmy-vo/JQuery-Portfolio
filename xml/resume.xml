@@ -72,7 +72,13 @@
 				<name>HTML, CSS, JavaScript, PHP</name>
 			</bullet>
 			<bullet>
+				<name>React, ThreeJS</name>
+			</bullet>
+			<bullet>
 				<name>Web services and HTTP protocol</name>
+			</bullet>
+			<bullet>
+				<name>Service worker, Web application</name>
 			</bullet>
 			<bullet>
 				<name>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP, ZWAMP</name>
@@ -237,8 +243,20 @@
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
+			<title>Sessions helper</title>
+			<date>June 5, 2018 - June 6, 2018</date>
+			<organization>Prairie Developer Conference</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>Prairie Dev Con: A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
+				<description>Answered questions at the welcome booth</description>
+				<description>Ensured the machines worked properly</description>
+			</descriptions>
+			<image>PrairieDevCon.jpg</image>
+		</bullet>
+		<bullet>
 			<title>Guest Speaker</title>
-			<date>May 2018</date>
+			<date>May 24, 2018</date>
 			<organization>Red River College</organization>
 			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
@@ -300,7 +318,7 @@
 		</bullet>
 		<bullet>
 			<title>Note Taker</title>
-			<date>February 2018</date>
+			<date>February 1, 2018</date>
 			<organization>DisruptED 2018</organization>
 			<location>Red River College</location>
 			<descriptions>
