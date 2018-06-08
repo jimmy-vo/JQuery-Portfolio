@@ -40,18 +40,36 @@
 		</bullet>
 	</education>
 
-	<certificate>
+	<award>
 		<bullet>
-			<name>Electrical Engineering</name>
-			<date>August 2010 - March 2014</date>
-			<description>HCMUT</description>
+			<name>Applied Computer Education Department Award</name>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>June 7, 2018</date>
+			<description>Awards of $1000 will be presented to students enrolled in an Applied Computer Education program.  Criteria include a letter of recommendation from an instructor, a portfolio of work of which they are proud, a grade report, as well as an essay that describes their experience in the program, their career aspirations, and include examples of class leadership.</description>
+			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
-			<name>Electrical Engineering</name>
-			<date>August 2010 - March 2014</date>
-			<description>HCMUT</description>
+			<name>Great-West Life Award</name>
+			<organization>Great-West Life</organization>
+			<date>June 7, 2018</date>
+			<description>An award of $2500 are available annually to students who will be entering their final year of the Business Information Technology program. Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement. </description>
+			<image>GreatWestLife.jpg</image>
 		</bullet>
-	</certificate>
+		<bullet>
+			<name>School of Business and Applied Arts Bursary</name>
+			<organization>Red River College</organization>
+			<date>Febuary 16, 2018</date>
+			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative, or from funds established at The Winnipeg Foundation.</description>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<name>Honour Roll Certificate - First Term</name>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>December 15, 2018</date>
+			<description>First-term GPA: 4.45</description>
+			<image>RRC.jpg</image>
+		</bullet>
+	</award>
 
 	<skill>
 		<area>
@@ -250,7 +268,7 @@
 			<descriptions>
 				<topic>Prairie Dev Con: A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
 				<description>Answered questions at the welcome booth</description>
-				<description>Ensured the machines worked properly</description>
+				<description>Ensured the machines worked properly during the presentations</description>
 			</descriptions>
 			<image>PrairieDevCon.jpg</image>
 		</bullet>

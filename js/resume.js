@@ -56,6 +56,51 @@ function addEducation(input, iD)
   	}
 }
 
+/*
+ * addSkill
+ *
+ * param input
+ * param iD
+ */
+function addAward(input, iD)
+{
+	var xml = input.getElementsByTagName('bullet');  
+	for (var i=0; i<xml.length; i++)
+	{
+	    var item = xml[i];  
+
+	    var name = item.getElementsByTagName('name')[0].firstChild.nodeValue;
+	    var date = item.getElementsByTagName('date')[0].firstChild.nodeValue;
+	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
+	    var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
+	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
+		var url = "images/" + image;
+
+		var element_td1 = document.createElement("td");  
+		var element_ul = document.createElement("ul");     
+		element_td1.appendChild(element_ul);
+
+		element_td1.appendChild(createTextElement("h1", name));
+		element_td1.appendChild(createTextElement("h2", date));
+		element_td1.appendChild(createTextElement("h3", organization));
+		element_td1.appendChild(createTextElement("h4", description));
+
+
+		var element_img  = document.createElement("img"); 
+		element_img.src = url;
+		element_img.alt = image + ".jpg";
+		var element_td2 = document.createElement("td"); 
+		element_td2.appendChild(element_img);
+
+
+		
+		var element_row = document.createElement("tr");  
+		element_row.appendChild(element_td1);  
+		element_row.appendChild(element_td2);
+
+		document.getElementById(iD).appendChild(element_row);
+  	}
+}
 
 /*
  * addSkill
@@ -189,6 +234,7 @@ function load()
 
   addSkill(resume_xml.getElementsByTagName('summary')[0],'summary');
   addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
+  addAward(resume_xml.getElementsByTagName('award')[0], 'award');
   addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');
   addExperience(resume_xml.getElementsByTagName('experience')[0], 'experience');
   addExperience(resume_xml.getElementsByTagName('volunteer')[0], 'volunteer');
