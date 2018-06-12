@@ -28,7 +28,7 @@ function addEducation(input, iD)
 
 	    var degree = item.getElementsByTagName('degree')[0].firstChild.nodeValue;
 	    var date = item.getElementsByTagName('date')[0].firstChild.nodeValue;
-	    var institude = item.getElementsByTagName('institude')[0].firstChild.nodeValue;
+	    var institude = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 	    var major = item.getElementsByTagName('major')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
@@ -69,7 +69,7 @@ function addAward(input, iD)
 	{
 	    var item = xml[i];  
 
-	    var name = item.getElementsByTagName('name')[0].firstChild.nodeValue;
+	    var name = item.getElementsByTagName('title')[0].firstChild.nodeValue;
 	    var date = item.getElementsByTagName('date')[0].firstChild.nodeValue;
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
@@ -130,10 +130,7 @@ function addSkill(input, iD)
 	    var subxml = item.getElementsByTagName('bullet');  
 		for (var j=0; j<subxml.length; j++)
 		{
-		    var subitem = subxml[j];   
-
-		    var name = subitem.getElementsByTagName('name')[0].firstChild.nodeValue;
-
+		    var name = subxml[j].firstChild.nodeValue;
 			element_ul.appendChild(createTextElement("li", name));
 		}
 
@@ -141,6 +138,30 @@ function addSkill(input, iD)
   	}
 }
 
+/*
+ * addSkill
+ *
+ * param input
+ * param iD
+ */
+function addSummary(input, iD)
+{
+	var xml = input.getElementsByTagName('bullet');
+	for (var i=0; i<xml.length; i++)
+	{
+	    var item = xml[i];  
+		var element_td1 = document.createElement("td");    
+
+		var element_ul = document.createElement("ul");     
+		element_td1.appendChild(element_ul);
+
+	    var name = item.firstChild.nodeValue;
+
+		element_ul.appendChild(createTextElement("li", name));
+
+		document.getElementById(iD).appendChild(element_ul);
+  	}
+}
 /*
  * addExperience
  *
@@ -232,7 +253,7 @@ function load()
   document.getElementsByTagName("li")[1].classList.add("selected");
   var resume_xml = loadXML("xml/resume.xml");
 
-  addSkill(resume_xml.getElementsByTagName('summary')[0],'summary');
+  addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
   addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
   addAward(resume_xml.getElementsByTagName('award')[0], 'award');
   addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');

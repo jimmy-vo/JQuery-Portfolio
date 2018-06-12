@@ -1,204 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <resume>
+
+	<Contact>
+		<bullet>
+			<text>819 Dufferin Ave, Winnipeg</text>
+			<link></link>
+			<image>address.jpg</image>
+		</bullet>
+		<bullet>
+			<text>+1 (204) 599 1138</text>
+			<link></link>
+			<image>phone.jpg</image>
+		</bullet>
+		<bullet>
+			<text>jimmy.vo.2410@gmail.com</text>
+			<link></link>
+			<image>email.jpg</image>
+		</bullet>
+		<bullet>
+			<text>jimmyvo2410.github.io</text>
+			<link>https://jimmyvo2410.github.io/resume.html</link>
+			<image>web.jpg</image>
+		</bullet>
+		<bullet>
+			<text>linkedin.com/in/jimmyvo2410</text>
+			<link>https://www.linkedin.com/in/jimmyvo2410/</link>
+			<image>linkedin.jpg</image>
+		</bullet>	
+		<bullet>
+			<text>github.com/jimmyvo2410</text>
+			<link>https://github.com/jimmyvo2410</link>
+			<image>github.jpg</image>
+		</bullet>
+	</Contact>
+	
 	<summary>
-		<area>
-			<topic> </topic>
-			<bullet>
-				<name>A Red River College(RRC) student with all As (GPA: 4.23)</name>
-			</bullet>
-			<bullet>
-				<name>A flexible, fast learner, and a supportive leader with the ability to categorize and automate software development process</name>
-			</bullet>S
-			<bullet>
-				<name>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web and application development with one-year experience as an automotive software engineer in a global company </name>
-			</bullet>
-			<bullet>
-				<name>Strong analytical, problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time) </name>
-			</bullet>
-			<bullet>
-				<name>Strong interpersonal and communication skills achieved from multi-cultural workplace (Chinese and German)</name>
-			</bullet>
-		</area>
-	</summary>
-
-	<education>
-		<bullet>
-			<degree>Business Information Technology Diploma</degree>
-			<date>August 2017 - Current</date>
-			<institude>Red River College</institude>
-			<location>Winnipeg, MB, Canada</location>
-			<major>Application Development, Database management, Web Development, Technology in Business</major>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<degree>Electrical Engineering</degree>
-			<date>August 2010 - March 2014</date>
-			<institude>HCM University Of Technology</institude>
-			<location>HCM, Vietnam</location>
-			<major>Electrical, embedded system software and hardware</major>
-			<image>HCMUT.jpg</image>
-		</bullet>
-	</education>
-
-	<award>
-		<bullet>
-			<name>Applied Computer Education Department Award</name>
-			<organization>Applied Computer Education Department, Red River College</organization>
-			<date>June 7, 2018</date>
-			<description>Awards of $1000 will be presented to students enrolled in an Applied Computer Education program.  Criteria include a letter of recommendation from an instructor, a portfolio of work of which they are proud, a grade report, as well as an essay that describes their experience in the program, their career aspirations, and include examples of class leadership.</description>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<name>Great-West Life Award</name>
-			<organization>Great-West Life</organization>
-			<date>June 7, 2018</date>
-			<description>An award of $2500 are available annually to students who will be entering their final year of the Business Information Technology program. Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement. </description>
-			<image>GreatWestLife.jpg</image>
-		</bullet>
-		<bullet>
-			<name>School of Business and Applied Arts Bursary</name>
-			<organization>Red River College</organization>
-			<date>Febuary 16, 2018</date>
-			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative, or from funds established at The Winnipeg Foundation.</description>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<name>Honour Roll Certificate - First Term</name>
-			<organization>Applied Computer Education Department, Red River College</organization>
-			<date>December 15, 2018</date>
-			<description>First-term GPA: 4.45</description>
-			<image>RRC.jpg</image>
-		</bullet>
-	</award>
-
-	<skill>
-		<area>
-			<topic>Mobile Development</topic>
-			<bullet>
-				<name>Java, XML and UI design (Android Studio)</name>
-			</bullet>
-			<bullet>
-				<name>Deployed the applications to Google Play</name>
-			</bullet>
-			<bullet>
-				<name>Analyzed, designed, and developed complex code bases, software systems, including API design techniques</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Web Development and Database</topic>
-			<bullet>
-				<name>HTML, CSS, JavaScript, PHP</name>
-			</bullet>
-			<bullet>
-				<name>React, ThreeJS</name>
-			</bullet>
-			<bullet>
-				<name>Web services and HTTP protocol</name>
-			</bullet>
-			<bullet>
-				<name>Service worker, Web application</name>
-			</bullet>
-			<bullet>
-				<name>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP, ZWAMP</name>
-			</bullet>
-			<bullet>
-				<name>Internet Security: SQL Injection, Cross Site Scripting</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Application Development</topic>
-			<bullet>
-				<name>C#, VBA, XML and UI design</name>
-			</bullet>
-			<bullet>
-				<name>.NET application development (Visio Studio)</name>
-			</bullet>
-			<bullet>
-				<name>Experience implementing modular, testable, and robust solutions</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Game Development</topic>
-			<bullet>
-				<name>Hands on experience with C# script in Unity</name>
-			</bullet>
-			<bullet>
-				<name>3D objects and common components such as physics and animations</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Financial Accounting</topic>
-			<bullet>
-				<name>Understand business activities and financial accounting principles</name>
-			</bullet>
-			<bullet>
-				<name>Hands on experience with Sage50</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Embedded Automotive </topic>
-			<bullet>
-				<name>Model base, manual code, code generation for all standard tools</name>
-			</bullet>
-			<bullet>
-				<name>Module test, integration test, regression test</name>
-			</bullet>
-			<bullet>
-				<name>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</name>
-			</bullet>
-			<bullet>
-				<name>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</name>
-			</bullet>
-			<bullet>
-				<name>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Data Science</topic>
-			<bullet>
-				<name>Kalman filter (KF, EKF), Gradient descent</name>
-			</bullet>
-			<bullet>
-				<name>Computer vision (OpenCV)</name>
-			</bullet>
-			<bullet>
-				<name>Data encryption, signal modulation (RF)</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Embedded System</topic>
-			<bullet>
-				<name>Control/Sensors: ultrasonic, EPPROM, DMA, gyroscope, accelerate-meter, magneto-meter, RF receivers, NFC, capacity touch sensor</name>
-			</bullet>
-			<bullet>
-				<name>Protocol: UART, SPI, I2C, GPIO, SDIO, CAN, LIN</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Embedded Software</topic>
-			<bullet>
-				<name>C/C++ and assembly (Keil, IAR)</name>
-			</bullet>
-			<bullet>
-				<name>MATLAB m-script, model base and C-file generation for embedded applications</name>
-			</bullet>
-			<bullet>
-				<name>Experienced in independently designing, developing and testing of software module level API’s</name>
-			</bullet>
-			<bullet>
-				<name>Developed configuration tools for different variants of an embedded platform</name>
-			</bullet>
-		</area>
-		<area>
-			<topic>Embedded Hardware</topic>
-			<bullet>
-				<name>Designed 2-layer PCB layout and schematic</name>
-			</bullet>
-			<bullet>
-				<name>Proficiency in the use of soldering and measurement equipment such as oscilloscopes and logic analyzer</name>
-			</bullet>
-		</area>
-	</skill>
+	    <bullet>A Red River College(RRC) student with all As (GPA: 4.23)</bullet>
+	    <bullet>A flexible, fast learner, and a supportive leader with the ability to categorize and automate software development process</bullet>
+	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web and application development with one-year experience as an automotive software engineer in a global company</bullet>
+	    <bullet>Strong analytical, problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time)</bullet>
+	    <bullet>Strong interpersonal and communication skills achieved from multi-cultural workplace (Chinese and German)</bullet>
+  	</summary>
 
 	<experience>
 		<bullet>
@@ -215,13 +58,13 @@
 		</bullet>
 		
 		<bullet>
-			<title>Instructor</title>
+			<title>Technology Camps Instructor</title>
 			<date>May 1, 2018 - May 3, 2018</date>
-			<organization>Technology Camps</organization>
-			<location>Red River College, Winnipeg, MB, Canada</location>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
-				<topic>The Day in the Life of an IT Student Technology Camp gives high school students (grades 9-12) hands on experience with fun activities based on the Business Information Technology program.</topic>				
-				<description>Explaned the technologies used in Web Development, Database. Networking and Web Security</description>
+				<topic> </topic>				
+				<description>Explained the technologies used in Web Development, Database. Networking and Web Security</description>
 				<description>Led the discussion about ethical hacking</description>
 				<description>Instructed the children to build up a simple website with database integrated, to find security holes and to enhance the site security</description>
 			</descriptions>
@@ -231,8 +74,8 @@
 		<bullet>
 			<title>Embedded Software Engineer</title>
 			<date>May 2016 – July 2017</date>
-			<organization>HCMUT</organization>
-			<location>Vietnam</location>
+			<organization>HELLA</organization>
+			<location>Ho Chi Minh city, Vietnam</location>
 			<descriptions>
 				<topic> </topic>
 				<description>Offered a promotion and invited by Chinese engineers to be a team leader on Radio Frequency Receiver technology</description>
@@ -242,10 +85,123 @@
 			</descriptions>
 			<image>hella.jpg</image>
 		</bullet>
-	</experience>
+	</experience>	
 	
-	
-	
+	<education>
+		<bullet>
+			<degree>Business Information Technology Diploma</degree>
+			<date>August 2017 - Current</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<major>Application Development, Database management, Web Development, Technology in Business</major>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<degree>Electrical Engineering</degree>
+			<date>August 2010 - March 2014</date>
+			<organization>HCM University Of Technology</organization>
+			<location>HCM, Vietnam</location>
+			<major>Electrical, embedded system software and hardware</major>
+			<image>HCMUT.jpg</image>
+		</bullet>
+	</education>
+
+	<award>
+		<bullet>
+			<title>Applied Computer Education Department Award</title>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>June 7, 2018</date>
+			<description>Awards of $1000 will be presented to students enrolled in an Applied Computer Education program.  Criteria include a letter of recommendation from an instructor, a portfolio of work of which they are proud, a grade report, as well as an essay that describes their experience in the program, their career aspirations, and include examples of class leadership.</description>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Great-West Life Award</title>
+			<organization>Great-West Life</organization>
+			<date>June 7, 2018</date>
+			<description>An award of $2500 are available annually to students who will be entering their final year of the Business Information Technology program. Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement. </description>
+			<image>GreatWestLife.jpg</image>
+		</bullet>
+		<bullet>
+			<title>School of Business and Applied Arts Bursary</title>
+			<organization>Red River College</organization>
+			<date>February 16, 2018</date>
+			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative, or from funds established at The Winnipeg Foundation.</description>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Honor Roll Certificate - First Term</title>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>December 15, 2018</date>
+			<description>First-term GPA: 4.45</description>
+			<image>RRC.jpg</image>
+		</bullet>
+	</award>
+
+	<skill>
+		<area>
+			<topic>Mobile Development</topic>
+			<bullet>Java, XML and UI design (Android Studio)</bullet>
+			<bullet>Deployed the applications to Google Play</bullet>
+			<bullet>Analyzed, designed, and developed complex code bases, software systems, including API design techniques</bullet>
+		</area>
+		<area>
+			<topic>Web Development and Database</topic>
+			<bullet>HTML, CSS, JavaScript, PHP</bullet>
+			<bullet>React, ThreeJS</bullet>
+			<bullet>Web services and HTTP protocol</bullet>
+			<bullet>Service worker, Web application</bullet>
+			<bullet>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP, ZWAMP</bullet>		
+			<bullet>Internet Security: SQL Injection, Cross Site Scripting</bullet>
+		</area>
+		<area>
+			<topic>Application Development</topic>
+			<bullet>C#, VBA, XML and UI design</bullet>
+			<bullet>.NET application development (Visio Studio)</bullet>
+			<bullet>Experience implementing modular, testable, and robust solutions</bullet>	
+		</area>
+		<area>
+			<topic>Game Development</topic>
+			<bullet>Hands on experience with C# script in Unity</bullet>
+			<bullet>3D objects and common components such as physics and animations</bullet>
+			<bullet>Deployed an VR game to Google Play</bullet>
+		</area>
+		<area>
+			<topic>Financial Accounting</topic>
+			<bullet>Understand business activities and financial accounting principles</bullet>
+			<bullet>Hands on experience with Sage50</bullet>
+		</area>
+		<area>
+			<topic>Embedded Automotive </topic>
+			<bullet>Model base, manual code, code generation for all standard tools</bullet>
+			<bullet>Module test, integration test, regression test</bullet>
+			<bullet>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</bullet>
+			<bullet>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</bullet>
+			<bullet>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</bullet>
+		</area>
+		<area>
+			<topic>Data Science</topic>
+			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
+			<bullet>Computer vision (OpenCV)</bullet>
+			<bullet>Data encryption, signal modulation (RF)</bullet>
+		</area>
+		<area>
+			<topic>Embedded System</topic>
+			<bullet>Control/Sensors: ultrasonic, EPPROM, DMA, gyroscope, accelerate-meter, magneto-meter, RF receivers, NFC, capacity touch sensor</bullet>
+			<bullet>Protocol: UART, SPI, I2C, GPIO, SDIO, CAN, LIN</bullet>
+		</area>
+		<area>
+			<topic>Embedded Software</topic>
+			<bullet>C/C++ and assembly (Keil, IAR)</bullet>
+			<bullet>MATLAB m-script, model base and C-file generation for embedded applications</bullet>
+			<bullet>Experienced in independently designing, developing and testing of software module level API’s</bullet>
+			<bullet>Developed configuration tools for different variants of an embedded platform</bullet>
+		</area>
+		<area>
+			<topic>Embedded Hardware</topic>
+			<bullet>Designed 2-layer PCB layout and schematic</bullet>
+			<bullet>Proficiency in the use of soldering and measurement equipment such as oscilloscopes and logic analyzer</bullet>
+		</area>
+	</skill>
 	
 	<volunteer>
 		<bullet>
@@ -291,7 +247,7 @@
 			<location>Microsoft, Winnipeg, MB, Canada</location>
 			<descriptions>
 				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
-				<description>Robot Cars:Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
+				<description>Robot Cars: Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
 				<description>Cognitive Thinking: Assist students through a series on non-technical activities to illustrate how they use critical and creative thinking.</description>
 			</descriptions>
 			<image>MS.jpg</image>
@@ -322,7 +278,7 @@
 			<image>NMM.jpg</image>
 		</bullet>
 		<bullet>
-			<title>Student Representative, Activity Faciliator</title>
+			<title>Student Representative, Activity Facilitator</title>
 			<date>February 20, 2018</date>
 			<organization>RRC Open house 2018</organization>
 			<location>Red River College</location>
