@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>	
+	<bullet>
+		<title>Galaxy</title>
+		<link>https://github.com/jimmyvo2410/Galaxy</link>
+		<description>This is my first android VR game after I have learned some Unity skill sets from Dylan Fries's Unity workshops. I made it just similar to the old school game - Galaxy On Fire. The game is also launched on Google Play Store, please click to find the link.</description>
+	</bullet>		
+	<bullet>
+		<title>IpAddressAnalyzer</title>
+		<link>https://github.com/jimmyvo2410/IpAddressAnalyzer</link>
+		<description>I made this WinForm project to help other students in learning how to analyze IPv4 addresses</description>
+	</bullet>	
+	<bullet>
+		<title>MoneyManage</title>
+		<link>https://github.com/jimmyvo2410/MoneyManage</link>
+		<description>I made the app after I finished the BIT's first term at Red River College, using the knowledge from Financial Accounting and Java programming class. I use the app to manage my daily transaction.</description>
+	</bullet>	
+	<bullet>
+		<title>jimmyvo2410.github.io</title>
+		<link>https://github.com/jimmyvo2410/jimmyvo2410.github.io</link>
+		<description>The project is about my solutions to online portfolio, carrer blogs, generating resume from xml database. The approach includes web technology and Document .Net from Sautinsoft</description>
+	</bullet>	
+	<bullet>
+		<title>ObjectOrientationEstimationSystem</title>
+		<link>https://github.com/jimmyvo2410/ObjectOrientationEstimationSystem</link>
+		<description>Matlab Modeling and simulating KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches on Object Orientation Estimation System</description>
+	</bullet>		
+	<bullet>
+		<title>SenseIMU</title>
+		<link>https://github.com/jimmyvo2410/SenseIMU</link>
+		<description>Control a mouse by human gesture via Bluetooth - A demonstration of Extended Kalman Filter and other different optimization and estimation approaches.</description>
+	</bullet>	
+	<bullet>
+		<title>VNDPlay</title>
+		<link>https://github.com/jimmyvo2410/VNDPlay</link>
+		<description>A pet project that includes some fun games (snake, sudoku) with other Bluetooth applications controlled by touch-screen LCD, joysticks, buttons and tilting the device.</description>
+	</bullet>
+	<bullet>
+		<title>RaspiBot</title>
+		<link>https://github.com/jimmyvo2410/RaspiBot</link>
+		<description>A remote controlled 4-wheel robot can perform face recognition and camera stabilization. It can be controlled by either an android application via Bluetooth or website via web server.</description>
+	</bullet>	
+	<bullet>
+		<title>UltrasonicRobot</title>
+		<link>https://github.com/jimmyvo2410/UltrasonicRobot</link>
+		<description>A remote-controlled 4-wheel robot detect obstacles with 2 ultrasonic sensors.</description>
+	</bullet>
+</project>

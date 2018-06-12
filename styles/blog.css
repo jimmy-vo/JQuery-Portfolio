@@ -43,7 +43,7 @@
 /* invidual style                                                        */
 /* ##################################################################### */
 
-#layout_content h1 {
+#layout_content h1{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
     text-shadow: 4px 0px rgb(10 ,11,29);
@@ -55,6 +55,29 @@
     border-bottom-right-radius: 5px;
     border: 1px groove  black   ;
     margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+ #layout_content a{
+    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+    color: rgb(255, 255, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px groove  black   ;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+#layout_content a:hover
+{
+    color: blue;
 }
 
 #layout_content h2 {

@@ -135,6 +135,15 @@ legend{
     font-size: 20px; 
 }
 
+#listContact img
+{    
+	width: 40px;
+    display: block;
+	vertical-align: middle;	
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #listContact  td
 {
 	width: 	0%;
@@ -144,13 +153,15 @@ legend{
 
 #listContact a
 {
+	vertical-align: middle;	
     font-size: 20px; 
-    float: left;
-    text-align: left;
+    /*float: left;*/
+    /*text-align: left;*/
     margin-top: 0px;
 
     color: rgb(179, 255, 179);
-	  text-decoration: none;
+	text-decoration: none;
+	font-weight: bold;	
 }
 
 #listContact a:hover

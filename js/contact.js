@@ -32,7 +32,7 @@ function load()
 {
 	document.getElementById("submit").addEventListener("click", validate);
 	document.getElementById("clear").addEventListener("click", resetForm);
-	document.getElementsByTagName("li")[2].classList.add("selected");
+	document.getElementsByTagName("li")[3].classList.add("selected");
 	hideErrors();
 }
 

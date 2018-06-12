@@ -91,16 +91,20 @@
 {	
 	padding: 15px 40px;
 	/*width: 90%;*/
-	font-size: 25px;
+	font-size: 20px;
 	text-shadow: 1px white;
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 
+
     color: rgb(105, 169, 255);
 	border-radius: 20px;
 	border: 3px groove black;
 	z-index: -2;
+
+	width: 850px;
+	height: 85px;
 }
 
 /* ##################################################################### */
@@ -116,6 +120,7 @@
 
 	clear: 	both;	
 }
+
 #navigation  li 
 {
 	display: inline;
