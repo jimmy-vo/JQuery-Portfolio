@@ -101,7 +101,7 @@
 			<date>August 2010 - March 2014</date>
 			<organization>HCM University Of Technology</organization>
 			<location>HCM, Vietnam</location>
-			<major>Electrical, embedded system software and hardware</major>
+			<major>Electrical, Tele-communication Embedded System Software and Hardware</major>
 			<image>HCMUT.jpg</image>
 		</bullet>
 	</education>
@@ -111,21 +111,21 @@
 			<title>Applied Computer Education Department Award</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
 			<date>June 7, 2018</date>
-			<description>Awards of $1000 will be presented to students enrolled in an Applied Computer Education program.  Criteria include a letter of recommendation from an instructor, a portfolio of work of which they are proud, a grade report, as well as an essay that describes their experience in the program, their career aspirations, and include examples of class leadership.</description>
+			<description>Criteria include a letter of recommendation from an instructor, a portfolio of work, a grade report, as well as an essay that describes the experience in the program, career aspirations, and include examples of class leadership.</description>
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
 			<title>Great-West Life Award</title>
 			<organization>Great-West Life</organization>
 			<date>June 7, 2018</date>
-			<description>An award of $2500 are available annually to students who will be entering their final year of the Business Information Technology program. Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement. </description>
+			<description>Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement.</description>
 			<image>GreatWestLife.jpg</image>
 		</bullet>
 		<bullet>
 			<title>School of Business and Applied Arts Bursary</title>
 			<organization>Red River College</organization>
 			<date>February 16, 2018</date>
-			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative, or from funds established at The Winnipeg Foundation.</description>
+			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative and from funds established at The Winnipeg Foundation.</description>
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
@@ -222,7 +222,7 @@
 			<organization>Prairie Developer Conference</organization>
 			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
-				<topic>Prairie Dev Con: A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
+				<topic>A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
 				<description>Answered questions at the welcome booth</description>
 				<description>Ensured the machines worked properly during the presentations</description>
 			</descriptions>
@@ -231,10 +231,10 @@
 		<bullet>
 			<title>Guest Speaker</title>
 			<date>May 24, 2018</date>
-			<organization>Red River College</organization>
+			<organization>The Campus tour, Red River College</organization>
 			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
-				<topic>The Campus tour: A day tour where international and ESL students come to see the college's facilities and the college lives.</topic>
+				<topic>A day tour where international and ESL students come to see the college's facilities and the college lives.</topic>
 				<description>Invited to come and discuss about the courses and the difficulties of international students at RRC</description>
 				<description>Gave advise to ESL students about what they could do to prepare for the courses</description>
 			</descriptions>
@@ -243,8 +243,8 @@
 		<bullet>
 			<title>Session Helper</title>
 			<date>April 12, 2018</date>
-			<organization>DigiGirlz Day 2018</organization>
-			<location>Microsoft, Winnipeg, MB, Canada</location>
+			<organization>DigiGirlz Day 2018, Microsoft</organization>
+			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
 				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
 				<description>Robot Cars: Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
@@ -260,7 +260,6 @@
 			<descriptions>
 				<topic>An Android project sponsored by RRC to improve an inventory system in Canadian stores</topic>
 				<description>Led the team on the software architecture and kept the software clean and maintainable</description>
-				<description>Built a two-way peer review process</description>
 				<description>Trained the team members on Android development and new technologies</description>
 			</descriptions>
 			<image>RRC.jpg</image>
@@ -273,7 +272,6 @@
 			<descriptions>
 				<topic>Series of workshops held by Dylan Fries biweekly to introduce Unity developers’ skill sets</topic>
 				<description>Set up training materials</description>
-				<description>Explored digital media world and many pieces of Unity</description>
 			</descriptions>
 			<image>NMM.jpg</image>
 		</bullet>
@@ -299,7 +297,6 @@
 				<topic>An event sponsored by leading institutes (University of Manitoba, RRC) and the giants in the industry (DELL, INTEL, CISCO, IBM), to explore the future of work.</topic>
 				<description>Hosted an unconference on how to bridge the digital divides</description>
 				<description>Took notes in the unconference and reported to the event coordinator</description>
-				<description>Discussed VR technology and start-up with young talents from high school in Winnipeg</description>
 			</descriptions>
 			<image>disrupted.jpg</image>
 		</bullet>
