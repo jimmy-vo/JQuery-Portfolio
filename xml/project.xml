@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>	
 	<bullet>
+		<title>jimmyvo2410.ResumeGen</title>
+		<link>https://github.com/jimmyvo2410/jimmyvo2410.ResumeGen</link>
+		<description>Whenever I updated my resume, I also needed to update my online portfolio and Linkdin. It is annoying to me. So, I decided to automate that process. The project is about my solutions to generate Canadian resume from XML database, which is used in my online portfolio.</description>
+	</bullet>
+	<bullet>
 		<title>Galaxy</title>
 		<link>https://github.com/jimmyvo2410/Galaxy</link>
-		<description>This is my first android VR game after I have learned some Unity skill sets from Dylan Fries's Unity workshops. I made it just similar to the old school game - Galaxy On Fire. The game is also launched on Google Play Store, please click to find the link.</description>
+		<description>This is my first android VR game after I have learned some Unity skill sets from Dylan Fries's Unity workshops. I made it just similar to the old school game - Galaxy On Fire. In my game, Scenes, AI bots, asteroids are automatically generated. The game is also launched on Google Play Store, please click to find the link.</description>
 	</bullet>		
 	<bullet>
 		<title>IpAddressAnalyzer</title>
 		<link>https://github.com/jimmyvo2410/IpAddressAnalyzer</link>
-		<description>I made this WinForm project to help other students in learning how to analyze IPv4 addresses</description>
+		<description>I found my self having many troubles with working on Ipv4 address in Networking classes. So I made this WinForm project to to help myself and other students to deal IPv4 addresses.</description>
 	</bullet>	
 	<bullet>
 		<title>MoneyManage</title>
@@ -18,12 +23,12 @@
 	<bullet>
 		<title>jimmyvo2410.github.io</title>
 		<link>https://github.com/jimmyvo2410/jimmyvo2410.github.io</link>
-		<description>The project is about my solutions to online portfolio, carrer blogs, generating resume from xml database. The approach includes web technology and Document .Net from Sautinsoft</description>
+		<description>The project is about my solutions to generate automatically online portfolio, carrer blogs, resume from xml database.</description>
 	</bullet>	
 	<bullet>
 		<title>ObjectOrientationEstimationSystem</title>
 		<link>https://github.com/jimmyvo2410/ObjectOrientationEstimationSystem</link>
-		<description>Matlab Modeling and simulating KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches on Object Orientation Estimation System</description>
+		<description>Matlab Modeling and simulating KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches on Object Orientation Estimation System.</description>
 	</bullet>		
 	<bullet>
 		<title>SenseIMU</title>
@@ -33,7 +38,7 @@
 	<bullet>
 		<title>VNDPlay</title>
 		<link>https://github.com/jimmyvo2410/VNDPlay</link>
-		<description>A pet project that includes some fun games (snake, sudoku) with other Bluetooth applications controlled by touch-screen LCD, joysticks, buttons and tilting the device.</description>
+		<description>A pet project that includes some fun games (snake, sudoku) with other Bluetooth applications controlled by touch-screen LCD, joysticks, buttons and tilting the device. Everything is coded manually even a single pixel</description>
 	</bullet>
 	<bullet>
 		<title>RaspiBot</title>
@@ -43,6 +48,6 @@
 	<bullet>
 		<title>UltrasonicRobot</title>
 		<link>https://github.com/jimmyvo2410/UltrasonicRobot</link>
-		<description>A remote-controlled 4-wheel robot detect obstacles with 2 ultrasonic sensors.</description>
+		<description>A remote-controlled 4-wheel robot detect obstacles with 2 ultrasonic sensors. This is my first project in electrical and automation.</description>
 	</bullet>
 </project>
