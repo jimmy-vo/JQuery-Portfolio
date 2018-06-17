@@ -116,7 +116,7 @@
 {
 	text-align: center;
 	width: 100%;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	margin-left: auto;
 	margin-right: auto;
 
@@ -125,16 +125,17 @@
 
 #navigation  li 
 {
-	display: inline;
+	display: inline-block;
 	list-style: none;	
 	font-weight: bold;
 	color: white;
-	padding:  10px 10px ;
+	padding:  5px 10px ;
 	font-size: 25px;
 	margin: 10px;
 	border-radius: 200px;
 
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
+	width: 150px;
 }
 
 #navigation a,  #footer_link a

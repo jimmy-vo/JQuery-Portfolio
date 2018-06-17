@@ -24,6 +24,7 @@
 }
 
 
+
 #layout_content ul {
     position: relative;
     width: 100%;
@@ -64,6 +65,17 @@
     display: block;
 }
 
+#layout_content li ul li
+{    
+    font-size: 20px; 
+    font-weight: normal;
+    color: white;
+    float: none;
+    background: transparent;
+    list-style: disc;
+    margin: 5px 5px 5px 55px;
+}
+
  #layout_content a{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
@@ -92,8 +104,9 @@
     margin-right:  10px;
     margin-bottom: 15px;
     padding-top:   10px;
-    font-weight: normal;
+    /*! font-style: italic; */
     font-size:  20px;
     background: transparent;
-    clear:  both;   
+    /*display: inline;*/
+    font-weight: normal;
 }

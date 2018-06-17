@@ -30,9 +30,13 @@ function hideErrors()
  */
 function load()
 {
+	document.getElementsByTagName("li")[3].classList.add("selected");
+	
 	document.getElementById("submit").addEventListener("click", validate);
 	document.getElementById("clear").addEventListener("click", resetForm);
-	document.getElementsByTagName("li")[3].classList.add("selected");
+	document.getElementById("message").addEventListener("click", function () {
+		alert("It can't be use right now");
+	});
 	hideErrors();
 }
 

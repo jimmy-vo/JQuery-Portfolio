@@ -82,3 +82,18 @@ function ImageExist(url)
     }
     return http.status!=404;
 }
+
+
+/*
+ * createTextElement
+ *
+ * param tag
+ * param string
+ * return  none
+ */
+function createTextElement(tag, string) 
+{
+  var element = document.createElement(tag);  
+  element.innerHTML  = string;
+  return element;
+}

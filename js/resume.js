@@ -147,19 +147,22 @@ function addSkill(input, iD)
 function addSummary(input, iD)
 {
 	var xml = input.getElementsByTagName('bullet');
+	var element_td1 = document.createElement("td");    
+
+	var element_tr = document.createElement("tr");     
+	element_tr.appendChild(element_td1);
+	document.getElementById(iD).appendChild(element_tr);
+
+	var element_ul = document.createElement("ul"); 
+	element_td1.appendChild(element_ul);
+
 	for (var i=0; i<xml.length; i++)
 	{
 	    var item = xml[i];  
-		var element_td1 = document.createElement("td");    
-
-		var element_ul = document.createElement("ul");     
-		element_td1.appendChild(element_ul);
 
 	    var name = item.firstChild.nodeValue;
 
 		element_ul.appendChild(createTextElement("li", name));
-
-		document.getElementById(iD).appendChild(element_ul);
   	}
 }
 /*
@@ -229,19 +232,6 @@ function addExperience(input, iD)
   }
 }
 
-/*
- * createTextElement
- *
- * param tag
- * param string
- * return  none
- */
-function createTextElement(tag, string) 
-{
-	var element = document.createElement(tag);  
-	element.innerHTML  = string;
-	return element;
-}
 
 /*
  * load

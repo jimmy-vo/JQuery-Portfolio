@@ -12,7 +12,6 @@
 
  */
 
-
 /*
  * AddItem
  *
@@ -22,18 +21,34 @@
  * param count
  * return  none
  */
-function AddItem(title, link, description, count) 
+function AddItem(title, link, images, count) 
 {
 	var element_li = document.createElement("li"); 
 
-	var element_a = document.createElement("a");  
-	element_a.innerHTML  = title;
-	element_a.href = link;
-	element_li.appendChild(element_a);
+	if(link != "#")
+	{
+		var element_a = createTextElement("a", title);  
+		element_a.href = link;
+		element_li.appendChild(element_a);
+	}
+	else
+	{
+		element_li.appendChild(createTextElement("h1", title));
+	}
 
-	var element_blockquote = document.createElement("h2");  
-	element_blockquote.innerHTML  = description;
-	element_li.appendChild(element_blockquote);
+
+	if (images != null)
+	{
+		var element_img  = document.createElement("img"); 
+		var	url = "images/"+ images + ".jpg";
+		element_img.src = url;
+		element_img.alt = images +  ".jpg";
+
+		TooltipImageEvent(element_img, url);
+
+		element_li.appendChild(element_img);
+	}
+
 
 	document.getElementById("project").appendChild(element_li);
 
@@ -41,8 +56,28 @@ function AddItem(title, link, description, count)
 	if(count%2 !== 0)
 		element_li.classList.add("zebra_background");
 
+	return element_li;
 }
 
+
+function AddDescription(element_li, topic, bullet) 
+{
+	for (var i = 0; i<topic.length; i++) 
+	{
+		element_li.appendChild(createTextElement("h2", topic[i]));
+	}
+
+	if (bullet.length>0) 
+	{
+		var element_ul = document.createElement("ul"); 
+		element_li.appendChild(element_ul);
+		for (var i = 0; i<bullet.length; i++) 
+		{
+			element_ul.appendChild(createTextElement("li", bullet[i]));
+		}
+	}
+	
+}
 
 /*
  * load
@@ -54,14 +89,32 @@ function load()
 	document.getElementsByTagName("li")[2].classList.add("selected");
 	var overview_xml = loadXML("xml/project.xml");
 
-	for (var i=0; i<overview_xml.getElementsByTagName('bullet').length; i++)
+	for (var i=0; i<overview_xml.getElementsByTagName('project').length; i++)
 	{
-		var item = overview_xml.getElementsByTagName('bullet')[i];
+		var item = overview_xml.getElementsByTagName('project')[i];
 		var title = item.getElementsByTagName('title')[0].firstChild.nodeValue;
 		var link = item.getElementsByTagName('link')[0].firstChild.nodeValue;
-		var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
-		
-		AddItem(title , link,description  , i);
+		var images = (item.getElementsByTagName('image')[0] != undefined)?
+						item.getElementsByTagName('image')[0].firstChild.nodeValue:
+						null;
+
+		var element_li = AddItem(title , link, images, i);
+		for (var j=0; j<item.getElementsByTagName('description').length; j++)
+		{	
+			var topic=[];
+			var bullet=[];
+			var subitem = item.getElementsByTagName('description')[j];
+			for (var k=0; k<subitem.getElementsByTagName('topic').length; k++)
+			{	
+				topic[k] = subitem.getElementsByTagName('topic')[k].firstChild.nodeValue;
+			}
+			for (var l=0; l<subitem.getElementsByTagName('bullet').length; l++)
+			{	
+				bullet[l] = subitem.getElementsByTagName('bullet')[l].firstChild.nodeValue;
+			}
+			AddDescription(element_li, topic, bullet) 
+		}
+
 	}
 }
 

@@ -1,53 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>	
-	<bullet>
-		<title>jimmyvo2410.ResumeGen</title>
+<projects>	
+	<project>
+		<title>Canadian Resume Generating Tool</title>
 		<link>https://github.com/jimmyvo2410/jimmyvo2410.ResumeGen</link>
-		<description>Whenever I updated my resume, I also needed to update my online portfolio and Linkdin. It is annoying to me. So, I decided to automate that process. The project is about my solutions to generate Canadian resume from XML database, which is used in my online portfolio.</description>
-	</bullet>
-	<bullet>
+		<image>resume</image>
+		<description>
+			<topic>When I moved to Canada, I realized that it is very important to have a good Canadian resume with voluntary experience. I started to volunteer alot to improve my soft skills. However, It was annoying to me to update my resume and my online portfolio after I worked in those events. So, I decided to automate that process with just one click.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Import XML database</bullet>
+			<bullet>Component: links, images, text, footer with page number</bullet>
+			<bullet>Generate format content in *.docx</bullet>
+		</description>
+	</project>
+
+	<project>
+		<title>Online Portfolio</title>
+		<link>https://github.com/jimmyvo2410/jimmyvo2410.github.io</link>
+		<image>portfolio</image>
+		<description>
+			<topic>At the begining, it was the last project in Web Development class. After that, I expanded it, added more features into it. Make it easier to edit the content by auto generating script. Now, it becomes my own corner, where I can share my achievements, experiences, projects and what I believe. Moreover, thanks to the flexibility of it, I started write more, share more and corntribute more.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Import structured XML database</bullet>
+			<bullet>Auto generate HTML contents</bullet>
+			<bullet>Image tooltips</bullet>
+			<bullet>Form Validates</bullet>
+		</description>
+	</project>	
+
+
+	<project>
 		<title>Galaxy</title>
 		<link>https://github.com/jimmyvo2410/Galaxy</link>
-		<description>This is my first android VR game after I have learned some Unity skill sets from Dylan Fries's Unity workshops. I made it just similar to the old school game - Galaxy On Fire. In my game, Scenes, AI bots, asteroids are automatically generated. The game is also launched on Google Play Store, please click to find the link.</description>
-	</bullet>		
-	<bullet>
-		<title>IpAddressAnalyzer</title>
+		<image>Galaxy</image>
+		<description>
+			<topic>I still remember when I was a high school kid, I was so addited to a game named "Galaxy On Fire" on my Symbian phone. At that time, I couldn't imagine that 8 years later, I would create a similar game and launch it on Google Play Store. This is my first Android VR game after I have learned some Unity skill sets from Dylan Fries's Unity workshops.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Play with Google CardBoard</bullet>
+			<bullet>Generate randomly scene with different planets and variaty of asteroids</bullet>
+			<bullet>Generate randomly AI bots with the ability of chasing, firing, and launching missiles</bullet>
+			<bullet>Missiles automatically follow a locked target.</bullet>
+			<bullet>Different explosion effects</bullet>
+		</description>
+	</project>		
+
+	<project>
+		<title>Ipv4 Address Analyzer</title>
 		<link>https://github.com/jimmyvo2410/IpAddressAnalyzer</link>
-		<description>I found my self having many troubles with working on Ipv4 address in Networking classes. So I made this WinForm project to to help myself and other students to deal IPv4 addresses.</description>
-	</bullet>	
-	<bullet>
+		<image>IpAddressAnalyzer</image>
+		<description>
+			<topic>I found my self having many troubles with working on Ipv4 address in Networking classes. So I made this WinForm project to to help myself and other students to deal IPv4 addresses.</topic>
+		</description>
+	</project>	
+
+
+	<project>
 		<title>MoneyManage</title>
 		<link>https://github.com/jimmyvo2410/MoneyManage</link>
-		<description>I made the app after I finished the BIT's first term at Red River College, using the knowledge from Financial Accounting and Java programming class. I use the app to manage my daily transaction.</description>
-	</bullet>	
-	<bullet>
-		<title>jimmyvo2410.github.io</title>
-		<link>https://github.com/jimmyvo2410/jimmyvo2410.github.io</link>
-		<description>The project is about my solutions to generate automatically online portfolio, carrer blogs, resume from xml database.</description>
-	</bullet>	
-	<bullet>
-		<title>ObjectOrientationEstimationSystem</title>
-		<link>https://github.com/jimmyvo2410/ObjectOrientationEstimationSystem</link>
-		<description>Matlab Modeling and simulating KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches on Object Orientation Estimation System.</description>
-	</bullet>		
-	<bullet>
+		<image>MoneyManage</image>
+		
+		<description>
+			<topic>This is my first Android app and a gift to all my families and friends. I made the app after I finished the BIT's first term at Red River College, using the knowledge from Financial Accounting and Java programming class</topic>
+			<topic>The idea comes from my note taking habit as I noted all my expenses and transactions to the excel file. By the time, the file is so heavy. I needed to open my laptop whenever I want to see and adjust the file. Therefore I decided to bring it to Android, in which I can open my notes anywhere.</topic>
+		</description>
+
+		<description>
+			<topic>Features:</topic>
+			<bullet>Create, reorder, remove, hide or activate accounts</bullet>
+			<bullet>Add, remove, edit transactions</bullet>
+			<bullet>Change the columns order</bullet>
+			<bullet>Manage under file system - create new files, remove files, select files</bullet>
+			<bullet>Upload and download with GoogleDrive</bullet>
+			<bullet>Calculate ending balance</bullet>
+			<bullet>Show summary of all files </bullet>
+			<bullet>Calculate the summation of activated credit and debit accounts</bullet>
+		</description>
+	</project>	
+
+	<project>
+		<title>NFC Door Handle module</title>
+		<link>#</link>
+		<description>
+			<topic>Android testing application:</topic>
+			<bullet>Build up Apdu protocol testing environment on Android devices</bullet>
+		</description>
+		<description>
+			<topic>Embedded Application:</topic>
+			<bullet>NFC data transfer</bullet>
+			<bullet>Misuse-protection</bullet>
+		</description>
+		<description>
+			<topic>BSW (Basic Software):</topic>
+			<bullet>IoStack: DioDrv, AdcDrv, TauDrv, SpiDrv</bullet>
+			<bullet>SysStack: SysStateM, Blem, WdgHdl, RamTst, FlashTst</bullet>
+			<bullet>ComStack: CAN manager, Iso-Tp</bullet>
+		</description>
+		<description>
+			<topic>Complex driver:</topic>
+			<bullet>NFCdrv porting (Nxp lib)</bullet>
+			<bullet>NFC polling, Apdu protocol</bullet>
+		</description>
+		<description>
+			<topic>Boothloader:</topic>
+			<bullet>Linker file</bullet>
+			<bullet>Embedded memory</bullet>
+		</description>
+	</project>	
+
+	<project>
+		<title>Body Control Unit - LX1</title>
+		<link>#</link>
+		<description>
+			<topic>Application - Manual code:</topic>
+			<bullet>RKE (Active/Passive Entry, RF Auth, RKE learning)</bullet>
+			<bullet>Immobilizer (IMMO learning)</bullet>
+			<bullet>Diagnostic (UDS service)</bullet>
+		</description>
+		<description>
+			<topic>Application - Model base:</topic>
+			<bullet>Cruise Control (Matlab, TargetLink)</bullet>
+		</description>
+		<description>
+			<topic>SW integration: </topic>
+			<bullet>Compiler, makefile, documents</bullet>
+		</description>
+	</project>
+
+	<project>
+		<title>Body Control Unit - FE69</title>
+		<link>#</link>
+		<description>
+			<topic>Application - Manual code: </topic>
+			<bullet>RKE (Active/Passive Entry, RF Auth, RKE learning)</bullet>
+			<bullet>CommonBody (Airbag, sensors, switches)</bullet>
+		</description>
+	</project>
+	
+
+	<project>
 		<title>SenseIMU</title>
 		<link>https://github.com/jimmyvo2410/SenseIMU</link>
-		<description>Control a mouse by human gesture via Bluetooth - A demonstration of Extended Kalman Filter and other different optimization and estimation approaches.</description>
-	</bullet>	
-	<bullet>
-		<title>VNDPlay</title>
+		<image>IMU(2)</image>
+		<description>
+			<topic>After I completed my research on Kalman Filter, I wanted to apply MathLAB model to a real embedded project. I designed a tiny a device (both HW and SW), which can control a mouse by hand gesture via Bluetooth. This is the first time I dealt with Mathematics and complicated althgorithms</topic>
+		</description>		
+		<description>
+			<topic>Features:</topic>
+			<bullet>Using STM32F4 ARM Cortex-M4 MCU</bullet>
+			<bullet>Design attachable embedded Hardware with STM32F4 and MPU6050.</bullet>
+			<bullet>Implemented KF and EKF</bullet>
+			<bullet>Monitor application (.NET) to communicate with the device via Bluetooth</bullet>
+		</description>
+	</project>	
+
+	<project>
+		<title>Object-Orientation-Estimation System</title>
+		<link>https://github.com/jimmyvo2410/ObjectOrientationEstimationSystem</link>
+		<image>Kalman</image>	
+		<description>
+			<topic>At VietSkyLine, I realized that Kalman Filter is the most challenging Machine Learning area. After I left the company, I decided to go deeper in this area. The project is a result after I investigated on many pieces of related published paper in 6 months. It includes Matlab modeling and simulating on KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches in the object-orientation-estimation system.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Input: raw data from Accelerometer, Gyroscope, Magnetometer </bullet>
+			<bullet>Output: Euler angles, Quaternion</bullet>
+		</description>
+		<description>		
+			<topic>Approaches:</topic>
+			<bullet>Tilt-compensation Method</bullet>
+			<bullet>Gauss Newton Method</bullet>
+			<bullet>AHRS</bullet>
+			<bullet>Quaternion based – gyro bias – EKF</bullet>
+			<bullet>Quaternion based – gyro rate – EKF</bullet>
+			<bullet>DCM based KF</bullet>
+		</description>
+	</project>	
+
+	<project>
+		<title>VND Play</title>
 		<link>https://github.com/jimmyvo2410/VNDPlay</link>
-		<description>A pet project that includes some fun games (snake, sudoku) with other Bluetooth applications controlled by touch-screen LCD, joysticks, buttons and tilting the device. Everything is coded manually even a single pixel</description>
-	</bullet>
-	<bullet>
+		<description>
+			<topic>This was my most favorite project ever, where I could experiment many complicated techniques in embedded system such as DMA, LCD parallel control, SD card reader. Everything is coded manually even a single pixel. I also implemented an built-in event-based OS, which enhanced prety much the LCD touch screen performance.</topic>
+		</description>		
+		<description>
+			<topic>Features:</topic>
+			<bullet>Using STM32F4 ARM Cortex-M4 MCU</bullet>
+			<bullet>Temperature sensor, Voltage messurement, LCD touch screen, SD card reader, EPPROM</bullet> 
+			<bullet>Bluetooth Control terminal, be able to connect to other device as master or slave</bullet> 
+			<bullet>Games: snake, sudoku</bullet> 
+			<bullet>Application: Navigation control for robots with joysticks and buttons</bullet> 
+			<bullet>tilt-sensing with gyroscope sensor using AHRS algorithm</bullet> 
+		</description>
+		<image>Game(1)</image>
+	</project>
+
+	<project>
+		<title>GPS Module in UAV System</title>
+		<link>#</link>
+		<image>VietSkyLine(4)</image>	
+		<description>
+			<topic>This was my third project at at VietSkyLine. At that time, all the GPS sensors provided UART outputs. However, UAV system uses the CAN network. So, my boss asked me to create the UART-CAN conversion module</topic>	
+		</description>		
+		<description>
+			<topic>Features:</topic>	
+			<bullet>Using STM32F4 ARM Cortex-M4 MCU</bullet>
+			<bullet>Read GPS data from UART lines</bullet> 
+			<bullet>Forward reformed GPS data to CAN bus</bullet> 
+		</description>
+	</project>
+
+	<project>
+		<title>Power Management Monitor Module in UAV System</title>
+		<link>#</link>	
+		<description>
+			<topic>This is a power Management Module, which controls the voltage and the current of the battery at a base station. It also provides the remaining time on the battery and warns when the battery drops to a programmatical threshold level</topic>		
+		</description>		
+		<description>
+			<topic>Features:</topic>
+			<bullet>Using STM32F1 ARM Cortex-M4 MCU</bullet>
+			<bullet>Messure battery voltage and current</bullet> 
+			<bullet>Estimate usage consumption</bullet> 
+		</description>
+	</project>
+
+	<project>
+		<title>Electronic Speed Control Module on UAV System</title>
+		<link>#</link>
+		<image>VietSkyLine(3)</image>		
+		<description>
+			<topic>This was my first project at VietSkyLine. At that time, the company attemped to research and develop an Electronic Speed Control Module, which controls the rotation of propellers on an UAV. I was the only engineer who was responsible for this project. The target was releasing the first demo of HW and SW design within one month.</topic>	
+		</description>		
+		<description>
+			<topic>Features:</topic>	
+			<bullet>Using STM32F1 ARM Cortex-M4 MCU</bullet>
+			<bullet>3-phase BLDC motor control without hall sensor</bullet> 
+			<bullet>PI current control</bullet> 
+			<bullet>Temperature protection</bullet> 
+			<bullet>Configuration tool on PC via UART</bullet> 
+		</description>
+	</project>
+
+	<project>
 		<title>RaspiBot</title>
 		<link>https://github.com/jimmyvo2410/RaspiBot</link>
-		<description>A remote controlled 4-wheel robot can perform face recognition and camera stabilization. It can be controlled by either an android application via Bluetooth or website via web server.</description>
-	</bullet>	
-	<bullet>
-		<title>UltrasonicRobot</title>
+		<image>RaspiBot(4)</image>
+		<description>
+			<topic>At the end of 2013, Raspberry Pi started to become popular. At that time, Embedded Linux was a trend. Many students wanted to have their own tiny Linux machine. With my embedded software experience from my part-time job, I decided to build a robot from a combination of Raspberry Pi and STM34F407</topic>
+		</description>		
+		<description>
+			<topic>Features:</topic>
+			<bullet>PID control on 4 pairs of motors and encoders</bullet> 
+			<bullet>Remote control with Bluetooth and Wifi</bullet> 
+			<bullet>Video streaming on a web server</bullet> 
+			<bullet>Face recognition and camera stabilization with servo motors</bullet> 
+			<bullet>Distance sensing</bullet> 
+			<bullet>A simple website provides the controls</bullet> 
+		</description>
+	</project>	
+
+	<project>
+		<title>Ultrasonic Robot</title>
 		<link>https://github.com/jimmyvo2410/UltrasonicRobot</link>
-		<description>A remote-controlled 4-wheel robot detect obstacles with 2 ultrasonic sensors. This is my first project in electrical and automation.</description>
-	</bullet>
-</project>
+		<image>FirstRobot(4)</image>
+		<description>
+			<topic>This was my first project in electrical and automation and it was also the first time I realized what I should pursue later in life. My professor asked me to do something with STM34F407. Then I decided to build A remote-controlled 4-wheel robot and challenge myself with controlling Ultrasonic sensors. Because it was my first project, it didn't look nice, but worked very smoothly.</topic>
+		</description>		
+		<description>
+			<topic>Features:</topic>
+			<bullet>PID control on 2 pairs of motors and encoders</bullet> 
+			<bullet>Remote control with Bluetooth on Android devices</bullet> 
+			<bullet>Distance sensing and automatically obstacles avoiding</bullet> 
+		</description>
+	</project>
+</projects>
