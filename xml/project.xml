@@ -60,12 +60,12 @@
 
 
 	<project>
-		<title>MoneyManage</title>
+		<title>Money Manage</title>
 		<link>https://github.com/jimmyvo2410/MoneyManage</link>
 		<image>MoneyManage</image>
 		
 		<description>
-			<topic>This is my first Android app and a gift to all my families and friends. I made the app after I finished the BIT's first term at Red River College, using the knowledge from Financial Accounting and Java programming class</topic>
+			<topic>This is my first Android app and a gift to all my families and friends. I made the app after I finished the BIT's first term at Red River College, using the knowledge from Financial Accounting and Java programming class</topic> 
 			<topic>The idea comes from my note taking habit as I noted all my expenses and transactions to the excel file. By the time, the file is so heavy. I needed to open my laptop whenever I want to see and adjust the file. Therefore I decided to bring it to Android, in which I can open my notes anywhere.</topic>
 		</description>
 
@@ -83,8 +83,11 @@
 	</project>	
 
 	<project>
-		<title>NFC Door Handle module</title>
+		<title>NFC Door Handle module (NFC DHM)</title>
 		<link>#</link>
+		<description>
+			<topic>After my excellent performance in other projects, I was the first engineer that was trusted and assigned to NFC Door Handle project. It was the first German customer project of HELLA. In NFC DHM, I developed the generation tool to automate the development process. I also researched developed the Android testing application, while no one in the team (including me) had Android development background</topic>
+		</description>
 		<description>
 			<topic>Android testing application:</topic>
 			<bullet>Build up Apdu protocol testing environment on Android devices</bullet>
@@ -116,6 +119,9 @@
 		<title>Body Control Unit - LX1</title>
 		<link>#</link>
 		<description>
+			<topic>I was one of four members that joined LX1 from the starting phase. I stayed with the team until the Start Of Production (SOP). It was the project that had least bugs and went to SOP. I contributed actively in RKE modules, and it was the most stable module.</topic>
+		</description>
+		<description>
 			<topic>Application - Manual code:</topic>
 			<bullet>RKE (Active/Passive Entry, RF Auth, RKE learning)</bullet>
 			<bullet>Immobilizer (IMMO learning)</bullet>
@@ -127,7 +133,7 @@
 		</description>
 		<description>
 			<topic>SW integration: </topic>
-			<bullet>Compiler, makefile, documents</bullet>
+			<bullet>Compiler, documents</bullet>
 		</description>
 	</project>
 
@@ -135,9 +141,26 @@
 		<title>Body Control Unit - FE69</title>
 		<link>#</link>
 		<description>
+			<topic>FE69 is the first customer project of HELLA. It was installed on thousands of Geely carlines. I joined in the middle of the project and fixed a lot bugs, made CommonBody become one of the most stable modules</topic>
+		</description>
+		<description>
 			<topic>Application - Manual code: </topic>
 			<bullet>RKE (Active/Passive Entry, RF Auth, RKE learning)</bullet>
 			<bullet>CommonBody (Airbag, sensors, switches)</bullet>
+		</description>
+	</project>
+
+	<project>
+		<title>Body Control Unit - Platform</title>
+		<link>#</link>
+		<description>
+			<topic>This is the first project I was assigned in the first few weeks at Hella. The project itself was very huge and had lots of existing bugs that needed to clarified.</topic>
+		</description>
+		<description>
+			<topic>Application - Manual code: </topic>
+			<bullet>RKE (Active/Passive Entry, RF Auth, RKE learning)</bullet>
+			<bullet>CommonBody (Airbag, sensors, switches)</bullet>
+			<bullet>Immobilizer</bullet>
 		</description>
 	</project>
 	
@@ -147,13 +170,13 @@
 		<link>https://github.com/jimmyvo2410/SenseIMU</link>
 		<image>IMU(2)</image>
 		<description>
-			<topic>After I completed my research on Kalman Filter, I wanted to apply MathLAB model to a real embedded project. I designed a tiny a device (both HW and SW), which can control a mouse by hand gesture via Bluetooth. This is the first time I dealt with Mathematics and complicated althgorithms</topic>
+			<topic>After I completed my research on Kalman Filter, I wanted to apply MathLAB model to a real embedded project. I designed a tiny a device (both HW and SW), which can control a mouse by hand gesture via Bluetooth. This is the first time I dealt with Mathematics and complicated althgorithms</topic> 
 		</description>		
 		<description>
 			<topic>Features:</topic>
 			<bullet>Using STM32F4 ARM Cortex-M4 MCU</bullet>
 			<bullet>Design attachable embedded Hardware with STM32F4 and MPU6050.</bullet>
-			<bullet>Implemented KF and EKF</bullet>
+			<bullet>Implemented KF and Extended Kalman Filter</bullet>
 			<bullet>Monitor application (.NET) to communicate with the device via Bluetooth</bullet>
 		</description>
 	</project>	
@@ -163,7 +186,7 @@
 		<link>https://github.com/jimmyvo2410/ObjectOrientationEstimationSystem</link>
 		<image>Kalman</image>	
 		<description>
-			<topic>At VietSkyLine, I realized that Kalman Filter is the most challenging Machine Learning area. After I left the company, I decided to go deeper in this area. The project is a result after I investigated on many pieces of related published paper in 6 months. It includes Matlab modeling and simulating on KF (Kalman Filter), EKF (Extended Kalman Filter) and other optimization approaches in the object-orientation-estimation system.</topic>
+			<topic>At VietSkyLine, I realized that Kalman Filter is the most challenging Machine Learning area in an UAV system. After I left the company, I decided to go deeper in this area. The project is a result after I investigated on many pieces of related published paper in 6 months. It includes Matlab modeling and simulating on many optimization approaches in the object-orientation-estimation system.</topic>
 		</description>
 		<description>
 			<topic>Features:</topic>
@@ -175,9 +198,9 @@
 			<bullet>Tilt-compensation Method</bullet>
 			<bullet>Gauss Newton Method</bullet>
 			<bullet>AHRS</bullet>
-			<bullet>Quaternion based – gyro bias – EKF</bullet>
-			<bullet>Quaternion based – gyro rate – EKF</bullet>
-			<bullet>DCM based KF</bullet>
+			<bullet>Quaternion based – gyro bias – Extended Kalman Filter</bullet>
+			<bullet>Quaternion based – gyro rate – Extended Kalman Filter</bullet>
+			<bullet>DCM based Kalman Filter</bullet>
 		</description>
 	</project>	
 
@@ -204,7 +227,7 @@
 		<link>#</link>
 		<image>VietSkyLine(4)</image>	
 		<description>
-			<topic>This was my third project at at VietSkyLine. At that time, all the GPS sensors provided UART outputs. However, UAV system uses the CAN network. So, my boss asked me to create the UART-CAN conversion module</topic>	
+			<topic>This was my third project at at VietSkyLine. At that time, all the GPS sensors provided UART outputs. However, an UAV system uses the CAN network. In order to have GPS modules join the CAN bus, my boss assigned me this project. The target was researched and developed the UART-CAN conversion module</topic> 		
 		</description>		
 		<description>
 			<topic>Features:</topic>	

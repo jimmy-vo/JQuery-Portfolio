@@ -21,6 +21,7 @@
     float: left;
     border-radius:  15px;
     margin: 20px 0px;
+    padding-bottom: 15px;
 }
 
 
@@ -40,7 +41,7 @@
 #layout_content img {
     object-fit: cover;
     height: 128px;
-    float: left;
+    float: right;
     margin: 9px ;
     border-radius:  15px;
 }
@@ -52,7 +53,7 @@
 #layout_content h1{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
-    text-shadow: 4px 0px rgb(10 ,11,29);
+/*     text-shadow: 4px 0px rgb(10 ,11,29); */
     font-size:  25px;
     padding: 5px 30px;
     border-top-left-radius: 15px;
@@ -65,7 +66,7 @@
     display: block;
 }
 
-#layout_content li ul li
+#layout_content li ul
 {    
     font-size: 20px; 
     font-weight: normal;
@@ -74,6 +75,19 @@
     background: transparent;
     list-style: disc;
     margin: 5px 5px 5px 55px;
+    padding: 0px;
+}
+
+#layout_content li ul li
+{    
+    font-size: 20px; 
+    font-weight: normal;
+    color: white;
+    float: none;
+    background: transparent;
+    list-style: disc;
+    margin: 5px 5px 5px 5px;
+    padding: 0px;
 }
 
  #layout_content a{
@@ -99,10 +113,10 @@
 
 #layout_content h2 {
     color: white;
-    text-shadow: 4px 0px rgb(10 ,11,29);
+/*     text-shadow: 4px 0px rgb(10 ,11,29); */
     margin-left: 10px;
     margin-right:  10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     padding-top:   10px;
     /*! font-style: italic; */
     font-size:  20px;

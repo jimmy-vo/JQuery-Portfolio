@@ -36,11 +36,12 @@
 	</Contact>
 	
 	<summary>
-	    <bullet>A Red River College(RRC) student with all As (GPA: 4.23)</bullet>
-	    <bullet>A flexible, fast learner, and a supportive leader with the ability to categorize and automate software development process</bullet>
-	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web and application development with one-year experience as an automotive software engineer in a global company</bullet>
-	    <bullet>Strong analytical, problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time)</bullet>
-	    <bullet>Strong interpersonal and communication skills achieved from multi-cultural workplace (Chinese and German)</bullet>
+	    <bullet>A honor roll student with awards, scholarships and outstanding achievement</bullet>
+	    <bullet>An active Github contributer and an excellent tutor with a passion in sharing his knowledge</bullet>
+	    <bullet>A fast learner, and a supportive leader with the ability to categorize and automate software development process</bullet>
+	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web/application development, game and graphic designs with one-year experience as an automotive software engineer in a global company</bullet>
+	    <bullet>Strong problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time)</bullet>
+	    <bullet>Strong communication skills achieved from multi-cultural workplace (Chinese and German)</bullet>
   	</summary>
 
 	<experience>
@@ -79,11 +80,37 @@
 			<descriptions>
 				<topic> </topic>
 				<description>Offered a promotion and invited by Chinese engineers to be a team leader on Radio Frequency Receiver technology</description>
-				<description>Discussed with Chinese system engineers on the intermediate sleep/wakeup error that happened on some defective cars; convinced them to deal with the customer to accept my temporary solution to a bad hardware design existing from the first phase</description>
+				<!-- <description>Discussed with Chinese system engineers on the intermediate sleep/wakeup error that happened on some defective cars; convinced them to deal with the customer to accept my temporary solution to a bad hardware design existing from the first phase</description> -->
 				<description>Supported a German system engineer to debug remotely on the NFC prototype</description>
 				<description>Guided my team members remotely on the first demonstration of NFC in Germany</description>
 			</descriptions>
 			<image>hella.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Embedded Developer</title>
+			<date>January 2014 – July 2014</date>
+			<organization>VSKYLINE</organization>
+			<location>Ho Chi Minh city, Vietnam</location>
+			<descriptions>
+				<topic> </topic>
+				<description>Researched and developed embedded solutions in unmanned aerial vehicle (UAV) system</description>
+				<description>Designed hardward schematics and layouts; soldered printed circuit boards</description>
+				<description>Developed embedded software for UAV modules</description>
+				<description>Performed system integration and testing on flying prototypes</description>
+			</descriptions>
+			<image>VietSkyLine.jpg</image>
+		</bullet>
+		<bullet>
+			<title>Assistant Embedded Developer</title>
+			<date>July 2013 – Febuary 2014</date>
+			<organization>ROBOTECH</organization>
+			<location>Ho Chi Minh city, Vietnam</location>
+			<descriptions>
+				<topic> </topic>
+				<description>Developed embedded solutions in Military Industry</description>
+				<description>Assisted the team on improving the performance of estimation algorithms</description>
+			</descriptions>
+			<image> </image>
 		</bullet>
 	</experience>	
 	
@@ -93,15 +120,15 @@
 			<date>August 2017 - Current</date>
 			<organization>Red River College</organization>
 			<location>Winnipeg, MB, Canada</location>
-			<major>Application Development, Database management, Web Development, Technology in Business</major>
+			<major>Application Development, Database management, Web Development, Web Security, Technology in Business</major>
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
-			<degree>Electrical Engineering</degree>
+			<degree>Barchelor of Engineering</degree>
 			<date>August 2010 - March 2014</date>
 			<organization>HCM University Of Technology</organization>
 			<location>HCM, Vietnam</location>
-			<major>Electrical, Tele-communication Embedded System Software and Hardware</major>
+			<major>Electrical - Electrical Engineering, Electronics - Telecommunication, Embedded System Software and Hardware</major>
 			<image>HCMUT.jpg</image>
 		</bullet>
 	</education>
