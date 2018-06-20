@@ -40,13 +40,16 @@ function addEducation(input, iD)
 		element_td1.appendChild(createTextElement("h3", institude + ", " + location));
 		element_td1.appendChild(createTextElement("h4", "Area: " + major));
 
-		var element_img  = document.createElement("img"); 
-		element_img.src = url;
-		element_img.alt = image + ".jpg";
-		//TooltipImageEvent(element_img, url);
+		if (image != "")
+		{
+			var element_img  = document.createElement("img"); 
+			element_img.src = url;
+			element_img.alt = image;
+			//TooltipImageEvent(element_img, url);
 
-		var element_td2 = document.createElement("td"); 
-		element_td2.appendChild(element_img);
+			var element_td2 = document.createElement("td"); 
+			element_td2.appendChild(element_img);
+		}
 
 		var element_row = document.createElement("tr");  
 		element_row.appendChild(element_td1);  
@@ -84,14 +87,16 @@ function addAward(input, iD)
 		element_td1.appendChild(createTextElement("h2", date));
 		element_td1.appendChild(createTextElement("h3", organization));
 		element_td1.appendChild(createTextElement("h4", description));
+		
 
-
-		var element_img  = document.createElement("img"); 
-		element_img.src = url;
-		element_img.alt = image + ".jpg";
-		var element_td2 = document.createElement("td"); 
-		element_td2.appendChild(element_img);
-
+		if (image != "")
+		{
+			var element_img  = document.createElement("img"); 
+			element_img.src = url;
+			element_img.alt = image;
+			var element_td2 = document.createElement("td"); 
+			element_td2.appendChild(element_img);
+		}
 
 		
 		var element_row = document.createElement("tr");  
@@ -194,13 +199,17 @@ function addExperience(input, iD)
 		element_td1.appendChild(createTextElement("h3", organization + ", " + location));
 		element_td1.appendChild(element_ul);
 
-		var element_img = document.createElement("img"); 
-		element_img.src = url;
-		element_img.alt = image + ".jpg";
-		//TooltipImageEvent(element_img, url);
 
-		var element_td2 = document.createElement("td"); 
-		element_td2.appendChild(element_img);
+		if (image != "")
+		{
+			var element_img = document.createElement("img"); 
+			element_img.src = url;
+			element_img.alt = image;
+			//TooltipImageEvent(element_img, url);
+
+			var element_td2 = document.createElement("td"); 
+			element_td2.appendChild(element_img);
+		}
 
 		var element_row = document.createElement("tr");  
 		element_row.appendChild(element_td1);		

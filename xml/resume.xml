@@ -36,11 +36,12 @@
 	</Contact>
 	
 	<summary>
-	    <bullet>A honor roll student with awards, scholarships and outstanding achievement</bullet>
-	    <bullet>An active Github contributer and an excellent tutor with a passion in sharing his knowledge</bullet>
+	    <bullet>An honor roll Business Information Technology (BIT) student at Red River College with many awards, scholarships and outstanding achievements</bullet>
+	    <bullet>A software engineer with an Electrical Engineering background and 1.5-year experience in a global automotive company</bullet>
+	    <bullet>An active GitHub contributor and an excellent tutor with a passion in sharing his knowledge</bullet>
 	    <bullet>A fast learner, and a supportive leader with the ability to categorize and automate software development process</bullet>
-	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web/application development, game and graphic designs with one-year experience as an automotive software engineer in a global company</bullet>
-	    <bullet>Strong problem solving, decision making, organizational, time management and multi-tasking skills under high pressure (4 projects at the same time)</bullet>
+	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web/application development, games and graphic designs</bullet>
+	    <bullet>Proven success in achieving outcomes under pressure managing multiple projects and responding to varying needs of multidisciplinary teams simultaneously</bullet>
 	    <bullet>Strong communication skills achieved from multi-cultural workplace (Chinese and German)</bullet>
   	</summary>
 
@@ -59,15 +60,15 @@
 		</bullet>
 		
 		<bullet>
-			<title>Technology Camps Instructor</title>
-			<date>May 1, 2018 - May 3, 2018</date>
+			<title>Technology Camps Instructor (3 days)</title>
+			<date>May 2018</date>
 			<organization>Red River College</organization>
 			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
 				<topic> </topic>				
 				<description>Explained the technologies used in Web Development, Database. Networking and Web Security</description>
 				<description>Led the discussion about ethical hacking</description>
-				<description>Instructed the children to build up a simple website with database integrated, to find security holes and to enhance the site security</description>
+				<description>Instructed the children to build up a simple website with database, and enhance the web security</description>
 			</descriptions>
 			<image>RRC.jpg</image>
 		</bullet>
@@ -81,8 +82,10 @@
 				<topic> </topic>
 				<description>Offered a promotion and invited by Chinese engineers to be a team leader on Radio Frequency Receiver technology</description>
 				<!-- <description>Discussed with Chinese system engineers on the intermediate sleep/wakeup error that happened on some defective cars; convinced them to deal with the customer to accept my temporary solution to a bad hardware design existing from the first phase</description> -->
-				<description>Supported a German system engineer to debug remotely on the NFC prototype</description>
-				<description>Guided my team members remotely on the first demonstration of NFC in Germany</description>
+
+				<description>Performed software design, maintenance, bugs fix in 4 projects at the same time</description>
+				<description>Completed one of Chinese customer projects from the first phase to the Start-Of-Production (SOP)</description>
+				<description>Supported a German system engineer to debug remotely on the first demonstration of NFC in Germany</description>
 			</descriptions>
 			<image>hella.jpg</image>
 		</bullet>
@@ -94,7 +97,7 @@
 			<descriptions>
 				<topic> </topic>
 				<description>Researched and developed embedded solutions in unmanned aerial vehicle (UAV) system</description>
-				<description>Designed hardward schematics and layouts; soldered printed circuit boards</description>
+				<description>Designed hardware schematics and layouts; soldered printed circuit boards</description>
 				<description>Developed embedded software for UAV modules</description>
 				<description>Performed system integration and testing on flying prototypes</description>
 			</descriptions>
@@ -102,12 +105,12 @@
 		</bullet>
 		<bullet>
 			<title>Assistant Embedded Developer</title>
-			<date>July 2013 – Febuary 2014</date>
+			<date>July 2013 – February 2014</date>
 			<organization>ROBOTECH</organization>
 			<location>Ho Chi Minh city, Vietnam</location>
 			<descriptions>
 				<topic> </topic>
-				<description>Developed embedded solutions in Military Industry</description>
+				<description>Developed embedded solutions for Radar trucks in the military industry</description>
 				<description>Assisted the team on improving the performance of estimation algorithms</description>
 			</descriptions>
 			<image> </image>
@@ -124,10 +127,10 @@
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
-			<degree>Barchelor of Engineering</degree>
+			<degree>Bachelor of Engineering</degree>
 			<date>August 2010 - March 2014</date>
 			<organization>HCM University Of Technology</organization>
-			<location>HCM, Vietnam</location>
+			<location>Ho Chi Minh city, Vietnam</location>
 			<major>Electrical - Electrical Engineering, Electronics - Telecommunication, Embedded System Software and Hardware</major>
 			<image>HCMUT.jpg</image>
 		</bullet>
@@ -177,7 +180,7 @@
 			<bullet>React, ThreeJS</bullet>
 			<bullet>Web services and HTTP protocol</bullet>
 			<bullet>Service worker, Web application</bullet>
-			<bullet>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP, ZWAMP</bullet>		
+			<bullet>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP</bullet>		
 			<bullet>Internet Security: SQL Injection, Cross Site Scripting</bullet>
 		</area>
 		<area>
@@ -192,10 +195,16 @@
 			<bullet>3D objects and common components such as physics and animations</bullet>
 			<bullet>Deployed an VR game to Google Play</bullet>
 		</area>
-		<area>
+<!-- 		<area>
 			<topic>Financial Accounting</topic>
 			<bullet>Understand business activities and financial accounting principles</bullet>
 			<bullet>Hands on experience with Sage50</bullet>
+		</area> -->
+		<area>
+			<topic>Data Science</topic>
+			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
+			<bullet>Computer vision (OpenCV)</bullet>
+			<bullet>Data encryption, signal modulation (RF)</bullet>
 		</area>
 		<area>
 			<topic>Embedded Automotive </topic>
@@ -204,12 +213,6 @@
 			<bullet>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</bullet>
 			<bullet>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</bullet>
 			<bullet>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</bullet>
-		</area>
-		<area>
-			<topic>Data Science</topic>
-			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
-			<bullet>Computer vision (OpenCV)</bullet>
-			<bullet>Data encryption, signal modulation (RF)</bullet>
 		</area>
 		<area>
 			<topic>Embedded System</topic>
