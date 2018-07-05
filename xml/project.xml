@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>	
-	<project>
+	<!-- <project>
 		<title>Unity Plug-in - Bluetooth</title>
 		<link>https://github.com/jimmyvo2410/UnityPlugin-Bluetooth</link>
 		<image>UnityPluginBt</image>
@@ -13,7 +13,7 @@
 			<bullet>Support server/client mode </bullet>
 			<bullet>Demonstration: Bluetooth Chat Application</bullet>
 		</description>
-	</project>
+	</project> -->
 	<project>
 		<title>Canadian Resume Generating Tool</title>
 		<link>https://github.com/jimmyvo2410/jimmyvo2410.ResumeGen</link>
