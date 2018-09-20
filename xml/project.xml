@@ -34,7 +34,7 @@
 		<link>https://github.com/jimmyvo2410/jimmyvo2410.github.io</link>
 		<image>portfolio</image>
 		<description>
-			<topic>At the begining, it was the last project in Web Development class. After that, I expanded it, added more features into it. Make it easier to edit the content by auto generating script. Now, it becomes my own corner, where I can share my achievements, experiences, projects and what I believe. Moreover, thanks to the flexibility of it, I started write more, share more and corntribute more.</topic>
+			<topic>After I had finished the course Web Development 1 at RRC, I decided to make my own online portfolio. I found Linkedin was so limited to describe what I had done and to state myself. I want this online portfolio to be easier to edit the content with XML and auto generating script. Now, it becomes my own corner, where I can share my achievements, experiences, projects and what I believe. Moreover, thanks to the flexibility of it, I started write more, share more and corntribute more.</topic>
 		</description>
 		<description>
 			<topic>Features:</topic>
@@ -99,6 +99,7 @@
 	<project>
 		<title>NFC Door Handle module (NFC DHM)</title>
 		<link>#</link>
+		<image>NFC</image>
 		<description>
 			<topic>After my excellent performance in other projects, I was the first engineer that was trusted and assigned to NFC Door Handle project. It was the first German customer project of HELLA. In NFC DHM, I developed the generation tool to automate the development process. I also researched developed the Android testing application, while no one in the team (including me) had Android development background</topic>
 		</description>

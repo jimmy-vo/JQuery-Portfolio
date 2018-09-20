@@ -40,7 +40,7 @@ function AddItem(title, link, images, count)
 	if (images != null)
 	{
 		var element_img  = document.createElement("img"); 
-		var	url = "images/"+ images + ".jpg";
+		var	url = "images/thumb/"+ images + ".jpg";
 		element_img.src = url;
 		element_img.alt = images +  ".jpg";
 
@@ -86,7 +86,7 @@ function AddDescription(element_li, topic, bullet)
  */
 function load() 
 {	
-	document.getElementsByTagName("li")[2].classList.add("selected");
+	document.getElementsByTagName("li")[1].classList.add("selected");
 	var overview_xml = loadXML("xml/project.xml");
 
 	for (var i=0; i<overview_xml.getElementsByTagName('project').length; i++)

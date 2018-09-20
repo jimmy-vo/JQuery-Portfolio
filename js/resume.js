@@ -32,7 +32,7 @@ function addEducation(input, iD)
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 	    var major = item.getElementsByTagName('major')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/" + image;
+		var url = "images/thumb/" + image;
 
 		var element_td1 = document.createElement("td");  
 		element_td1.appendChild(createTextElement("h1", degree));
@@ -77,7 +77,7 @@ function addAward(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/" + image;
+		var url = "images/thumb/" + image;
 
 		var element_td1 = document.createElement("td");  
 		var element_ul = document.createElement("ul");     
@@ -189,7 +189,7 @@ function addExperience(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 		var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/" + image;
+		var url = "images/thumb/" + image;
 
 		var element_ul = document.createElement("ul");     
 
@@ -249,7 +249,7 @@ function addExperience(input, iD)
  */
 function load() 
 {	
-  document.getElementsByTagName("li")[1].classList.add("selected");
+  document.getElementsByTagName("li")[0].classList.add("selected");
   var resume_xml = loadXML("xml/resume.xml");
 
   addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');

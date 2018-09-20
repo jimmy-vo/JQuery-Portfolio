@@ -1,34 +1,22 @@
-
 /**
-
- * utility: for utility
-
+ * utility.js
  *
-
- * Project: Assignment_9
-
+ * Project: jimmyvo2410.github.io
  * Author: Jimmy Vo
-
- * Date Created: April 10 2018
-
+ * Date Created: May 30 2018
  */
 
-// A cross-browser "To String" helper for xml node objects.
-// Using console.dirxml() is an alternative way to inspect XML.
-// Uses strict mode: https://goo.gl/xmOUmj
-function xmlToString(node) {
-  'use strict';
+function truncate(str, limit) {
+    var trimmable = '\u0009\u000A\u000B\u000C\u000D\u0020\u00A0\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u2028\u2029\u3000\uFEFF';
+        var reg = new RegExp('(?=[' + trimmable + '])');
+        var words = str.split(reg);
+        var count = 0;
+        return words.filter(function(word) {
+            count += word.length;
+            return count <= limit;
+        }).join('') + " ...";
+  };
 
-  if (node.xml) { // Only IE supports this property.
-    return node.xml;
-  } else if (XMLSerializer) { // Firefox supports this.
-    var my_serializer = new XMLSerializer();
-    return my_serializer.serializeToString(node);
-  } else {
-    alert('Your browser does not support XML serialization.');
-    return '';
-  }
-}
 
 // Synchronously loads the received XML document as a DOM Document object 
 // and returns it.
@@ -58,7 +46,6 @@ function loadXML(filename) {
  */
 function trim(str) 
 {
-  // Uses a regex to remove spaces from a string.
   return str.replace(/^\s+|\s+$/g,"");
 }
 
@@ -70,17 +57,17 @@ function trim(str)
  */
 function ImageExist(url) 
 {
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
     try 
     {
+      var http = new XMLHttpRequest();
+      http.open('HEAD', url, false);
       http.send();
+      return http.status!=404;
     }
     catch (err)
     {
       return false;
     }
-    return http.status!=404;
 }
 
 

@@ -25,20 +25,6 @@ function hideErrors()
 	}
 }
 
-/*
- * Handles the load event of the document.
- */
-function load()
-{
-	document.getElementsByTagName("li")[3].classList.add("selected");
-	
-	document.getElementById("submit").addEventListener("click", validate);
-	document.getElementById("clear").addEventListener("click", resetForm);
-	document.getElementById("message").addEventListener("click", function () {
-		alert("It can't be use right now");
-	});
-	hideErrors();
-}
 
 /*
  * resetForm
@@ -165,4 +151,19 @@ function IsFieldNotFormated(iDString, regEx) {
 	document.getElementById(iDString+"format_error").style.display =  "block";
 	SetFocus(document.getElementById(iDString));
 	return true;
+}
+
+/*
+ * Handles the load event of the document.
+ */
+function load()
+{
+	document.getElementsByTagName("li")[2].classList.add("selected");
+	
+	document.getElementById("submit").addEventListener("click", validate);
+	document.getElementById("clear").addEventListener("click", resetForm);
+	document.getElementById("message").addEventListener("click", function () {
+		alert("It can't be use right now");
+	});
+	hideErrors();
 }

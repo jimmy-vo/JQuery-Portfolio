@@ -23,6 +23,11 @@
     margin: 20px 0px;
 }
 
+#layout_content li:hover 
+{ 
+   box-shadow: 5px 5px 5px 5px rgba(0, 140, 186, 0.5);
+}
+
 
 #layout_content ul {
     position: relative;
@@ -32,10 +37,20 @@
     padding: 0;
 }
 
-#layout_content img:hover {
+#layout_content  img:hover, .selected {
     box-shadow: 5px 5px 5px 5px  rgba(0, 140, 186, 0.5);
 }
 
+
+.full  {
+    display: block;
+    clear: both;
+}
+
+
+/* ##################################################################### */
+/* invidual style                                                        */
+/* ##################################################################### */
 #layout_content img {
     object-fit: cover;
     height: 128px;
@@ -43,10 +58,6 @@
     margin: 9px ;
     border-radius:  15px;
 }
-
-/* ##################################################################### */
-/* invidual style                                                        */
-/* ##################################################################### */
 
 #layout_content h1{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
@@ -61,7 +72,21 @@
     border: 1px groove  black   ;
     margin: 1px;
     text-decoration: none;
+    text-align: right;
     display: block;
+}
+
+#layout_content h1 a{
+    background: transparent;
+    color: rgb(255, 255, 179);
+    text-shadow: 4px 0px rgb(10 ,11,29);
+    font-size:  25px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-decoration: none;
+    display: inline;
+    float: left;
 }
 
  #layout_content a{
@@ -85,15 +110,16 @@
     color: blue;
 }
 
-#layout_content h2 {
+#layout_content h2 {    
     color: white;
-    text-shadow: 4px 0px rgb(10 ,11,29);
     margin-left: 10px;
-    margin-right:  10px;
-    margin-bottom: 15px;
-    padding-top:   10px;
-    font-weight: normal;
-    font-size:  20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
     background: transparent;
-    clear:  both;   
+    display: block;
+    font-weight: normal;
+    text-indent: 20px;
 }
+
