@@ -250,7 +250,7 @@ function addExperience(input, iD)
 function load() 
 {	
   document.getElementsByTagName("li")[0].classList.add("selected");
-  var resume_xml = loadXML("xml/resume.xml");
+  var resume_xml = loadXML("xml/profile.xml");
 
   addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
   addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
