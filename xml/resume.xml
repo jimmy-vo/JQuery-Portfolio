@@ -93,8 +93,6 @@
 			<descriptions>
 				<topic> </topic>
 				<description>Offered a promotion and invited by Chinese engineers to be a team leader on Radio Frequency Receiver technology</description>
-				<!-- <description>Discussed with Chinese system engineers on the intermediate sleep/wakeup error that happened on some defective cars; convinced them to deal with the customer to accept my temporary solution to a bad hardware design existing from the first phase</description> -->
-
 				<description>Performed software design, maintenance, bugs fix in 4 projects at the same time</description>
 				<description>Completed one of Chinese customer projects from the first phase to the Start-Of-Production (SOP)</description>
 				<description>Supported a German system engineer to debug remotely on the first demonstration of NFC in Germany</description>
@@ -170,10 +168,10 @@
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
-			<title>Honor Roll Certificate - First Term</title>
+			<title>Honor Roll Certificate - First Term, Second Term</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
 			<date>December 15, 2018</date>
-			<description>First-term GPA: 4.45</description>
+			<description>GPA above 3.8: First term (4.45), Second term (4.20) </description>
 			<image>RRC.jpg</image>
 		</bullet>
 	</award>
@@ -194,11 +192,11 @@
 		</area>
 		<area>
 			<topic>Web Development and Database</topic>
-			<bullet>HTML, CSS, JavaScript, PHP</bullet>
-			<bullet>React, ThreeJS</bullet>
+			<bullet>HTML, CSS, JavaScript, PHP, Razor</bullet>
+			<bullet>React, ThreeJS, ASP.NET, Entity Framework, MVC</bullet>
 			<bullet>Web services and HTTP protocol</bullet>
 			<bullet>Service worker, Web application</bullet>
-			<bullet>XML, JSON, Oracle SQL, PhpMyAdmin, XAMPP</bullet>		
+			<bullet>XML, JSON, Oracle/MS SQL, PhpMyAdmin, XAMPP</bullet>		
 			<bullet>Internet Security: SQL Injection, Cross Site Scripting</bullet>
 		</area>
 		<area>

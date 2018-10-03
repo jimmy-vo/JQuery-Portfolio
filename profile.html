@@ -4,12 +4,11 @@
     	<meta charset="utf-8">
 		<title>Jimmy Vo</title>
 		<link rel="stylesheet" type="text/css" href="styles/common.css">
-		<link rel="stylesheet" type="text/css" href="styles/project.css">
-		<script type="text/javascript" src="js/utility.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/profile.css">
+		<script type="text/javascript" src="js/profile.js"></script>
 		<script type="text/javascript" src="js/tooltip.js"></script>
-		<script type="text/javascript" src="js/project.js"></script>
+		<script type="text/javascript" src="js/utility.js"></script>
 	</head>
-
 	<body>
 		<img id="background" src="images/wall.jpg" alt="avt">
 		<img id="preview" alt="preview" src="#" />
@@ -19,9 +18,9 @@
 					<td><img id="avatar" src="images/avatar.jpg" alt="avt" ></td>
 					<td>
 						<h1>
-							Welcome to my projects corner! 
+							I am a software engineer, a game geveloper and a tutor.  
 							<br/>
-							Please click to see more detail on my Github
+							Please review <a href="file/Resume.pdf" download>my resume</a>
 						</h1>
 						<ul id="navigation">
 							<!-- <li><a href="blog.html">Blog</a></li> -->
@@ -34,9 +33,33 @@
 			</table>
 		</header>
 
-		<div id="layout">
+
+	 	<div id="layout">
 			<article id="layout_content">
-				<ul id="project"></ul>
+				<div>
+					<h6>Summary</h6>
+					<table id="summary"></table>
+				</div>
+				<div>
+					<h6>Education</h6>
+					<table id="education"></table>
+				</div>
+				<div>
+					<h6>Honors and Awards</h6>
+					<table id="award"></table>
+				</div>
+				<div>
+					<h6>Skills</h6>
+					<table id="skill"></table>
+				</div>
+				<div>
+					<h6>Work And Related Experience</h6>
+					<table id="experience" class="experience"></table>
+				</div>
+				<div>
+					<h6>Volunteer Activities</h6>
+					<table id="volunteer" class="experience"></table>
+				</div>
 			</article>
 
 			<footer id="footer">
@@ -49,6 +72,5 @@
 				</div>
 			</footer>
 		</div>
-
 	</body>
 </html>
