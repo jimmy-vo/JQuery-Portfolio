@@ -205,11 +205,13 @@
 			<bullet>.NET application development (Visio Studio)</bullet>
 			<bullet>Experience implementing modular, testable, and robust solutions</bullet>	
 		</area>
-<!-- 		<area>
-			<topic>Financial Accounting</topic>
-			<bullet>Understand business activities and financial accounting principles</bullet>
-			<bullet>Hands on experience with Sage50</bullet>
-		</area> -->
+		<area>
+			<topic>Server/Network Administration</topic>
+			<bullet>TCP/IP and the OSI Model</bullet>
+			<bullet>Experience Linux environment, using SSH and related tools</bullet>
+			<bullet>Configuring routers and switches</bullet>
+			<bullet>Configuring DNS, implementing group policies, modifying and troubleshooting MS Window Server</bullet>	
+		</area>
 		<area>
 			<topic>Data Science</topic>
 			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
