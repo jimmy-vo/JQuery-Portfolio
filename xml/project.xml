@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>	
-	<!-- <project>
+	<project>
 		<title>Unity Plug-in - Bluetooth</title>
-		<link>https://github.com/jimmyvo2410/UnityPlugin-Bluetooth</link>
+		<link>#</link>
 		<image>UnityPluginBt</image>
 		<description>
-			<topic>When I started working at ACE Project Space as a Software Developer and System Integrator, the team was stuck with the Bluetooth implementation on Unity for a month. The problem is Unity doesn't support Bluetooth. The only way to have it is to use Java Plug-in which they bought from the asset store. There were so many errors with those plug-ins but we could access to the source code inside. Developing a plug-in from scratch was a little bit challenging because there was no sample code and it was lack of documentation. I jumped in, and after a-week research, I could manage to create Bluetooth plugin for our project. The project is uploaded to GitHub, so that everyone can start from here to develop their own plug-in and it is free !</topic>
+			<topic>When I started working at ACE Project Space as a Software Developer and System Integrator, the team was stuck with the Bluetooth implementation on Unity for a month. The problem is Unity doesn't support Bluetooth. The only way to have it is to use Java Plug-in which they bought from the asset store. There were so many errors with those plug-ins but we could access to the source code inside. Developing a plug-in from scratch was a little bit challenging because there was no sample code and it was lack of documentation. I jumped in, and after a-week research, I could manage to create Bluetooth plugin for our project.</topic>
 		</description>
 		<description>
 			<topic>Features:</topic>
@@ -13,7 +13,22 @@
 			<bullet>Support server/client mode </bullet>
 			<bullet>Demonstration: Bluetooth Chat Application</bullet>
 		</description>
-	</project> -->
+	</project>
+	<project>
+		<title>Blog Demo - Python - Flask</title>
+		<link>https://github.com/jimmyvo2410/blog-python</link>
+		<image>pythonblog</image>
+		<description>
+			<topic>Web devolopment with Python is a new trends. This project demonstrates the functionalities of python, jinja, sqlLite and Flask framework.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Login with user database</bullet>
+			<bullet>Anyone with an account can see any blog</bullet>
+			<bullet>Each user may have their own blog</bullet>
+			<bullet>Users can't edit someone's blog</bullet>
+		</description>
+	</project>
 	<project>
 		<title>Canadian Resume Generating Tool</title>
 		<link>https://github.com/jimmyvo2410/jimmyvo2410.ResumeGen</link>

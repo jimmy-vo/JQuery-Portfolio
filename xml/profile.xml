@@ -147,6 +147,13 @@
 
 	<award>
 		<bullet>
+			<title>Honor Roll Certificate - Second Term</title>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>October 22, 2018</date>
+			<description>GPA above 3.8: Second term (4.20) </description>
+			<image>RRC.jpg</image>
+		</bullet>
+		<bullet>
 			<title>Applied Computer Education Department Award</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
 			<date>June 7, 2018</date>
@@ -168,10 +175,10 @@
 			<image>RRC.jpg</image>
 		</bullet>
 		<bullet>
-			<title>Honor Roll Certificate - First Term, Second Term</title>
+			<title>Honor Roll Certificate - First Term</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
 			<date>December 15, 2018</date>
-			<description>GPA above 3.8: First term (4.45), Second term (4.20) </description>
+			<description>GPA above 3.8: First term (4.45) </description>
 			<image>RRC.jpg</image>
 		</bullet>
 	</award>
@@ -194,6 +201,7 @@
 			<topic>Web Development and Database</topic>
 			<bullet>HTML, CSS, JavaScript, PHP, Razor</bullet>
 			<bullet>React, ThreeJS, ASP.NET, Entity Framework, MVC</bullet>
+			<bullet>Python, Jinja, Flask Framework, PyCharm</bullet>
 			<bullet>Web services and HTTP protocol</bullet>
 			<bullet>Service worker, Web application</bullet>
 			<bullet>XML, JSON, Oracle/MS SQL, PhpMyAdmin, XAMPP</bullet>		
