@@ -40,7 +40,7 @@
 
 #layout_content img {
     object-fit: cover;
-    height: 128px;
+    width: 256px;
     float: right;
     margin: 9px ;
     border-radius:  15px;
