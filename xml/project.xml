@@ -21,7 +21,6 @@
 			<bullet>Admin user is able to delete or hide/show comments</bullet>
 			<bullet>Normal user is able to delete their posts but not other's posts.</bullet>
 			<bullet>Logged in user is able to sort posts by title, content, data created, date updated ascending or descending.</bullet>
-			<bullet></bullet>
 		</description>
 		<description>
 			<topic>Non-functional requirements:</topic>
