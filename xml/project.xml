@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>	
 	<project>
-		<title>Unity Plug-in - Bluetooth</title>
-		<link>#</link>
-		<image>UnityPluginBt</image>
-		<description>
-			<topic>When I started working at ACE Project Space as a Software Developer and System Integrator, the team was stuck with the Bluetooth implementation on Unity for a month. The problem is Unity doesn't support Bluetooth. The only way to have it is to use Java Plug-in which they bought from the asset store. There were so many errors with those plug-ins but we could access to the source code inside. Developing a plug-in from scratch was a little bit challenging because there was no sample code and it was lack of documentation. I jumped in, and after a-week research, I could manage to create Bluetooth plugin for our project.</topic>
-		</description>
-		<description>
-			<topic>Features:</topic>
-			<bullet>Including Android Studio Project</bullet>
-			<bullet>Support server/client mode </bullet>
-			<bullet>Demonstration: Bluetooth Chat Application</bullet>
-		</description>
-	</project>
-	<project>
 		<title>Blog Demo - Python - Flask</title>
 		<link>https://github.com/jimmyvo2410/blog-python</link>
 		<image>pythonblog</image>
@@ -27,6 +13,54 @@
 			<bullet>Anyone with an account can see any blog</bullet>
 			<bullet>Each user may have their own blog</bullet>
 			<bullet>Users can't edit someone's blog</bullet>
+		</description>
+	</project>	
+	<project>
+		<title>RrcNews</title>
+		<link>https://github.com/jimmyvo2410/RrcNews</link>
+		<image>RrcNews</image>
+		<description>
+			<topic>Description</topic>
+			<bullet>This is a demonstration of deploying a Content Management System (CMS) Sites using Php and SQL Database and other technologies. A CMS is an application that is used to allow its authenticated users to create, read, update and delete content from a central source. CMSs are often used in sites that involve blogs, shopping, and news.</bullet>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Login, registration.</bullet>
+			<bullet>List of articles is available on any page.</bullet>
+			<bullet>Anyone (include guest users) is able to read posts.</bullet>
+			<bullet>Admin user is able to modify their posts or by normal user's posts</bullet>
+			<bullet>Normal user is able to modify their posts but not other's posts</bullet>
+			<bullet>Image can be uploaded or removed from a post.</bullet>
+			<bullet>Title and content cannot be empty.</bullet>
+			<bullet>Anyone (include guest users) is able to read post's comments.</bullet>
+			<bullet>Admin user is able to delete or hide/show comments</bullet>
+			<bullet>Normal user is able to delete their posts but not other's posts.</bullet>
+			<bullet>Logged in user is able to sort posts by title, content, data created, date updated ascending or descending.</bullet>
+			<bullet></bullet>
+		</description>
+		<description>
+			<topic>Non-functional requirements:</topic>
+			<bullet>Implemented using PHP, CSS, Jquery, SQL- Relational Database.</bullet>
+			<bullet>Deployed by MyPhpAdmin and XAMPP.</bullet>
+			<bullet>Using Ajax on registration page for available usernames.</bullet>
+			<bullet>Cookies or Sessions</bullet>
+			<bullet>Implemented validation rules that are used on the data provided when creating and updating pages.</bullet>
+			<bullet>Sanitized and validated the numericality of all ids retrieved from GET or POST parameters used in SQL queries.</bullet>
+			<bullet>Sanitized all strings retrieved from GET or POST parameters to prevent HTML injection attacks.</bullet>
+		</description>
+	</project>
+	<project>
+		<title>Unity Plug-in - Bluetooth</title>
+		<link>#</link>
+		<image>UnityPluginBt</image>
+		<description>
+			<topic>When I started working at ACE Project Space as a Software Developer and System Integrator, the team was stuck with the Bluetooth implementation on Unity for a month. The problem is Unity doesn't support Bluetooth. The only way to have it is to use Java Plug-in which they bought from the asset store. There were so many errors with those plug-ins but we could access to the source code inside. Developing a plug-in from scratch was a little bit challenging because there was no sample code and it was lack of documentation. I jumped in, and after a-week research, I could manage to create Bluetooth plugin for our project.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Including Android Studio Project</bullet>
+			<bullet>Support server/client mode </bullet>
+			<bullet>Demonstration: Bluetooth Chat Application</bullet>
 		</description>
 	</project>
 	<project>
