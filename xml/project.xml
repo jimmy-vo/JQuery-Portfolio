@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>	
 	<project>
-		<title>Blog Demo - Python - Flask</title>
-		<link>https://github.com/jimmyvo2410/blog-python</link>
-		<image>pythonblog</image>
-		<description>
-			<topic>Web devolopment with Python is a new trends. This project demonstrates the functionalities of python, jinja, sqlLite and Flask framework.</topic>
-		</description>
-		<description>
-			<topic>Features:</topic>
-			<bullet>Login with user database</bullet>
-			<bullet>Anyone with an account can see any blog</bullet>
-			<bullet>Each user may have their own blog</bullet>
-			<bullet>Users can't edit someone's blog</bullet>
-		</description>
-	</project>	
-	<project>
 		<title>RrcNews</title>
 		<link>https://github.com/jimmyvo2410/RrcNews</link>
 		<image>RrcNews</image>
@@ -49,6 +34,21 @@
 			<bullet>Sanitized all strings retrieved from GET or POST parameters to prevent HTML injection attacks.</bullet>
 		</description>
 	</project>
+	<project>
+		<title>Blog Demo - Python - Flask</title>
+		<link>https://github.com/jimmyvo2410/blog-python</link>
+		<image>pythonblog</image>
+		<description>
+			<topic>Web devolopment with Python is a new trends. This project demonstrates the functionalities of python, jinja, sqlLite and Flask framework.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>Login with user database</bullet>
+			<bullet>Anyone with an account can see any blog</bullet>
+			<bullet>Each user may have their own blog</bullet>
+			<bullet>Users can't edit someone's blog</bullet>
+		</description>
+	</project>	
 	<project>
 		<title>Unity Plug-in - Bluetooth</title>
 		<link>#</link>
