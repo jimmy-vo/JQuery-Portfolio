@@ -227,8 +227,7 @@ function addExperience(input, iD)
 }
 
 document.addEventListener("DOMContentLoaded", function() {	
-  // document.getElementsByTagName("li")[0].classList.add("selected");
-  $("li")[0].classList.add("selected");
+  document.getElementsByTagName("li")[0].classList.add("selected");
   var resume_xml = loadXML("xml/profile.xml");
 
   addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
