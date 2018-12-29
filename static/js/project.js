@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	$('#layout_top').load('header.html');
 	$('#layout_top > h1').replaceWith( $headerContent);
 	$('#footer').load('footer.html');
-	$('li')[1].classList.add("selected");
+	$('li')[1].addClass("selected");
 
 	var overview_xml = loadXML("../static/xml/project.xml");
 
