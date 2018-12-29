@@ -229,7 +229,7 @@ function addExperience(input, iD)
 document.addEventListener("DOMContentLoaded", function() {	
 	$('#layout_top').load('header.html');
 	$('#footer').load('footer.html');
-	$('li')[0].addClass("selected");
+	$('ul#navigation li')[0].addClass("selected");
 
 	var resume_xml = loadXML("../static/xml/profile.xml");
 

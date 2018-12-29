@@ -141,7 +141,7 @@ function IsFieldNotFormated(iDString, regEx) {
 document.addEventListener("DOMContentLoaded", function(){
 	$('#layout_top').load('header.html');
 	$('#footer').load('footer.html');
-	$('li')[2].addClass("selected");
+	$('ul#navigation li')[2].addClass("selected");
 	
 	document.getElementById("submit").addEventListener("click", validate);
 	document.getElementById("clear").addEventListener("click", resetForm);
