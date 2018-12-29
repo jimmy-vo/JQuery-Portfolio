@@ -47,6 +47,20 @@
 
 	<experience>
 		<bullet>
+			<title>Jr. Software Developer</title>
+			<date>January 2019 - Currently</date>
+			<organization>24-7 Intouch</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic> </topic>
+				<description>Work alongside a team of developers building tools to improve business operations and the lives of our global workforce</description>
+				<description>Work in a fast paced agile software development environment</description>
+				<description>Develop applications that are used by thousands of people daily and interface with multiple systems (web, desktop, etc…)</description>
+				<description>Interact with product stakeholders to show off your work and gain feedback</description>
+			</descriptions>
+			<image>24-7.jpg</image>
+		</bullet>
+		<bullet>
 			<title>Researcher</title>
 			<date>June 2018 - Currently</date>
 			<organization>ACE Project Space, Red River College</organization>

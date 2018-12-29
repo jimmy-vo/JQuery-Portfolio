@@ -84,8 +84,7 @@ function AddDescription(element_li, topic, bullet)
  *
  * return  none
  */
-function load() 
-{	
+document.addEventListener("DOMContentLoaded", function(){
 	document.getElementsByTagName("li")[1].classList.add("selected");
 	var overview_xml = loadXML("xml/project.xml");
 
@@ -116,7 +115,4 @@ function load()
 		}
 
 	}
-}
-
-// Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", load);
+});
