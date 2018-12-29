@@ -73,8 +73,14 @@ function AddDescription(element_li, topic, bullet)
 
 
 document.addEventListener("DOMContentLoaded", function(){
-	document.getElementsByTagName("li")[1].classList.add("selected");
-	var overview_xml = loadXML("xml/project.xml");
+
+  	var $headerContent = $('#layout_top > h1').clone().children();
+	$('#layout_top').load('header.html');
+	$('#layout_top > h1').replaceWith( $headerContent);
+	$('#footer').load('footer.html');
+	$('#navigation > li')[1].classList.add("selected");
+
+	var overview_xml = loadXML("../static/xml/project.xml");
 
 	for (var i=0; i<overview_xml.getElementsByTagName('project').length; i++)
 	{

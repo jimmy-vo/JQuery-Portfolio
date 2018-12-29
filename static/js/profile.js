@@ -227,13 +227,16 @@ function addExperience(input, iD)
 }
 
 document.addEventListener("DOMContentLoaded", function() {	
-  document.getElementsByTagName("li")[0].classList.add("selected");
-  var resume_xml = loadXML("xml/profile.xml");
+	$('#layout_top').load('header.html');
+	$('#footer').load('footer.html');
+	$('#navigation > li')[0].classList.add("selected");
 
-  addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
-  addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
-  addAward(resume_xml.getElementsByTagName('award')[0], 'award');
-  addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');
-  addExperience(resume_xml.getElementsByTagName('experience')[0], 'experience');
-  addExperience(resume_xml.getElementsByTagName('volunteer')[0], 'volunteer');
+	var resume_xml = loadXML("../static/xml/profile.xml");
+
+	addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
+	addEducation(resume_xml.getElementsByTagName('education')[0], 'education');
+	addAward(resume_xml.getElementsByTagName('award')[0], 'award');
+	addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');
+	addExperience(resume_xml.getElementsByTagName('experience')[0], 'experience');
+	addExperience(resume_xml.getElementsByTagName('volunteer')[0], 'volunteer');
 });
