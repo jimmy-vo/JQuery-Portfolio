@@ -125,27 +125,6 @@ function LoadStorage()
 }
 
 /*
- * Load
- * return  none
- */
-function Load() 
-{	
-	//tab
-	document.getElementsByTagName("li")[0].classList.add("selected");
-	element_parrent = 	document.getElementById("blog");
-	element_parrent.innerHTML = "";
-
-
-	xmlData = loadXML("xml/blog.xml");
-	LoadStorage();
-
-	for (var i=0; i<xmlData.getElementsByTagName('bullet').length; i++)
-	{
-		element_parrent.appendChild(CreateBlog(i, (parseInt(BlogItem) !== i)));
-	}
-}
-
-/*
  * BlogEventMouseIn
  * param 	idx
  * return   none
@@ -163,5 +142,16 @@ function BlogEventMouseIn(idx)
 }
 
 
-// Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", Load);
+document.addEventListener("DOMContentLoaded", function(){	
+	document.getElementsByTagName("li")[0].classList.add("selected");
+	element_parrent = 	document.getElementById("blog");
+	element_parrent.innerHTML = "";
+
+
+	xmlData = loadXML("xml/blog.xml");
+	// LoadStorage();
+
+	for (var i=0; i<xmlData.getElementsByTagName('bullet').length; i++){
+		element_parrent.appendChild(CreateBlog(i, (parseInt(BlogItem) !== i)));
+	}
+});

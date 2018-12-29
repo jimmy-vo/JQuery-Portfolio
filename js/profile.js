@@ -1,25 +1,10 @@
-/**
-
- * portfolio: for portfolio
-
- *
-
- * Project: Assignment_9
-
- * Author: Jimmy Vo
-
- * Date Created: April 10 2018
-
- */
-
-
 /*
  * addEducation
  *
  * param input
  * param iD
  */
-function addEducation(input, iD)
+ function addEducation(input, iD)
 {
 	var xml = input.getElementsByTagName('bullet');
 	for (var i=0; i<xml.length; i++)
@@ -60,7 +45,7 @@ function addEducation(input, iD)
 }
 
 /*
- * addSkill
+ * addAward
  *
  * param input
  * param iD
@@ -144,7 +129,7 @@ function addSkill(input, iD)
 }
 
 /*
- * addSkill
+ * addSummary
  *
  * param input
  * param iD
@@ -241,15 +226,9 @@ function addExperience(input, iD)
   }
 }
 
-
-/*
- * load
- *
- * return  none
- */
-function load() 
-{	
-  document.getElementsByTagName("li")[0].classList.add("selected");
+document.addEventListener("DOMContentLoaded", function() {	
+  // document.getElementsByTagName("li")[0].classList.add("selected");
+  $("li")[0].classList.add("selected");
   var resume_xml = loadXML("xml/profile.xml");
 
   addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');
@@ -258,8 +237,4 @@ function load()
   addSkill(resume_xml.getElementsByTagName('skill')[0], 'skill');
   addExperience(resume_xml.getElementsByTagName('experience')[0], 'experience');
   addExperience(resume_xml.getElementsByTagName('volunteer')[0], 'volunteer');
-
-}
-
-// Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", load);
+});

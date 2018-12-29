@@ -1,17 +1,3 @@
-/**
-
- * overview: for overview
-
- *
-
- * Project: Assignment_9
-
- * Author: Jimmy Vo
-
- * Date Created: April 10 2018
-
- */
-
 /*
  * AddItem
  *
@@ -59,7 +45,13 @@ function AddItem(title, link, images, count)
 	return element_li;
 }
 
-
+/*
+ * AddDescription
+ *
+ * param element_li
+ * param topic
+ * param bullet
+ */
 function AddDescription(element_li, topic, bullet) 
 {
 	for (var i = 0; i<topic.length; i++) 
@@ -79,11 +71,7 @@ function AddDescription(element_li, topic, bullet)
 	
 }
 
-/*
- * load
- *
- * return  none
- */
+
 document.addEventListener("DOMContentLoaded", function(){
 	document.getElementsByTagName("li")[1].classList.add("selected");
 	var overview_xml = loadXML("xml/project.xml");

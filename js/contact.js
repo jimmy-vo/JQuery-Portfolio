@@ -1,21 +1,6 @@
-/**
-
- * contact: for contact
-
- *
-
- * Project: Assignment_9
-
- * Author: Jimmy Vo
-
- * Date Created: April 10 2018
-
- */
 
 var hasErrors = false;
-/*
- * Hides all of the error elements.
- */
+
 function hideErrors()
 {
 	var errorFields = document.getElementsByClassName("error");
@@ -83,8 +68,6 @@ function formHasErrors() {
 }
 
 
-// Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", load);
 
 
 /*
@@ -102,7 +85,7 @@ document.addEventListener("DOMContentLoaded", load);
  }
 
 /*
- * IsDropDownListNotSelected
+ * IsInvalidNumber
  *
  * return   True if an error was found; False if no errors were found
  */
@@ -153,11 +136,9 @@ function IsFieldNotFormated(iDString, regEx) {
 	return true;
 }
 
-/*
- * Handles the load event of the document.
- */
-function load()
-{
+
+// Other event listeners can go here.
+document.addEventListener("DOMContentLoaded", function(){
 	document.getElementsByTagName("li")[2].classList.add("selected");
 	
 	document.getElementById("submit").addEventListener("click", validate);
@@ -166,4 +147,4 @@ function load()
 		alert("It can't be use right now");
 	});
 	hideErrors();
-}
+});

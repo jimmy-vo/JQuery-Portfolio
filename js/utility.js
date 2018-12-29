@@ -1,10 +1,3 @@
-/**
- * utility.js
- *
- * Project: jimmyvo2410.github.io
- * Author: Jimmy Vo
- * Date Created: May 30 2018
- */
 
 function truncate(str, limit) {
     var trimmable = '\u0009\u000A\u000B\u000C\u000D\u0020\u00A0\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u2028\u2029\u3000\uFEFF';
@@ -18,9 +11,6 @@ function truncate(str, limit) {
   };
 
 
-// Synchronously loads the received XML document as a DOM Document object 
-// and returns it.
-// Uses strict mode: https://goo.gl/xmOUmj
 function loadXML(filename) {
   'use strict';
 
@@ -39,22 +29,11 @@ function loadXML(filename) {
   return xhttp.responseXML;
 }
 
-/*
- * Removes white space from a string value.
- *
- * return  A string with leading and trailing white-space removed.
- */
 function trim(str) 
 {
   return str.replace(/^\s+|\s+$/g,"");
 }
 
-/*
- * Formats a number value as currency.
- *
- * param num The number value to be formatted.
- * return    The formatted number value.
- */
 function ImageExist(url) 
 {
     try 
@@ -71,13 +50,6 @@ function ImageExist(url)
 }
 
 
-/*
- * createTextElement
- *
- * param tag
- * param string
- * return  none
- */
 function createTextElement(tag, string) 
 {
   var element = document.createElement(tag);  

@@ -1,19 +1,3 @@
-
-/**
-
- * tooltip: for tooltip
-
- *
-
- * Project: Assignment_9
-
- * Author: Jimmy Vo
-
- * Date Created: April 10 2018
-
- */
-
-
 var OffsetX  = 35;
 var OffsetY = 20;
 
