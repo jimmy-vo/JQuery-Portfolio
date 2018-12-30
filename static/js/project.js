@@ -26,7 +26,7 @@ function AddItem(title, link, images, count)
 	if (images != null)
 	{
 		var element_img  = document.createElement("img"); 
-		var	url = "images/thumb/"+ images + ".jpg";
+		var	url = "../static/images/thumb/"+ images + ".jpg";
 		element_img.src = url;
 		element_img.alt = images +  ".jpg";
 
@@ -73,12 +73,16 @@ function AddDescription(element_li, topic, bullet)
 
 
 document.addEventListener("DOMContentLoaded", function(){
-
-  	var $headerContent = $('#layout_top > h1').clone().children();
-	$('#layout_top').load('header.html');
-	$('#layout_top > h1').replaceWith( $headerContent);
+  	var $headerContent = $('#headerContent').clone().html();  	
+	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
+		if(statusTxt == "success"){
+			$('#headerContent').html($headerContent);
+			$asdsa = $('#navigation li:eq(1)').addClass("selected");
+		}
+		if(statusTxt == "error")
+		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
+	});
 	$('#footer').load('footer.html');
-	$('ul#navigation li')[1].addClass("selected");
 
 	var overview_xml = loadXML("../static/xml/project.xml");
 

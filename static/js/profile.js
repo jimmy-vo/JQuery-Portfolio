@@ -17,7 +17,7 @@
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 	    var major = item.getElementsByTagName('major')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/thumb/" + image;
+		var url = "../static/images/thumb/" + image;
 
 		var element_td1 = document.createElement("td");  
 		element_td1.appendChild(createTextElement("h1", degree));
@@ -62,7 +62,7 @@ function addAward(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/thumb/" + image;
+		var url = "../static/images/thumb/" + image;
 
 		var element_td1 = document.createElement("td");  
 		var element_ul = document.createElement("ul");     
@@ -174,7 +174,7 @@ function addExperience(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 		var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "images/thumb/" + image;
+		var url = "../static/images/thumb/" + image;
 
 		var element_ul = document.createElement("ul");     
 
@@ -227,9 +227,17 @@ function addExperience(input, iD)
 }
 
 document.addEventListener("DOMContentLoaded", function() {	
-	$('#layout_top').load('header.html');
+  	var $headerContent = $('#headerContent').clone().html();  	
+	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
+		if(statusTxt == "success"){
+			$('#headerContent').html($headerContent);
+			$asdsa = $('#navigation li:eq(0)').addClass("selected");
+		}
+		if(statusTxt == "error")
+		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
+	});
 	$('#footer').load('footer.html');
-	$('ul#navigation li')[0].addClass("selected");
+	//
 
 	var resume_xml = loadXML("../static/xml/profile.xml");
 
