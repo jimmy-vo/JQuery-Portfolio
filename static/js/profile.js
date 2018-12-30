@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
 		if(statusTxt == "success"){
 			$('#headerContent').html($headerContent);
-			$asdsa = $('#navigation li:eq(0)').addClass("selected");
+			$('#navigation li:eq(0)').addClass("selected");
 		}
 		if(statusTxt == "error")
 		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
