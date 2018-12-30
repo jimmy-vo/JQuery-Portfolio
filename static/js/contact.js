@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function(){
   	var $headerContent = $('#headerContent').clone().html();  	
 	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
 		if(statusTxt == "success"){
-			$('#headerContent').html($headerContent);
+			$('#headerTemplate').html($headerContent);
 			$('#navigation li:eq(2)').addClass("selected");
 		}
 		if(statusTxt == "error")
