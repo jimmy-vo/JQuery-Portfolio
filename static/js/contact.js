@@ -138,17 +138,8 @@ function IsFieldNotFormated(iDString, regEx) {
 
 
 // Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", function(){
-  	var $headerContent = $('#headerContent').clone().html();  	
-	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
-		if(statusTxt == "success"){
-			$('#headerTemplate').html($headerContent);
-			$('#navigation li:eq(2)').addClass("selected");
-		}
-		if(statusTxt == "error")
-		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
-	});
-	$('#footer').load('footer.html');
+document.addEventListener("DOMContentLoaded", function(){  	
+  	headerLoad(2);
 	
 	document.getElementById("submit").addEventListener("click", validate);
 	document.getElementById("clear").addEventListener("click", resetForm);

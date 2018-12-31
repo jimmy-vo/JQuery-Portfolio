@@ -227,18 +227,7 @@ function addExperience(input, iD)
 }
 
 document.addEventListener("DOMContentLoaded", function() {	
-  	var $headerContent = $('#headerContent').clone().html();  	
-	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
-		if(statusTxt == "success"){
-			$('#headerTemplate').html($headerContent);
-			$('#navigation li:eq(0)').addClass("selected");
-		}
-		if(statusTxt == "error")
-		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
-	});
-	$('#footer').load('footer.html');
-	//
-
+  	headerLoad(0);
 	var resume_xml = loadXML("../static/xml/profile.xml");
 
 	addSummary(resume_xml.getElementsByTagName('summary')[0],'summary');

@@ -246,3 +246,8 @@
 	border-radius: 10px;
 	border: 2px groove rgb(105, 169, 255);
 }
+
+#headerContent		
+{
+	display: none;
+}

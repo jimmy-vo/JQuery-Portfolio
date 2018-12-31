@@ -73,16 +73,7 @@ function AddDescription(element_li, topic, bullet)
 
 
 document.addEventListener("DOMContentLoaded", function(){
-  	var $headerContent = $('#headerContent').clone().html();  	
-	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
-		if(statusTxt == "success"){
-			$('#headerTemplate').html($headerContent);
-			$('#navigation li:eq(1)').addClass("selected");
-		}
-		if(statusTxt == "error")
-		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
-	});
-	$('#footer').load('footer.html');
+  	headerLoad(1);
 
 	var overview_xml = loadXML("../static/xml/project.xml");
 

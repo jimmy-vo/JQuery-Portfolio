@@ -56,3 +56,16 @@ function createTextElement(tag, string)
   element.innerHTML  = string;
   return element;
 }
+
+function headerLoad(num)
+{	
+	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
+		if(statusTxt == "success"){
+			$('#headerTemplate').html($('#headerContent').html());
+			$('#navigation li:eq('+num+')').addClass("selected");
+		}
+		if(statusTxt == "error")
+		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
+	});
+	$('#footer').load('footer.html');
+}
