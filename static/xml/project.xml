@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projects>	
 	<project>
+		<title>Google App Engine Demonstration</title>
+		<link>https://github.com/jimmyvo2410/Portfolio-GCP-Flask</link>
+		<image>GAE</image>
+		<description>
+			<topic>This is a demonstration of deploying a website on Google Cloud Platform using multiple frameworks: Flask framework Jquery and languages: Python, HTML, CSS, JavaScript.</topic>
+		</description>
+		<description>
+			<topic>Features:</topic>
+			<bullet>3 Pages: Profile, Project, Contact.</bullet>
+			<bullet>Image preview tooltip when the mouse is hovering on an image.</bullet>
+			<bullet>Auto generate content from XML format.</bullet>
+			<bullet>Loading HTML fragment template using Jquery</bullet>
+			<bullet>Automate Deployment process</bullet>
+		</description>
+	</project>	
+	<project>
 		<title>RrcNews</title>
 		<link>https://github.com/jimmyvo2410/RrcNews</link>
 		<image>RrcNews</image>
