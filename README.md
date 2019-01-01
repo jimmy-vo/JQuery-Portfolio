@@ -25,13 +25,11 @@ You can find a demonstration link from [here](https://jimmyvo2410.github.io/)
     ![photo](https://github.com/jimmyvo2410/jimmyvo2410.github.io/blob/master/doc/contact.JPG)
     
     
-
-
 # How to modify it?
 The websites is coded in the way that you can easily modify the content by:
-* Edit xml files from [here](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/xml "xml folder")
-* Update your photos in this [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/images "photo folder") 
-* Put your resume in [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/file "photo folder") 
+* Edit xml files from [here](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/file)
+* Update your photos in this [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/images) 
+* Put your resume in [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/xml) 
 
 # Output
 You can find an output link from [here](https://jimmyvo2410.github.io)
