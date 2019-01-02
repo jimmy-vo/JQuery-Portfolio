@@ -247,7 +247,7 @@
 	border: 2px groove rgb(105, 169, 255);
 }
 
-#headerContent		
+#headerContent, #headerNum	
 {
 	display: none;
 }

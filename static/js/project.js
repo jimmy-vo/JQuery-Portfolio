@@ -73,8 +73,6 @@ function AddDescription(element_li, topic, bullet)
 
 
 document.addEventListener("DOMContentLoaded", function(){
-  	headerLoad(1);
-
 	var overview_xml = loadXML("../static/xml/project.xml");
 
 	for (var i=0; i<overview_xml.getElementsByTagName('project').length; i++)

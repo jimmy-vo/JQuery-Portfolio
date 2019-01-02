@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% if errorCode == '404' %}
+            {% set PageTitle = 'Page Not Found' %}
+		{% elif errorCode == '403' %}
+            {% set PageTitle = 'Forbidden' %}
+		{% elif errorCode == '505' %}
+            {% set PageTitle = 'Internal Server Error' %}
+		{% else %}
+            {% set PageTitle = 'Unknown Error (' + errorCode + ')' %}
+		{% endif %}
+
+    	<meta charset="utf-8">
+		<title>{{ PageTitle }}</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/common.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/contact.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../static/js/common.js"></script>
+		<script src="../static/js/utility.js"></script>
+	</head>
+	<body>
+		<img id="background" src="../static/images/wall.jpg" alt="avt">
+		<header id="layout_top"></header>
+
+		<div id="layout">
+			<article id="layout_content">
+
+				<div id="listContact">
+					<h6>Please try below options:</h6>
+					<ul>
+						<li>Navigate to the version on <a href="https://jimmyvo2410.appspot.com">Google App Engine server</a></li>
+						<li>Navigate to the static version on <a href="https://jimmyvo2410.github.io">Github server</a></li>
+					</ul>
+				</div>
+			</article>
+
+			<footer id="footer"></footer>
+		</div>		
+		
+		<h1 id="headerContent">
+			Something went wrong: {{ PageTitle }} :(
+		</h1>
+		<h1 id="headerNum">-1</h1>
+	</body>
+</html>
