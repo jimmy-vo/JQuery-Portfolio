@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		}
 	});
 
-	$('#footer').load('footer.html'), function(responseTxt, statusTxt, xhr){
+	$('#footer').load('footer.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 
