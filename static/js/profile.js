@@ -7,7 +7,7 @@
  function addEducation(input, iD)
 {
 	var xml = input.getElementsByTagName('bullet');
-	for (var i=0; i<xml.length; i++)
+	for (var i = xml.length - 1; i >= 0; i--) 
 	{
 	    var item = xml[i];  
 
@@ -53,7 +53,7 @@
 function addAward(input, iD)
 {
 	var xml = input.getElementsByTagName('bullet');  
-	for (var i=0; i<xml.length; i++)
+	for (var i = xml.length - 1; i >= 0; i--) 
 	{
 	    var item = xml[i];  
 
@@ -101,7 +101,7 @@ function addAward(input, iD)
 function addSkill(input, iD)
 {
 	var xml = input.getElementsByTagName('area');
-	for (var i=0; i<xml.length; i++)
+	for (var i = xml.length - 1; i >= 0; i--) 
 	{
 	    var item = xml[i];  
 
@@ -164,8 +164,9 @@ function addSummary(input, iD)
  */
 function addExperience(input, iD)
 {
-	var xml = input.getElementsByTagName('bullet');
-	for (var i=0; i<xml.length; i++)
+	var xml = input.getElementsByTagName('bullet');	
+
+	for (var i = xml.length - 1; i >= 0; i--) 
 	{
 	    var item = xml[i];  
 

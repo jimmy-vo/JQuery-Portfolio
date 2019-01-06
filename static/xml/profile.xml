@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <resume>
+	<resume-ignoge>
+		<education>255</education>
+		<experience>0</experience>
+		<award>255</award>
+		<skill>0</skill>
+		<volunteer>2 3 7</volunteer>
+		<summary>4 5 6</summary>
+	</resume-ignoge>
+
+	<!-- ################################################################### -->
 
 	<Contact>
 		<bullet>
@@ -35,70 +45,46 @@
 		</bullet>
 	</Contact>
 	
+	<!-- ################################################################### -->
+
 	<summary>
 	    <bullet>An honor roll Business Information Technology (BIT) student at Red River College with many awards, scholarships and outstanding achievements</bullet>
 	    <bullet>A software engineer with an Electrical Engineering background and 1.5-year experience in a global company</bullet>
 	    <bullet>An active GitHub contributor and an excellent tutor with a passion in sharing his knowledge</bullet>
 	    <bullet>A fast learner, and a supportive leader with the ability to categorize and automate software development process</bullet>
-	    <!-- <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web/application development, games and graphic designs</bullet> -->
-	    <!-- <bullet>Strong communication skills achieved from multi-cultural workplace (Chinese and German)</bullet> -->
-	    <!-- <bullet>Proven success in achieving outcomes under pressure managing multiple projects and responding to varying needs of multidisciplinary teams simultaneously</bullet> -->
+	    <bullet>Wide knowledge in various areas such as embedded systems, mobile platforms, database, web/application development, games and graphic designs</bullet>
+	    <bullet>Strong communication skills achieved from multi-cultural workplace (Chinese and German)</bullet>
+	    <bullet>Proven success in achieving outcomes under pressure managing multiple projects and responding to varying needs of multidisciplinary teams simultaneously</bullet>
   	</summary>
 
 	<experience>
 		<bullet>
-			<title>Jr. Software Developer</title>
-			<date>January 2019 - Currently</date>
-			<organization>24-7 Intouch</organization>
-			<location>Winnipeg, MB, Canada</location>
+			<title>Assistant Embedded Developer</title>
+			<date>July 2013 – February 2014</date>
+			<organization>ROBOTECH</organization>
+			<location>Ho Chi Minh city, Vietnam</location>
 			<descriptions>
 				<topic> </topic>
-				<description>Work alongside a team of developers building tools to improve business operations and the lives of our global workforce</description>
-				<description>Work in a fast paced agile software development environment</description>
-				<description>Develop applications that are used by thousands of people daily and interface with multiple systems (web, desktop, etc…)</description>
-				<description>Interact with product stakeholders to show off your work and gain feedback</description>
+				<description>Developed embedded solutions for Radar trucks in the military industry</description>
+				<description>Assisted the team on improving the performance of estimation algorithms</description>
 			</descriptions>
-			<image>24-7.jpg</image>
+			<image> </image>
 		</bullet>
+
 		<bullet>
-			<title>Researcher</title>
-			<date>June 2018 - Currently</date>
-			<organization>ACE Project Space, Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
+			<title>Embedded Developer</title>
+			<date>January 2014 – July 2014</date>
+			<organization>VSKYLINE</organization>
+			<location>Ho Chi Minh city, Vietnam</location>
 			<descriptions>
 				<topic> </topic>
-				<description>Developed project objectives, workplans and implement strategy on the system architect</description>
-				<description>Assisted the research team with the most difficult issues such as communications and protocols</description>
-				<description>Researched and developed a Bluetooth plug-in for VR applications with Unity, Android Studio and Visual Studio</description>
+				<description>Researched and developed embedded solutions in unmanned aerial vehicle (UAV) system</description>
+				<description>Designed hardware schematics/layouts and software for UAV modules</description>
+				<description>Performed system integration and testing on flying prototypes</description>
 			</descriptions>
-			<image>RRC.jpg</image>
+			<image>VietSkyLine.jpg</image>
 		</bullet>
-		<bullet>
-			<title>Peer Tutor</title>
-			<date>January 2018 - Currently</date>
-			<organization>Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic> </topic>
-				<description>Assisted students with programming skills (Web Development 1, Programming 2)</description>
-				<description>Identified and filled out the students’ learning needs by reasoning and visualization</description>
-			</descriptions>
-			<image>RRC.jpg</image>
-		</bullet>
-		
-		<bullet>
-			<title>Technology Camps Instructor (3 days)</title>
-			<date>May 2018</date>
-			<organization>Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic> </topic>				
-				<description>Explained the technologies used in Web Development, Database. Networking and Web Security</description>
-				<description>Led the discussion about ethical hacking and build up a simple website with database</description>
-			</descriptions>
-			<image>RRC.jpg</image>
-		</bullet>
-		
+
 		<bullet>
 			<title>Embedded Software Engineer</title>
 			<date>May 2016 – July 2017</date>
@@ -113,42 +99,39 @@
 			</descriptions>
 			<image>hella.jpg</image>
 		</bullet>
+
 		<bullet>
-			<title>Embedded Developer</title>
-			<date>January 2014 – July 2014</date>
-			<organization>VSKYLINE</organization>
-			<location>Ho Chi Minh city, Vietnam</location>
+			<title>Researcher</title>
+			<date>June 2018 - Currently</date>
+			<organization>ACE Project Space, Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
 				<topic> </topic>
-				<description>Researched and developed embedded solutions in unmanned aerial vehicle (UAV) system</description>
-				<description>Designed hardware schematics/layouts and software for UAV modules</description>
-				<description>Performed system integration and testing on flying prototypes</description>
+				<description>Developed project objectives, workplans and implement strategy on the system architect</description>
+				<description>Assisted the research team with the most difficult issues such as communications and protocols</description>
+				<description>Researched and developed a Bluetooth plug-in for VR applications with Unity, Android Studio and Visual Studio</description>
 			</descriptions>
-			<image>VietSkyLine.jpg</image>
+			<image>RRC.jpg</image>
 		</bullet>
+
 		<bullet>
-			<title>Assistant Embedded Developer</title>
-			<date>July 2013 – February 2014</date>
-			<organization>ROBOTECH</organization>
-			<location>Ho Chi Minh city, Vietnam</location>
+			<title>Jr. Software Developer</title>
+			<date>January 2019 - Currently</date>
+			<organization>24-7 Intouch</organization>
+			<location>Winnipeg, MB, Canada</location>
 			<descriptions>
 				<topic> </topic>
-				<description>Developed embedded solutions for Radar trucks in the military industry</description>
-				<description>Assisted the team on improving the performance of estimation algorithms</description>
+				<description>Work alongside a team of developers building tools to improve business operations and the lives of our global workforce</description>
+				<description>Work in a fast-paced agile software development environment</description>
+				<description>Develop applications that are used by thousands of people daily and interface with multiple systems</description>
+				<description>Interact with product stakeholders to show off your work and gain feedback</description>
 			</descriptions>
-			<image> </image>
+			<image>24-7.jpg</image>
 		</bullet>
 	</experience>	
 	
+	<!-- ################################################################### -->
 	<education>
-		<bullet>
-			<degree>Business Information Technology Diploma</degree>
-			<date>August 2017 - Current</date>
-			<organization>Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<major>Application Development, Database management, Web Development, Web Security, Technology in Business</major>
-			<image>RRC.jpg</image>
-		</bullet>
 		<bullet>
 			<degree>Bachelor of Engineering</degree>
 			<date>August 2010 - May 2016</date>
@@ -157,37 +140,26 @@
 			<major>Electrical - Electrical Engineering, Electronics - Telecommunication, Embedded System Software and Hardware</major>
 			<image>HCMUT.jpg</image>
 		</bullet>
+
+		<bullet>
+			<degree>Business Information Technology Diploma</degree>
+			<date>August 2017 - Current</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<major>Application Development, Database management, Web Development, Web Security, Technology in Business</major>
+			<image>RRC.jpg</image>
+		</bullet>
 	</education>
 
 	<award>
 		<bullet>
-			<title>Paterson GlobalFoods Business Administration Award</title>
-			<organization>Paterson GlobalFoods</organization>
-			<date>September 30, 2018</date>
-			<description>Demonstrated career aspirations and volunteer activity in the community and displayed a strong work ethic in class with a minimum GPA of 3.00.</description>
-			<image>PatersonGlobalFoods.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Honor Roll Certificate - Second Term</title>
+			<title>Honor Roll Certificate - First Term</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
-			<date>October 22, 2018</date>
-			<description>GPA above 3.8: Second term (4.20) </description>
+			<date>December 15, 2018</date>
+			<description>GPA above 3.8: First term (4.45) </description>
 			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Applied Computer Education Department Award</title>
-			<organization>Applied Computer Education Department, Red River College</organization>
-			<date>June 7, 2018</date>
-			<description>Criteria include a letter of recommendation from an instructor, a portfolio of work, a grade report, as well as an essay that describes the experience in the program, career aspirations, and include examples of class leadership.</description>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Great-West Life Award</title>
-			<organization>Great-West Life</organization>
-			<date>June 7, 2018</date>
-			<description>Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement.</description>
-			<image>GreatWestLife.jpg</image>
-		</bullet>
+		</bullet>	
+
 		<bullet>
 			<title>School of Business and Applied Arts Bursary</title>
 			<organization>Red River College</organization>
@@ -195,29 +167,94 @@
 			<description>Red River College award endowment fund, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative and from funds established at The Winnipeg Foundation.</description>
 			<image>RRC.jpg</image>
 		</bullet>
+
 		<bullet>
-			<title>Honor Roll Certificate - First Term</title>
+			<title>Great-West Life Award</title>
+			<organization>Great-West Life</organization>
+			<date>June 7, 2018</date>
+			<description>Criteria include financial need, a strong academic record (minimum cumulative GPA of 3.00), as well as an essay or letter outlining volunteerism/community involvement.</description>
+			<image>GreatWestLife.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Applied Computer Education Department Award</title>
 			<organization>Applied Computer Education Department, Red River College</organization>
-			<date>December 15, 2018</date>
-			<description>GPA above 3.8: First term (4.45) </description>
+			<date>June 7, 2018</date>
+			<description>Criteria include a letter of recommendation from an instructor, a portfolio of work, a grade report, as well as an essay that describes the experience in the program, career aspirations, and include examples of class leadership.</description>
 			<image>RRC.jpg</image>
-		</bullet>		
+		</bullet>
+
+		<bullet>
+			<title>Honor Roll Certificate - Second Term</title>
+			<organization>Applied Computer Education Department, Red River College</organization>
+			<date>October 22, 2018</date>
+			<description>GPA above 3.8: Second term (4.20) </description>
+			<image>RRC.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Paterson GlobalFoods Business Administration Award</title>
+			<organization>Paterson GlobalFoods</organization>
+			<date>September 30, 2018</date>
+			<description>Demonstrated career aspirations and volunteer activity in the community and displayed a strong work ethic in class with a minimum GPA of 3.00.</description>
+			<image>PatersonGlobalFoods.jpg</image>
+		</bullet>
 	</award>
+
+	<!-- ################################################################### -->
 
 	<skill>
 		<area>
-			<topic>Unity Development</topic>
-			<bullet>Hands on experience with C# script in Unity</bullet>
-			<bullet>3D objects and common components such as physics and animations</bullet>
-			<bullet>Developed cross platform with *.dll, *.aar and *.jar </bullet>
-			<bullet>Deployed an VR game to Google Play</bullet>
+			<topic>Embedded Hardware</topic>
+			<bullet>Designed 2-layer PCB layout and schematic</bullet>
+			<bullet>Proficiency in the use of soldering and measurement equipment such as oscilloscopes and logic analyzer</bullet>
 		</area>
+
 		<area>
-			<topic>Mobile Development</topic>
-			<bullet>Java, XML and UI design (Android Studio)</bullet>
-			<bullet>Deployed the applications to Google Play</bullet>
-			<bullet>Analyzed, designed, and developed complex code bases, software systems, including API design techniques</bullet>
+			<topic>Embedded Software</topic>
+			<bullet>C/C++ and assembly (Keil, IAR)</bullet>
+			<bullet>MATLAB m-script, model base and C-file generation for embedded applications</bullet>
+			<bullet>Experienced in independently designing, developing and testing of software module level API’s</bullet>
+			<bullet>Developed configuration tools for different variants of an embedded platform</bullet>
 		</area>
+
+		<area>
+			<topic>Embedded System</topic>
+			<bullet>Control/Sensors: ultrasonic, EPPROM, DMA, gyroscope, accelerate-meter, magneto-meter, RF receivers, NFC, capacity touch sensor</bullet>
+			<bullet>Protocol: UART, SPI, I2C, GPIO, SDIO, CAN, LIN</bullet>
+		</area>
+
+		<area>
+			<topic>Embedded Automotive </topic>
+			<bullet>Model base, manual code, code generation for all standard tools</bullet>
+			<bullet>Module test, integration test, regression test</bullet>
+			<bullet>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</bullet>
+			<bullet>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</bullet>
+			<bullet>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</bullet>
+		</area>
+
+		<area>
+			<topic>Data Science</topic>
+			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
+			<bullet>Computer vision (OpenCV)</bullet>
+			<bullet>Data encryption, signal modulation (RF)</bullet>
+		</area>
+
+		<area>
+			<topic>Server/Network Administration</topic>
+			<bullet>TCP/IP and the OSI Model</bullet>
+			<bullet>Experience Linux environment, using SSH and related tools</bullet>
+			<bullet>Configuring routers and switches</bullet>
+			<bullet>Configuring DNS, implementing group policies, modifying and troubleshooting MS Window Server</bullet>	
+		</area>
+
+		<area>
+			<topic>Application Development</topic>
+			<bullet>C#, VBA, XML and UI design</bullet>
+			<bullet>.NET application development (Visio Studio)</bullet>
+			<bullet>Experience implementing modular, testable, and robust solutions</bullet>	
+		</area>
+
 		<area>
 			<topic>Web Development and Database</topic>
 			<bullet>HTML, CSS, JavaScript, PHP, Razor</bullet>
@@ -228,136 +265,38 @@
 			<bullet>XML, JSON, Oracle/MS SQL, PhpMyAdmin, XAMPP</bullet>		
 			<bullet>Internet Security: SQL Injection, Cross Site Scripting</bullet>
 		</area>
+
 		<area>
-			<topic>Application Development</topic>
-			<bullet>C#, VBA, XML and UI design</bullet>
-			<bullet>.NET application development (Visio Studio)</bullet>
-			<bullet>Experience implementing modular, testable, and robust solutions</bullet>	
+			<topic>Mobile Development</topic>
+			<bullet>Java, XML and UI design (Android Studio)</bullet>
+			<bullet>Deployed the applications to Google Play</bullet>
+			<bullet>Analyzed, designed, and developed complex code bases, software systems, including API design techniques</bullet>
 		</area>
+
 		<area>
-			<topic>Server/Network Administration</topic>
-			<bullet>TCP/IP and the OSI Model</bullet>
-			<bullet>Experience Linux environment, using SSH and related tools</bullet>
-			<bullet>Configuring routers and switches</bullet>
-			<bullet>Configuring DNS, implementing group policies, modifying and troubleshooting MS Window Server</bullet>	
-		</area>
-		<area>
-			<topic>Data Science</topic>
-			<bullet>Kalman filter (KF, EKF), Gradient descent</bullet>
-			<bullet>Computer vision (OpenCV)</bullet>
-			<bullet>Data encryption, signal modulation (RF)</bullet>
-		</area>
-		<area>
-			<topic>Embedded Automotive </topic>
-			<bullet>Model base, manual code, code generation for all standard tools</bullet>
-			<bullet>Module test, integration test, regression test</bullet>
-			<bullet>CANoe, IAR, CppUTest, Tessy, Rhapsody, IBM DOORS</bullet>
-			<bullet>Software Components: UDS Diagnostics, Active/passive Entry, UDS Diagnostics, RF receiver stack, NFC stack</bullet>
-			<bullet>Basic Software: Diag Stack (DEH, IsoTP); System Stack (SysStateM, BleM, ucDrv, Gpt); Memory Stack (NvM); Io Stack (AdcDrv, DioDrv, SpiDrv, TauDrv)</bullet>
-		</area>
-		<area>
-			<topic>Embedded System</topic>
-			<bullet>Control/Sensors: ultrasonic, EPPROM, DMA, gyroscope, accelerate-meter, magneto-meter, RF receivers, NFC, capacity touch sensor</bullet>
-			<bullet>Protocol: UART, SPI, I2C, GPIO, SDIO, CAN, LIN</bullet>
-		</area>
-		<area>
-			<topic>Embedded Software</topic>
-			<bullet>C/C++ and assembly (Keil, IAR)</bullet>
-			<bullet>MATLAB m-script, model base and C-file generation for embedded applications</bullet>
-			<bullet>Experienced in independently designing, developing and testing of software module level API’s</bullet>
-			<bullet>Developed configuration tools for different variants of an embedded platform</bullet>
-		</area>
-		<area>
-			<topic>Embedded Hardware</topic>
-			<bullet>Designed 2-layer PCB layout and schematic</bullet>
-			<bullet>Proficiency in the use of soldering and measurement equipment such as oscilloscopes and logic analyzer</bullet>
+			<topic>Unity Development</topic>
+			<bullet>Hands on experience with C# script in Unity</bullet>
+			<bullet>3D objects and common components such as physics and animations</bullet>
+			<bullet>Developed cross platform with *.dll, *.aar and *.jar </bullet>
+			<bullet>Deployed an VR game to Google Play</bullet>
 		</area>
 	</skill>
 	
+	<!-- ################################################################### -->
 	<volunteer>
 		<bullet>
-			<title>Education Assistant</title>
-			<date>March 2018 - Current</date>
-			<organization>Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
+			<title>Note Taker</title>
+			<date>February 1, 2018</date>
+			<organization>DisruptED 2018</organization>
+			<location>Red River College</location>
 			<descriptions>
-				<topic>Assisting the instructor in the course Network Computing 1, Data Management 2</topic>
-				<description>Indicated the issues, helped students with troubleshooting and explained network behaviors</description>
-				<description>Explain the concepts in the courses to the students</description>
+				<topic>An event sponsored by leading institutes (University of Manitoba, RRC) and the giants in the industry (DELL, INTEL, CISCO, IBM), to explore the future of work.</topic>
+				<description>Hosted an unconference on how to bridge the digital divides</description>
+				<description>Took notes in the unconference and reported to the event coordinator</description>
 			</descriptions>
-			<image>RRC.jpg</image>
+			<image>disrupted.jpg</image>
 		</bullet>
-		<bullet>
-			<title>Representor</title>
-			<date>August 27 2018</date>
-			<organization>Orientation Day, Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic>A new-students-welcome day with the campus tour and orientation session</topic>
-				<description>Guided new students on the campus tour</description>
-				<description>Represented given slices and discussed about different topics related to RRC student life </description>
-			</descriptions>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Sessions Organizer</title>
-			<date>June 5, 2018 - June 6, 2018</date>
-			<organization>Prairie Developer Conference</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic>A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
-				<description>Answered questions at the welcome booth</description>
-				<description>Ensured the machines worked properly during the presentations</description>
-			</descriptions>
-			<image>PrairieDevCon.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Guest Speaker</title>
-			<date>May 24, 2018</date>
-			<organization>The Campus tour, Red River College</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic>A day tour where international and ESL students come to see the college's facilities and the college lives.</topic>
-				<description>Invited to come and discuss about the courses and the difficulties of international students at RRC</description>
-				<description>Gave advise to ESL students about what they could do to prepare for the courses</description>
-			</descriptions>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Session Organizer</title>
-			<date>April 12, 2018</date>
-			<organization>DigiGirlz Day 2018, Microsoft</organization>
-			<location>Winnipeg, MB, Canada</location>
-			<descriptions>
-				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
-				<description>Robot Cars: Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
-				<description>Cognitive Thinking: Assist students through a series on non-technical activities to illustrate how they use critical and creative thinking.</description>
-			</descriptions>
-			<image>MS.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Project Team Leader</title>
-			<date>January 2018 – February 2018</date>
-			<organization>Canadian Inventory Project</organization>
-			<location>ACE Project Space, Red River College</location>
-			<descriptions>
-				<topic>An Android project sponsored by RRC to improve an inventory system in Canadian stores</topic>
-				<description>Led the team on the software architecture and kept the software clean and maintainable</description>
-				<description>Trained the team members on Android development and new technologies</description>
-			</descriptions>
-			<image>RRC.jpg</image>
-		</bullet>
-		<bullet>
-			<title>Workshop Organizer</title>
-			<date>March 2018 - April 2018</date>
-			<organization>Unity Workshops</organization>
-			<location>New Media Manitoba</location>
-			<descriptions>
-				<topic>Series of workshops held by Dylan Fries biweekly to introduce Unity developers’ skill sets</topic>
-				<description>Set up training materials</description>
-			</descriptions>
-			<image>NMM.jpg</image>
-		</bullet>
+
 		<bullet>
 			<title>Student Representative, Activity Facilitator</title>
 			<date>February 20, 2018</date>
@@ -371,17 +310,122 @@
 			</descriptions>
 			<image>RRC.jpg</image>
 		</bullet>
+
 		<bullet>
-			<title>Note Taker</title>
-			<date>February 1, 2018</date>
-			<organization>DisruptED 2018</organization>
-			<location>Red River College</location>
+			<title>Workshop Organizer</title>
+			<date>March 2018 - April 2018</date>
+			<organization>Unity Workshops</organization>
+			<location>New Media Manitoba</location>
 			<descriptions>
-				<topic>An event sponsored by leading institutes (University of Manitoba, RRC) and the giants in the industry (DELL, INTEL, CISCO, IBM), to explore the future of work.</topic>
-				<description>Hosted an unconference on how to bridge the digital divides</description>
-				<description>Took notes in the unconference and reported to the event coordinator</description>
+				<topic>Series of workshops held by Dylan Fries biweekly to introduce Unity developers’ skill sets</topic>
+				<description>Set up training materials</description>
 			</descriptions>
-			<image>disrupted.jpg</image>
+			<image>NMM.jpg</image>
 		</bullet>
+
+		<bullet>
+			<title>Project Team Leader</title>
+			<date>January 2018 – February 2018</date>
+			<organization>Canadian Inventory Project</organization>
+			<location>ACE Project Space, Red River College</location>
+			<descriptions>
+				<topic>An Android project sponsored by RRC to improve an inventory system in Canadian stores</topic>
+				<description>Led the team on the software architecture and kept the software clean and maintainable</description>
+				<description>Trained the team members on Android development and new technologies</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Session Organizer</title>
+			<date>April 12, 2018</date>
+			<organization>DigiGirlz Day 2018, Microsoft</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A great event hosted by Microsoft that RRC have had the fun and privilege to assist with for several years.</topic>
+				<description>Robot Cars: Working with Adafruit Circuit Playground and some common household items, get an introduction to programming and electronics.</description>
+				<description>Cognitive Thinking: Assist students through a series on non-technical activities to illustrate how they use critical and creative thinking.</description>
+			</descriptions>
+			<image>MS.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Guest Speaker</title>
+			<date>May 24, 2018</date>
+			<organization>The Campus tour, Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A day tour where international and ESL students come to see the college's facilities and the college lives.</topic>
+				<description>Invited to come and discuss about the courses and the difficulties of international students at RRC</description>
+				<description>Gave advise to ESL students about what they could do to prepare for the courses</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Sessions Organizer</title>
+			<date>June 5, 2018 - June 6, 2018</date>
+			<organization>Prairie Developer Conference</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A 2-day event provided a high-quality professional development opportunity locally, without the high costs of travel and accommodation typically associated with remote conferences</topic>
+				<description>Answered questions at the welcome booth</description>
+				<description>Ensured the machines worked properly during the presentations</description>
+			</descriptions>
+			<image>PrairieDevCon.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Technology Camps Instructor (3 days)</title>
+			<date>May 2018</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A great event hosted by RRC that explained the technology world to high school students </topic>				
+				<description>Explained the technologies used in Web Development, Database. Networking and Web Security</description>
+				<description>Led the discussion about ethical hacking and build up a simple website with database</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+
+
+		<bullet>
+			<title>Representor</title>
+			<date>August 27 2018</date>
+			<organization>Orientation Day, Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>A new-students-welcome day with the campus tour and orientation session</topic>
+				<description>Guided new students on the campus tour</description>
+				<description>Represented given slices and discussed about different topics related to RRC student life </description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Education Assistant</title>
+			<date>March 2018 - December 2018</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>Assisted the instructor in the course Network Computing 1, Data Management 2</topic>
+				<description>Indicated the issues, helped students with troubleshooting and explained network behaviors</description>
+				<description>Explained the concepts in the courses to the students</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>
+
+		<bullet>
+			<title>Peer Tutor</title>
+			<date>January 2018 - Currently</date>
+			<organization>Red River College</organization>
+			<location>Winnipeg, MB, Canada</location>
+			<descriptions>
+				<topic>Assisted students with programming skills</topic>
+				<description>Wored individually with students and facilitated group study</description>
+				<description>Identified and filled out the students’ learning needs by reasoning and visualization</description>
+			</descriptions>
+			<image>RRC.jpg</image>
+		</bullet>	
 	</volunteer>
 </resume>
