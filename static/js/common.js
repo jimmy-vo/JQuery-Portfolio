@@ -1,7 +1,7 @@
 
 // Other event listeners can go here.
 document.addEventListener("DOMContentLoaded", function(){
-	$('#layout_header').load('__header.html', function(responseTxt, statusTxt, xhr){
+	$('#layout_header').load('_t_header.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 			$('#headerTemplate').html($('#hidden_header').html());
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		}
 	});
 
-    $('#layout_footer').load('__footer.html', function(responseTxt, statusTxt, xhr){
+    $('#layout_footer').load('_t_footer.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 
