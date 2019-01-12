@@ -2,7 +2,7 @@
 <projects>	
 	<project>
 		<title>Google App Engine Demonstration</title>
-		<link>https://github.com/jimmyvo2410/Portfolio-GCP-Flask</link>
+		<link>https://github.com/jimmyvo2410/jimmyvo2410.GAE</link>
 		<image>GAE</image>
 		<description>
 			<topic>This is a demonstration of deploying a website on Google Cloud Platform using multiple frameworks: Flask framework Jquery and languages: Python, HTML, CSS, JavaScript.</topic>
@@ -13,6 +13,7 @@
 			<bullet>Image preview tooltip when the mouse is hovering on an image.</bullet>
 			<bullet>Auto generate content from XML format.</bullet>
 			<bullet>Loading HTML fragment template using Jquery</bullet>
+			<bullet>Meta tags for social media (Google, Facebook, Twitter, Linkedin)</bullet>
 			<bullet>Automate Deployment process</bullet>
 		</description>
 	</project>	
@@ -106,6 +107,7 @@
 			<bullet>Auto generate HTML contents</bullet>
 			<bullet>Image tooltips</bullet>
 			<bullet>Form Validates</bullet>
+			<bullet>Meta tags for social media (Google, Facebook, Twitter, Linkedin)</bullet>
 		</description>
 	</project>	
 

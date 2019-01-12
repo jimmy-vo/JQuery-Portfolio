@@ -1,18 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		{% if errorCode == '404' %}
-            {% set PageTitle = 'Page Not Found' %}
-		{% elif errorCode == '403' %}
-            {% set PageTitle = 'Forbidden' %}
-		{% elif errorCode == '505' %}
-            {% set PageTitle = 'Internal Server Error' %}
-		{% else %}
-            {% set PageTitle = 'Unknown Error (' + errorCode + ')' %}
-		{% endif %}
-
     	<meta charset="utf-8">
-		<title>{{ PageTitle }}</title>
+		<title>Error</title>
 		<link rel="stylesheet" type="text/css" href="../static/css/common.css">
 		<link rel="stylesheet" type="text/css" href="../static/css/contact.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,12 +15,11 @@
 
 		<div id="layout">
 			<article id="layout_content">
-
 				<div id="listContact">
 					<h6>Please try below options:</h6>
 					<ul>
-						<li>Navigate to the version on <a href="https://jimmyvo2410.appspot.com">Google App Engine server</a></li>
-						<li>Navigate to the static version on <a href="https://jimmyvo2410.github.io">Github server</a></li>
+						<li>Go back to the homepage on <a href="https://jimmyvo2410.appspot.com">Google App Engine server</a></li>
+						<li>Navigate to the <a href="https://jimmyvo2410.github.io">Github server</a></li>
 					</ul>
 				</div>
 			</article>
@@ -38,9 +27,7 @@
 			<footer id="footer"></footer>
 		</div>		
 		
-		<h1 id="headerContent">
-			Something went wrong: {{ PageTitle }} :(
-		</h1>
+		<h1 id="headerContent">{{ errorCode }}</h1>
 		<h1 id="headerNum">-1</h1>
 	</body>
 </html>
