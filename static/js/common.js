@@ -1,13 +1,13 @@
 
 // Other event listeners can go here.
 document.addEventListener("DOMContentLoaded", function(){
-	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
+	$('#layout_header').load('__header.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
-			$('#headerTemplate').html($('#headerContent').html());
-			if ($('#headerNum').html() !== '-1')
+			$('#headerTemplate').html($('#hidden_header').html());
+			if ($('#hidden_pageno').html() !== '-1')
 			{
-				$('#navigation li:eq(' + $('#headerNum').html() + ')').addClass("selected");
+				$('#navigation li:eq(' + $('#hidden_pageno').html() + ')').addClass("selected");
 			}
 		}
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		}
 	});
 
-	$('#footer').load('footer.html', function(responseTxt, statusTxt, xhr){
+    $('#layout_footer').load('__footer.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 
@@ -27,19 +27,3 @@ document.addEventListener("DOMContentLoaded", function(){
 		}
 	});
 });
-
-// $( "#layout" ).click(function() {
-//     alert("dsad");
-// 	$('#layout_top').load('header.html', function(responseTxt, statusTxt, xhr){
-// 		if(statusTxt == "success"){
-// 			$('#headerTemplate').html($('#headerContent').html());
-// 			if ($('#headerNum').html() !== '-1')
-// 			{
-// 				$('#navigation li:eq(' + $('#headerNum').html() + ')').addClass("selected");
-// 			}
-// 		}
-// 		if(statusTxt == "error")
-// 		  	alert("Failed to load header: " + xhr.status + ": " + xhr.statusText);
-// 	});
-// 	$('#footer').load('footer.html');
-// });

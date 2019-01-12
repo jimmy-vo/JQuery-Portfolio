@@ -3,11 +3,11 @@
 /* ##################################################################### */
 /* overide                                                               */
 /* ##################################################################### */
-#layout_content li
+#layout_body_content li
 {
     background: linear-gradient(rgba(43,43,43,0.7), rgba(57,37,38,0.7), rgba(43,43,43,0.7));
 }
-#layout_content .zebra_background
+#layout_body_content .zebra_background
 {
     background: linear-gradient(rgba(43,43,43,0.7), rgba(13,78,81,0.7), rgba(43,43,43,0.7));
 }
@@ -16,7 +16,7 @@
 /* layout                                                                */
 /* ##################################################################### */
 
-#layout_content li{    
+#layout_body_content li{    
     width: 100%;
     float: left;
     border-radius:  15px;
@@ -26,17 +26,17 @@
 
 
 
-#layout_content ul {
+#layout_body_content ul {
     list-style: none;
     margin: 0 0 1em 0;
     padding: 0;
 }
 
-#layout_content img:hover {
+#layout_body_content img:hover {
     box-shadow: 5px 5px 5px 5px  rgba(0, 140, 186, 0.5);
 }
 
-#layout_content img {
+#layout_body_content img {
     object-fit: cover;
     width: 256px;
     float: right;
@@ -48,7 +48,7 @@
 /* invidual style                                                        */
 /* ##################################################################### */
 
-#layout_content h1{
+#layout_body_content h1{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
 /*     text-shadow: 4px 0px rgb(10 ,11,29); */
@@ -64,7 +64,7 @@
     display: block;
 }
 
-#layout_content li ul
+#layout_body_content li ul
 {    
     font-size: 20px; 
     font-weight: normal;
@@ -76,7 +76,7 @@
     padding: 0px;
 }
 
-#layout_content li ul li
+#layout_body_content li ul li
 {    
     font-size: 20px; 
     font-weight: normal;
@@ -88,7 +88,7 @@
     padding: 0px;
 }
 
- #layout_content a{
+ #layout_body_content a{
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
     text-shadow: 4px 0px rgb(10 ,11,29);
@@ -104,12 +104,12 @@
     text-decoration: none;
     display: block;
 }
-#layout_content a:hover
+#layout_body_content a:hover
 {
     color: blue;
 }
 
-#layout_content h2 {
+#layout_body_content h2 {
     color: white;
 /*     text-shadow: 4px 0px rgb(10 ,11,29); */
     margin-left: 10px;

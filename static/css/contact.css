@@ -93,7 +93,7 @@ legend{
 	color: green;
 }
 
-#layout_content h6
+#layout_body_content h6
 {    
     background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
     color: rgb(255, 255, 179);
@@ -107,7 +107,7 @@ legend{
     border: 1px groove  black   ;
     margin: 1px;
 }
-#layout_content div
+#layout_body_content div
 {    
     float: left;
 

@@ -22,7 +22,7 @@
 /* ##################################################################### */
 /* content																 */
 /* ##################################################################### */
-#layout
+#layout_body
 {
 	width: 1100px;
 	margin-top: 180px;
@@ -31,7 +31,7 @@
 	background: transparent;
 }
 
-#layout_top table
+#layout_header table
 {
 	width: 1110px;
 	margin-left: auto;
@@ -40,7 +40,7 @@
     border-radius:  15px;
 }
 
-#layout_content 
+#layout_body_content 
 {
     font-family: Arial, Verdana, sans-serif;
     width: 100%;
@@ -51,7 +51,7 @@
 /* ##################################################################### */
 /* header																 */
 /* ##################################################################### */
-#layout_top
+#layout_header
 {
 	position: fixed;
 	left: 0px;
@@ -69,25 +69,25 @@
 	border-radius: 20px;
 } 
 
-#layout_top td
+#layout_header td
 {	
 	vertical-align: top;
 }
 
 
-#layout_top h1 a
+#layout_header h1 a
 {		
     color: rgb(105, 255, 255);
     text-decoration-line: none;
 }
 
-#layout_top h1 a:hover
+#layout_header h1 a:hover
 {		
     color: rgb(105, 169, 255);
     text-decoration-line: underline;
 }
 
-#layout_top h1
+#layout_header h1
 {	
 	padding: 15px 40px;
 	/*width: 90%;*/
@@ -169,21 +169,19 @@
 /* footer															 */
 /* ##################################################################### */
 
-#footer
-{
-	clear:both;
-	border-radius: 10px;
-	width: 100%;
-	font-size: 25px;
-	margin-left: auto;
-	margin-right: auto;
+#layout_footer {
+    clear: both;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(rgba(43,43,43, 0.5), rgba(13,78,81, 0.5), rgba(43,43,43, 0.5));
 }
 
-#footer_wrapper
-{
-	margin: 30px 30px;
-	padding: 30px 0px;
+#footer_wrapper {
+    margin: 30px 30px;
+    padding: 30px 0px;
 }
 
 #footer_link
@@ -213,20 +211,19 @@
 	color: white;
 }
 
-#footer a
-{
-	text-decoration: underline;
+#layout_footer a {
+    text-decoration: underline;
 }
-#footer a:hover
+
+#layout_footer a:hover
 {
     color: rgb(105, 169, 255);
 	text-decoration: underline;
 }
 
-#footer p, #footer a
-{
-	color: rgb(200,200,200);
-	font-size: 15px;
+#layout_footer p, #layout_footer a {
+    color: rgb(200,200,200);
+    font-size: 15px;
 }
 
 /* ##################################################################### */
@@ -247,7 +244,7 @@
 	border: 2px groove rgb(105, 169, 255);
 }
 
-#headerContent, #headerNum	
+#hidden_header, #hidden_pageno	
 {
 	display: none;
 }
