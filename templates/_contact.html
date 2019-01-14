@@ -32,6 +32,7 @@
 	    <script src="../static/js/common.js"></script>
 	    <script src="../static/js/utility.js"></script>
 	    <script src="../static/js/contact.js"></script>
+		<script> {{script|safe}} </script>
 	</head>
 
 	<body>
@@ -87,29 +88,29 @@
 							<li>
 								<label for="fullname">Full Name</label>
 								<p class="error" id="fullname_error">Required field</p>
-								<input id="fullname" name="fullname" type="text" />
+								<input id="fullname" name="fullname" type="text" value="{{fullname}}"/>
 							</li>
 							<li>
 								<label for="address">Address</label><p class="error" id="address_error">Required field</p>
-								<input id="address" name="address" type="text" />
+								<input id="address" name="address" type="text" value="{{address}}"/>
 								
 							</li>
 							<li>
 								<label for="number">Number</label>
 								<p class="error" id="number_error">Required field</p>
 								<p class="error" id="numberformat_error">Invalid number</p>
-								<input id="number" name="number" type="number" />
+								<input id="number" name="number" type="number" value="{{number}}"/>
 							</li>
 							<li>
 								<label for="email">Email</label>
 								<p class="error" id="email_error">Required field</p>
 								<p class="error" id="emailformat_error">Invalid email address</p>
-								<input id="email" name="email" type="text" />
+								<input id="email" name="email" type="text" value="{{email}}"/>
 							</li>
 							<li>
 								<label for="textarea">Message</label>
 								<p class="error" id="textarea_error">Required field</p>
-								<textarea id="textarea" name="textarea" rows="5"></textarea>
+								<textarea id="textarea" name="textarea" rows="5" >{{textarea}}</textarea>
 							</li>
 							<li class="buttonField">    
 								<button type="reset" id="clear">Clear</button>
