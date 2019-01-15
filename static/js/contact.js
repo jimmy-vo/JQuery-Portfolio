@@ -56,9 +56,9 @@ function validate(e)
 function formHasErrors() {
 	hasErrors = false;
 	hasErrors = IsFieldEmpty("fullname")? 				true : hasErrors;
-	hasErrors = IsFieldEmpty("address")? 				true : hasErrors;
-	hasErrors = (IsFieldEmpty("number"))?				true :	
-				(IsInvalidNumber("number")? 			true : hasErrors );
+	// hasErrors = IsFieldEmpty("address")? 				true : hasErrors;
+	// hasErrors = (IsFieldEmpty("number"))?				true :	
+	// 			(IsInvalidNumber("number")? 			true : hasErrors );
 	hasErrors = (IsFieldEmpty("email"))?				true :	
 				(IsFieldNotFormated("email", /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/)  ? 	
 														true : hasErrors );

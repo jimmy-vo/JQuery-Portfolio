@@ -1,13 +1,41 @@
+function onMenuSelected(obj) {
+	obj.addClass("selected");
+	obj.find('img').addClass("selected");
+	obj.find('a').addClass("selected");
+}
+
+function onMenuUnselected(obj) {
+	obj.removeClass("selected");
+	obj.find('img').removeClass("selected");
+	obj.find('a').removeClass("selected");
+}
 
 // Other event listeners can go here.
 document.addEventListener("DOMContentLoaded", function(){
 	$('#layout_header').load('_t_header.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
-			$('#headerTemplate').html($('#hidden_header').html());
 			if ($('#hidden_pageno').html() !== '-1')
 			{
-				$('#navigation li:eq(' + $('#hidden_pageno').html() + ')').addClass("selected");
+				for (var i = 0; i < $('#navigation li').length; i++) {
+					if (i == $('#hidden_pageno').html()){
+						onMenuSelected($('#navigation li:eq(' + i + ')'));
+					}
+					else{
+						var obj = $('#navigation li:eq('+ i +')');
+
+						(function(myobj) {
+							myobj.on( "mouseenter", 
+								function(){
+							 		onMenuSelected(myobj);
+							 	});
+							myobj.on( "mouseleave", 
+								function(){
+							 		onMenuUnselected(myobj);
+							 	});
+						})(obj);
+					}
+				}
 			}
 		}
 

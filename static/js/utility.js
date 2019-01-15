@@ -56,3 +56,15 @@ function createTextElement(tag, string)
   element.innerHTML  = string;
   return element;
 }
+
+function copyEmailToClipboard()
+{
+  const el = document.createElement('textarea');
+  el.value = 'Jimmy.Vo.2410@gmail.com';
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+
+  alert("My email has been copied to your clipboard")
+}
