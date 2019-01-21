@@ -114,15 +114,15 @@ textarea:-webkit-autofill:focus
 /* ----------------------------------------------------*/
 .textField
 {
-	padding: 10px;
-	margin: 0px;
+    padding: 10px;
+    margin: 0px;
 }
 
 .textField .image-button
 {
     display: block;
     float: left;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
 }
 
 label.font-input

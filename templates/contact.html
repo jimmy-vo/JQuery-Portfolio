@@ -42,59 +42,36 @@
 
 		<div id="layout_body">
 			<article id="layout_body_content">
-
-				<div id="listContact">
-					<h6>Links</h6>
-					<table id="profile">
-						<tr>
-							<td>
-								<img src="../static/images/linkedin.jpg" alt="linkedin">
-							</td>
-							<td>
-								<a href="https://www.linkedin.com/in/jimmyvo2410/" target="_blank">linkedin.com/in/jimmyvo2410/</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/github.jpg" alt="github">
-							</td>
-							<td>
-								 <a href="https://github.com/jimmyvo2410" target="_blank">github.com/jimmyvo2410</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/email.jpg" alt="email">
-							</td>
-							<td>
-								 <a href="#">jimmy.vo.2410@gmail.com</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/web.jpg" alt="web">
-							</td>
-							<td>
-								 <a href="https://jimmyvo2410.appspot.com">jimmyvo2410.github.io</a>
-							</td>
-						</tr>
-					</table>
-				</div>
-
-				
-				<div id="message">
-					<h6>Message</h6>
-					<form class="textField"  action="contact.html" method="post">
-						<input id="fullname" name="fullname" type="text" 	class="font-input" placeholder="Name*" />
-						<input id="address" name="address" type="text" 		class="font-input" placeholder="Address*"/>		
-						<input id="number" name="number" type="tel" 		class="font-input" placeholder="Phone Number*"/>
-						<input id="email" name="email" type="email" 		class="font-input" placeholder="Email*"/>
-						<label>Message</label>
-						<textarea id="message" name="textarea" rows="5"		class="font-input" 	placeholder="Message*"></textarea>
-						<button type="reset" id="clear">Clear</button>
-						<button type="submit" id="submit">Send</button>
-					</form>
-				</div>
+				<ul>
+					<li id="link-list">
+						<h6 class="font-title">Links</h6>
+						<a href="https://www.linkedin.com/in/jimmyvo2410/" target="_blank" class="font-topic">
+							<img  class="image-button"  src="../static/images/linkedin.jpg" alt="linkedin">linkedin.com/in/jimmyvo2410/
+						</a>
+						<a href="https://github.com/jimmyvo2410" target="_blank" class="font-topic">
+							<img  class="image-button"  src="../static/images/github.jpg" alt="github">github.com/jimmyvo2410
+						</a>
+ 						<a href="#" class="font-topic">
+							<img  class="image-button" src="../static/images/email.jpg" alt="email">jimmy.vo.2410@gmail.com
+						</a>
+						<a href="https://jimmyvo2410.appspot.com" class="font-topic">
+							<img  class="image-button"  src="../static/images/web.jpg" alt="web">jimmyvo2410.github.io
+						</a>
+					</li>
+					<li id="message-form">
+						<h6 class="font-title">Message</h6>
+						<form class="textField"  action="contact.html" method="post">
+							<input id="fullname" name="fullname" type="text" 	class="font-input" placeholder="Name*" />
+							<input id="email" name="email" type="email" 		class="font-input" placeholder="Email*" />
+							<input id="number" name="number" type="tel" 		class="font-input" placeholder="Phone Number*" />
+							<input id="address" name="address" type="text" 		class="font-input" placeholder="Address" />
+							<label class="font-input" for="message">Message</label>
+							<textarea id="message:" name="message" rows="5" 	class="font-input" ></textarea>
+							<input class="image-button" id="submit"  type="image" src="../static/images/send.jpg" alt="Submit"/>
+							
+						</form>
+					</li>
+				</ul>
 			</article>
 			<footer id="layout_footer"></footer>
 		</div>
