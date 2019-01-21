@@ -12,7 +12,7 @@ function onMenuUnselected(obj) {
 
 // Other event listeners can go here.
 document.addEventListener("DOMContentLoaded", function(){
-	$('#layout_header').load('_t_header.html', function(responseTxt, statusTxt, xhr){
+	$('#layout_header').load('header.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 			if ($('#hidden_pageno').html() !== '-1')
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		}
 	});
 
-    $('#layout_footer').load('_t_footer.html', function(responseTxt, statusTxt, xhr){
+    $('#layout_footer').load('footer.html', function(responseTxt, statusTxt, xhr){
 
 		if(statusTxt == "success"){
 
