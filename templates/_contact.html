@@ -25,14 +25,15 @@
 
 	    <link rel="icon" href="https://jimmyvo2410.appspot.com/../static/images/icon.png">
 
-	    <link rel="stylesheet" type="text/css" href="../static/css/common.css">
+	    <link rel="stylesheet" type="text/css" href="../static/css/body.css">
+	    <link rel="stylesheet" type="text/css" href="../static/css/header.css">
+	    <link rel="stylesheet" type="text/css" href="../static/css/footer.css">
 	    <link rel="stylesheet" type="text/css" href="../static/css/contact.css">
 
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	    <script src="../static/js/common.js"></script>
 	    <script src="../static/js/utility.js"></script>
 	    <script src="../static/js/contact.js"></script>
-		<script> {{script|safe}} </script>
 	</head>
 
 	<body>
@@ -41,84 +42,36 @@
 
 		<div id="layout_body">
 			<article id="layout_body_content">
-
-				<div id="listContact">
-					<h6>Links</h6>
-					<table id="profile">
-						<tr>
-							<td>
-								<img src="../static/images/linkedin.jpg" alt="linkedin">
-							</td>
-							<td>
-								<a href="https://www.linkedin.com/in/jimmyvo2410/" target="_blank">linkedin.com/in/jimmyvo2410/</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/github.jpg" alt="github">
-							</td>
-							<td>
-								 <a href="https://github.com/jimmyvo2410" target="_blank">github.com/jimmyvo2410</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/email.jpg" alt="email">
-							</td>
-							<td>
-								 <a href="#">jimmy.vo.2410@gmail.com</a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="../static/images/web.jpg" alt="web">
-							</td>
-							<td>
-								 <a href="https://jimmyvo2410.appspot.com">jimmyvo2410.github.io</a>
-							</td>
-						</tr>
-					</table>
-				</div>
-
-				
-				<div id="message">
-					<h6>Message</h6>
-					<form class="textField"  action="contact.html" method="post">
-						<ul>
-							<li>
-								<label for="fullname">Full Name</label>
-								<p class="error" id="fullname_error">Required field</p>
-								<input id="fullname" name="fullname" type="text" value="{{fullname}}"/>
-							</li>
-							<li>
-								<label for="address">Address</label><p class="error" id="address_error">Required field</p>
-								<input id="address" name="address" type="text" value="{{address}}"/>
-								
-							</li>
-							<li>
-								<label for="number">Number</label>
-								<p class="error" id="number_error">Required field</p>
-								<p class="error" id="numberformat_error">Invalid number</p>
-								<input id="number" name="number" type="number" value="{{number}}"/>
-							</li>
-							<li>
-								<label for="email">Email</label>
-								<p class="error" id="email_error">Required field</p>
-								<p class="error" id="emailformat_error">Invalid email address</p>
-								<input id="email" name="email" type="text" value="{{email}}"/>
-							</li>
-							<li>
-								<label for="textarea">Message</label>
-								<p class="error" id="textarea_error">Required field</p>
-								<textarea id="textarea" name="textarea" rows="5" >{{textarea}}</textarea>
-							</li>
-							<li class="buttonField">    
-								<button type="reset" id="clear">Clear</button>
-								<button type="submit" id="submit">Send</button>
-							</li>
-						</ul>
-					</form>
-				</div>
+				<ul>
+					<li id="link-list">
+						<h6 class="font-title">Links</h6>
+						<a href="https://www.linkedin.com/in/jimmyvo2410/" target="_blank" class="font-topic">
+							<img  class="image-button"  src="../static/images/linkedin.jpg" alt="linkedin">linkedin.com/in/jimmyvo2410/
+						</a>
+						<a href="https://github.com/jimmyvo2410" target="_blank" class="font-topic">
+							<img  class="image-button"  src="../static/images/github.jpg" alt="github">github.com/jimmyvo2410
+						</a>
+ 						<a href="#" class="font-topic">
+							<img  class="image-button" src="../static/images/email.jpg" alt="email">jimmy.vo.2410@gmail.com
+						</a>
+						<a href="https://jimmyvo2410.appspot.com" class="font-topic">
+							<img  class="image-button"  src="../static/images/web.jpg" alt="web">jimmyvo2410.github.io
+						</a>
+					</li>
+					<li id="message-form">
+						<h6 class="font-title">Message</h6>
+						<form class="textField"  action="contact.html" method="post">
+							<input id="fullname" name="fullname" type="text" 	class="font-input" placeholder="Name*"  value="{{fullname}}"/>
+							<input id="email" name="email" type="email" 		class="font-input" placeholder="Email*" value="{{email}}"/>
+							<input id="number" name="number" type="tel" 		class="font-input" placeholder="Phone Number*" value="{{number}}"/>
+							<input id="address" name="address" type="text" 		class="font-input" placeholder="Address" value="{{address}}"/>
+							<label class="font-input" for="message">Message</label>
+							<textarea id="message:" name="message" rows="5" 	class="font-input" >{{message}}</textarea>
+							<input class="image-button" id="submit"  type="image" src="../static/images/send.jpg" alt="Submit"/>
+							{{notification|safe}}
+						</form>
+					</li>
+				</ul>
 			</article>
 			<footer id="layout_footer"></footer>
 		</div>

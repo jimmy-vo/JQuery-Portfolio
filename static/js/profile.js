@@ -4,6 +4,8 @@
  * param input
  * param iD
  */
+
+ var imagePath = "../static/images/logo/";
  function addEducation(input, iD)
 {
 	var xml = input.getElementsByTagName('bullet');
@@ -17,13 +19,13 @@
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 	    var major = item.getElementsByTagName('major')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "../static/images/thumb/" + image;
+		var url = imagePath + image;
 
 		var element_td1 = document.createElement("td");  
-		element_td1.appendChild(createTextElement("h1", degree));
-		element_td1.appendChild(createTextElement("h2", date));
-		element_td1.appendChild(createTextElement("h3", institude + ", " + location));
-		element_td1.appendChild(createTextElement("h4", "Area: " + major));
+		element_td1.appendChild(createTextElement("h1", degree, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
+		element_td1.appendChild(createTextElement("h3", institude + ", " + location, 'font-detail'));
+		element_td1.appendChild(createTextElement("h4", "Area: " + major, 'font-normal'));
 
 		if (image != "")
 		{
@@ -62,16 +64,16 @@ function addAward(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var description = item.getElementsByTagName('description')[0].firstChild.nodeValue;
 	    var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "../static/images/thumb/" + image;
+		var url = imagePath + image;
 
 		var element_td1 = document.createElement("td");  
 		var element_ul = document.createElement("ul");     
 		element_td1.appendChild(element_ul);
 
-		element_td1.appendChild(createTextElement("h1", name));
-		element_td1.appendChild(createTextElement("h2", date));
-		element_td1.appendChild(createTextElement("h3", organization));
-		element_td1.appendChild(createTextElement("h4", description));
+		element_td1.appendChild(createTextElement("h1", name, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
+		element_td1.appendChild(createTextElement("h3", organization, 'font-detail'));
+		element_td1.appendChild(createTextElement("h4", description, 'font-normal'));
 		
 
 		if (image != "")
@@ -108,7 +110,7 @@ function addSkill(input, iD)
 	    var topic = item.getElementsByTagName('topic')[0].firstChild.nodeValue;
 
 		var element_td1 = document.createElement("td");    
-		element_td1.appendChild(createTextElement("h1", topic));
+		element_td1.appendChild(createTextElement("h1", topic, 'font-topic'));
 
 		var element_ul = document.createElement("ul");     
 		element_td1.appendChild(element_ul);
@@ -121,7 +123,9 @@ function addSkill(input, iD)
 		for (var j=0; j<subxml.length; j++)
 		{
 		    var name = subxml[j].firstChild.nodeValue;
-			element_ul.appendChild(createTextElement("li", name));
+		    var element_li = createTextElement("li", name);
+			element_li.classList.add('font-bullet');
+			element_ul.appendChild(element_li);
 		}
 
 		document.getElementById(iD).appendChild(element_row);
@@ -152,7 +156,10 @@ function addSummary(input, iD)
 
 	    var name = item.firstChild.nodeValue;
 
-		element_ul.appendChild(createTextElement("li", name));
+	    var element_li = createTextElement("li", name);
+		element_li.classList.add('font-bullet');
+
+		element_ul.appendChild(element_li);
   	}
 }
 /*
@@ -175,14 +182,14 @@ function addExperience(input, iD)
 	    var organization = item.getElementsByTagName('organization')[0].firstChild.nodeValue;
 	    var location = item.getElementsByTagName('location')[0].firstChild.nodeValue;
 		var image = item.getElementsByTagName('image')[0].firstChild.nodeValue;
-		var url = "../static/images/thumb/" + image;
+		var url = imagePath + image;
 
 		var element_ul = document.createElement("ul");     
 
 		var element_td1 = document.createElement("td");    
-		element_td1.appendChild(createTextElement("h1", title));
-		element_td1.appendChild(createTextElement("h2", date));
-		element_td1.appendChild(createTextElement("h3", organization + ", " + location));
+		element_td1.appendChild(createTextElement("h1", title, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
+		element_td1.appendChild(createTextElement("h3", organization + ", " + location, 'font-detail'));
 		element_td1.appendChild(element_ul);
 
 
@@ -209,7 +216,7 @@ function addExperience(input, iD)
 
 		    var topic = subitem.getElementsByTagName('topic')[0].firstChild.nodeValue;
 		    
-			element_td1.appendChild(createTextElement("h4", topic));
+			element_td1.appendChild(createTextElement("h4", topic, 'font-normal'));
 
 			var element_ul = document.createElement("ul");  
 			element_td1.appendChild(element_ul);
@@ -219,7 +226,10 @@ function addExperience(input, iD)
 			{
 			    var description = subxml1[m].firstChild.nodeValue;
  
-				element_ul.appendChild(createTextElement("li", description));
+			    var element_li = createTextElement("li", description);
+				element_li.classList.add('font-bullet');
+
+				element_ul.appendChild(element_li);
 			}
 		}
 

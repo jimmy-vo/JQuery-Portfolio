@@ -1,0 +1,59 @@
+/* ##################################################################### */
+/* footer															 	 */
+/* ##################################################################### */
+#layout_footer {
+    clear: both;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgba(43,43,43, 0.5), rgba(13,78,81, 0.5), rgba(43,43,43, 0.5));
+}
+
+#footer_wrapper {
+    margin: 30px 30px;
+    padding: 30px 0px;
+}
+
+#footer_link
+{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+	clear: 	both;	
+}
+
+#footer_link li
+{
+	display: inline;
+	list-style: none;	
+	font-weight: bold;
+	padding:  15px 15px ;
+	width: 200px;
+	font-size: 15px;
+	margin: 10px;
+}
+
+#footer_link li a
+{
+	color: white;
+}
+
+#layout_footer a {
+    text-decoration: underline;
+}
+
+#layout_footer a:hover
+{
+    color: rgb(105, 169, 255);
+	text-decoration: underline;
+}
+
+#layout_footer p, #layout_footer a {
+    color: rgb(200,200,200);
+    font-size: 15px;
+}

@@ -1,0 +1,206 @@
+#layout_header
+{
+	width: 100%;
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	z-index: 50;
+}
+
+#layout_header_wrapper
+{
+	width: 1100px;
+	height: 110px;
+	margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(to bottom, rgba(43,43,43,1),rgba(43,43,43,1), rgba(43,43,43,1), transparent);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+/* ##################################################################### */
+/* Layout																 */
+/* ##################################################################### */
+#header_text
+{	
+	z-index: 100;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+#navigation  
+{
+	z-index: 100;
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+}
+
+#avatar 
+{
+	z-index: 101;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+#social
+{
+	z-index: 100;
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}	
+
+
+
+
+#header_text h1
+{	
+	display: inline-block;
+	float: left;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+	z-index: 50;
+}
+
+
+#layout_header a img
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	margin-left:  2px;
+	background: radial-gradient(white, white, transparent, transparent);
+	border: 2px solid white	;	
+	border-radius: 	5px;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#layout_header a img:hover, #layout_header a img.selected
+{
+ 	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	transform: scale(1.4); 	
+	border: 2px solid rgb(255, 255, 179);
+}
+
+/* ##################################################################### */
+/* avatar																 */
+/* ##################################################################### */
+a#avatar img
+{
+	height: 70px;
+	width: 70px;
+	border-radius: 	22px;
+	border: 2px solid black	;	
+	float: right;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	
+}
+
+a#avatar img:hover
+{
+	transform: scale(1.5); 
+  	transform-origin:top right;
+}
+
+/* ##################################################################### */
+/* navigation															 */
+/* ##################################################################### */
+#layout_header  li 
+{
+	display: inline-block;
+	list-style: none;	
+	font-weight: bold;
+	color: black;
+	border-radius: 3px;
+	padding: 0px;
+	margin: 0px;
+	border: 3px solid transparent;
+
+    background: transparent
+    width:auto;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+#navigation a
+{
+    font-size: 15px;
+    color: rgb(105, 169, 255);
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 24px;
+	text-transform: uppercase;
+}
+
+#navigation a.selected 
+{
+	color: rgb(255, 255, 179);
+	
+}
+
+#navigation a img.selected 
+{
+	color: rgb(255, 255, 179);	
+	border: 2px solid rgb(255, 255, 179);
+}
+
+#navigation li
+{
+	width: 150px; 
+	margin: 1px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px;
+	margin: 0px 20px 0px 0px;
+}
+
+
+#navigation li.selected 
+{
+	border: 3px solid rgb(255, 255, 179);
+	background: rgba(43,43,43,1);
+
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+
+}
+
+#navigation li a img
+{
+	margin:  0px 20px 0px 0px;
+	float: left;
+} 
+
+#navigation li a
+{
+	padding: 0px;
+} 

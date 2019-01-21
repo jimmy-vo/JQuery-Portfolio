@@ -1,148 +1,135 @@
 
-var hasErrors = false;
-
-function hideErrors()
-{
-	var errorFields = document.getElementsByClassName("error");
-	for(var i=0; i<errorFields.length; i++)
-	{
-		errorFields[i].style.display =  "none";
-	}
-}
 
 
-/*
- * resetForm
- *
- * param e
- * return  if form is reset
- */
-function resetForm(e)
-{
-	if ( confirm('Clear all?') )
-	{
-		hideErrors();		
-		return true;
-	}
-
-	e.preventDefault();
-	return false;	
-}
-
-/*
- * validate
- *
- * param e
- * return  if form is validate
- */
-function validate(e)
-{
-	hideErrors();
-
-	if (formHasErrors())
-	{
-		e.preventDefault();
-		return false;
-	}
-
-	return true;
-} 
-
-/*
- * formHasErrors
- *
- * return  if form Has Errors
- */
-function formHasErrors() {
-	hasErrors = false;
-	hasErrors = IsFieldEmpty("fullname")? 				true : hasErrors;
-	// hasErrors = IsFieldEmpty("address")? 				true : hasErrors;
-	// hasErrors = (IsFieldEmpty("number"))?				true :	
-	// 			(IsInvalidNumber("number")? 			true : hasErrors );
-	hasErrors = (IsFieldEmpty("email"))?				true :	
-				(IsFieldNotFormated("email", /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/)  ? 	
-														true : hasErrors );
-	hasErrors = IsFieldEmpty("textarea")? 				true : hasErrors;
-
-	return hasErrors;
-}
-
-
-
-
-/*
- * SetFocus
- * parm element
- * return none
- */
- function SetFocus(element) {
- 	
-	if (hasErrors === false)
-	{
-		element.focus();
-		element.select();
-	}
- }
-
-/*
- * IsInvalidNumber
- *
- * return   True if an error was found; False if no errors were found
- */
-function IsInvalidNumber (iDString)
-{
-	var number = document.getElementById(iDString).value;
-	// number = trim(number.replace("(","").replace(")","").replace("-","").replace(".",""));
-	if(number.length == 10)
-	{
-		return false;
-	}
-
-	document.getElementById(iDString+"format_error").style.display =  "block";
-	SetFocus(document.getElementById(iDString));
-	return true;
-}
-
-/*
- * IsFieldEmpty
- *
- * return   True if an error was found; False if no errors were found
- */
-function IsFieldEmpty(iDString) {
-	value = document.getElementById(iDString).value;
+function IsFieldEmpty(text) {
+	value = String(text);
 	if ((trim (value) !== "") && (value !== null))
 	{
     	return  false;
 	}
-
-	document.getElementById(iDString+"_error").style.display =  "block";
-	SetFocus(document.getElementById(iDString));
     return true;
 }
 
-/*
- * IsFieldNotFormated
- *
- * return   True if an error was found; False if no errors were found
- */
-function IsFieldNotFormated(iDString, regEx) {
-	if (regEx.test(document.getElementById(iDString).value))
+function IsFieldNotFormated(text, regEx) {
+	if (regEx.test(String(text), regEx))
 	{
 		return false;
 	}
-	
-	document.getElementById(iDString+"format_error").style.display =  "block";
-	SetFocus(document.getElementById(iDString));
 	return true;
 }
 
 
-// Other event listeners can go here.
-document.addEventListener("DOMContentLoaded", function(){  		
-	document.getElementById("submit").addEventListener("click", validate);
-	document.getElementById("clear").addEventListener("click", resetForm);
-//	document.getElementById("message").addEventListener("click", function () {
-//		alert("It can't be use right now");
-//	});
-	hideErrors();
+
+function ValidateName()
+{	
+	console.log('ValidateName');
+
+	if (IsFieldEmpty($fullname.val()))
+	{
+		$fullname.addClass('error');
+		return true	;
+	}
+	
+	$fullname.removeClass('error');
+	return false;
+}
+
+function ValidateNumber()
+{	
+	console.log('ValidateNumber');
+
+	if	(IsFieldEmpty($number.val()))
+	{
+		$number.addClass('error');
+		return true	;
+	}
+	else if (IsFieldNotFormated($number.val(), /\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/))
+	{
+		$number.addClass('error');
+		return true;
+	}
+	
+	$number.removeClass('error');
+	return false;
+}
+
+function ValidateEmail()
+{	
+	console.log('ValidateEmail');
+	
+	if	(IsFieldEmpty($email.val()))
+	{
+		$email.addClass('error');
+		return true	;
+	}
+	else if (IsFieldNotFormated($email.val(), /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/))
+	{
+		$email.addClass('error');
+		return true;
+	}
+	
+	$email.removeClass('error');
+	return false;
+}
+
+function ValidateMessage()
+{
+	console.log('ValidateMessage');
+
+	if (IsFieldEmpty($message.val()))
+	{
+		$message.addClass('error');
+		return true	;
+	}
+
+	$message.removeClass('error');
+	return false;
+}
+
+
+document.addEventListener("DOMContentLoaded", function(){
+
+	$fullname = $("#fullname");
+	$email = $("#email");
+	$number = $("#number");
+	$address = $("#address");
+	$message = $("textarea[name*='message']");
+
+ 	$fullname.on('blur', ValidateName);
+ 	$number.on('blur', ValidateNumber);
+ 	$email.on('blur', ValidateEmail);
+ 	$message.on('blur', ValidateMessage);
+ 
+ 	$fullname.on('focus', function() {$fullname.removeClass('error');   console.log('leave fullname');});
+ 	$number.on('focus', function() {$number.removeClass('error');       console.log('leave fullname');});
+ 	$email.on('focus', function() {$email.removeClass('error');         console.log('leave fullname');});
+ 	$message.on('focus', function() {$message.removeClass('error');     console.log('leave fullname');});
+
+ 	$("#submit").on('click', function(){
+ 	    let error = '';
+
+        if (ValidateName())
+        {
+            error = "fullname";
+        }
+        else if(ValidateEmail())
+        {
+            error = "email";
+        }
+        else if(ValidateNumber())
+        {
+            error = "number";
+        }
+        else if(ValidateMessage())
+        {
+            error = "message";
+        }
+
+        if (error != '')
+        {
+            $(error).focus();
+            e.preventDefault();
+        }
+ 	});
+
 });

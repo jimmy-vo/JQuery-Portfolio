@@ -50,10 +50,14 @@ function ImageExist(url)
 }
 
 
-function createTextElement(tag, string) 
+function createTextElement(tag, string, classes='') 
 {
   var element = document.createElement(tag);  
   element.innerHTML  = string;
+  if (classes != '')
+  {
+    element.classList.add(classes);
+  }
   return element;
 }
 

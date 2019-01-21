@@ -1,71 +1,26 @@
-
- h1, h2, h3, h4, h5, h6,
- {
-    margin: 0px 5px;
-    padding:    0px;
-    background-color: transparent;
-    background: transparent;
- }
-/* ##################################################################### */
-/* overide                                                               */
-/* ##################################################################### */
-
-
-/* ##################################################################### */
-/* layout                                                                */
-/* ##################################################################### */
-
-#layout_body_content div
-{    
-    float: left;
-
-    background: linear-gradient(rgba(43,43,43,0.7), rgba(13,78,81,0.7), rgba(43,43,43,0.7));
-
-    border-radius: 15px;
-
-    margin: 10px 0px;
-    padding:    0px;
-
-	position: relative;
-	width: 100%;
-
-    border: 0px groove  black   ;
-}
-
-#layout_body_content h6
-{    
-    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
-    color: rgb(255, 255, 179);
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    font-size:  25px;
-    padding: 5px 30px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 1px groove  black   ;
-    margin: 1px;
-}
-
 #layout_body_content table
 {
     border: 0px groove  black   ;
     width: 98%;
-    margin: 5px 15px;  
+    margin: 0px;  
+	padding: 0px;
     border-collapse: collapse;
 }
 
 #layout_body_content tr 
 {
+    margin: 0px;  
+    padding: 0px;
     border: 0px solid  black   ;
 }
 
-#layout_body_content  td
+#layout_body_content tr td
 {
 	width: 	100%;
     vertical-align: top;
     border-bottom: 2px solid  black   ;
-    padding: 10px 5px ;
+    margin: 0px;  
+	padding: 5px 0px;
 }
 
 #layout_body_content  tr:last-child td
@@ -82,79 +37,31 @@
     border-radius:  15px;
 }
 
-#layout_body_content h1
+#skill .font-topic
 {
-    color: rgb(105, 169, 255);
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    font-size: 20px; 
-    margin-right:   30px;
+	display: block;
+	float: none;
+}
+
+.font-topic
+{
     float:  left;   
 }
 
-#layout_body_content h2
+.font-date
 {
-    color: lightgrey;
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    font-size: 15px;
     float: right;
-    text-align: right;
-    margin-right: 5px;
-    margin-top: 5px;
 }
 
 
-#layout_body_content h3
+.font-detail
 {
-    color: rgb(255, 169, 255);
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    margin-left: 25px;
-    margin-top: 10px;
-    font-size: 16px; 
     clear: both;
     float: left;
 }
 
-#layout_body_content h4
+.font-normal
 {
-    color: white;
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    font-size: 15px; 
-    margin-top: 10px;
-    padding: 5px;
     clear: both;
 }
 
-#layout_body_content li
-{    
-    font-size: 20px; 
-    color: white;
-    text-shadow: 4px 0px rgb(10 ,11,29);
-    margin-left: 35px;
-    clear: both;
-}
-
-/* ##################################################################### */
-/* summary                                                               */
-/* ##################################################################### */
-
-#summary li
-{
-    font-size: 20px; 
-    padding-bottom: 10px;
-}
-/* ##################################################################### */
-/* Skill                                                                 */
-/* ##################################################################### */
-
-#skill h1
-{
-    font-size: 20px; 
-}
-
-#skill h2
-{
-    font-size: 15px; 
-    float: left;
-    text-align: left;
-    margin-top: 0px;
-}
