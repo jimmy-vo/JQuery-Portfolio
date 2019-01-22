@@ -42,36 +42,57 @@
 
 		<div id="layout_body">
 			<article id="layout_body_content">
+
 				<ul>
 					<li id="link-list">
-						<h6 class="font-title">Links</h6>
+						<!--<h6 class="font-title">Links</h6>-->
+
+						<a href="https://jimmyvo2410.appspot.com" class="font-topic">
+							<img  class="image-button"  src="../static/images/web.jpg" alt="web">jimmyvo2410.appspot.com
+						</a>
+ 						<a href="#" class="font-topic" onclick="copyEmailToClipboard()">
+							<img  class="image-button" src="../static/images/email.jpg" alt="email">jimmy.vo.2410@gmail.com
+						</a>
 						<a href="https://www.linkedin.com/in/jimmyvo2410/" target="_blank" class="font-topic">
 							<img  class="image-button"  src="../static/images/linkedin.jpg" alt="linkedin">linkedin.com/in/jimmyvo2410/
 						</a>
 						<a href="https://github.com/jimmyvo2410" target="_blank" class="font-topic">
 							<img  class="image-button"  src="../static/images/github.jpg" alt="github">github.com/jimmyvo2410
 						</a>
- 						<a href="#" class="font-topic">
-							<img  class="image-button" src="../static/images/email.jpg" alt="email">jimmy.vo.2410@gmail.com
+						<a href="https://www.facebook.com/jimmy.vo.2410" target="_blank" class="font-topic">
+							<img class="image-button"  alt="facebook" src="../static/images/facebook.jpg">facebook.com/jimmy.vo.2410
 						</a>
-						<a href="https://jimmyvo2410.appspot.com" class="font-topic">
-							<img  class="image-button"  src="../static/images/web.jpg" alt="web">jimmyvo2410.github.io
+						<a href="https://twitter.com/jimmyvo2410" target="_blank" class="font-topic">
+							<img class="image-button"  alt="twitter" src="../static/images/twitter.jpg">twitter.com/jimmyvo2410
 						</a>
-					</li>
+						<a href="https://goo.gl/maps/DYjT2QnXCJL2" target="_blank" class="font-topic">
+							<img class="image-button"  alt="address" src="../static/images/address.jpg">Winnipeg, Manitoba, Canada
+						</a>
+
+						</li>
 					<li id="message-form">
-						<h6 class="font-title">Message</h6>
+						<!--<h6 class="font-title">Message</h6>-->
 						<form class="textField"  action="contact.html" method="post">
 							<input id="fullname" name="fullname" type="text" 	class="font-input" placeholder="Name*" />
 							<input id="email" name="email" type="email" 		class="font-input" placeholder="Email*" />
 							<input id="number" name="number" type="tel" 		class="font-input" placeholder="Phone Number*" />
-							<input id="address" name="address" type="text" 		class="font-input" placeholder="Address" />
-							<label class="font-input" for="message">Message</label>
-							<textarea id="message:" name="message" rows="5" 	class="font-input" ></textarea>
+							<label class="font-input" for="message">Message:</label>
+							<textarea id="message" name="message" rows="5" 	class="font-input" ></textarea>
 							<input class="image-button" id="submit"  type="image" src="../static/images/send.jpg" alt="Submit"/>
-							
 						</form>
 					</li>
+					<li id="map">
+						<iframe width="700"
+								height="700"
+								frameborder="0"
+								scrolling="no"
+								marginheight="0"
+								marginwidth="0"
+								allowfullscreen
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164633.57534947063!2d-97.29230632469903!3d49.85373765543764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea73fbf91a2b11%3A0x2b2a1afac6b9ca64!2sWinnipeg%2C+MB!5e0!3m2!1sen!2sca!4v1548129413962"  ></iframe>
+					</li>
 				</ul>
+
 			</article>
 			<footer id="layout_footer"></footer>
 		</div>

@@ -86,14 +86,13 @@ function ValidateMessage()
 	return false;
 }
 
-
 document.addEventListener("DOMContentLoaded", function(){
 
 	$fullname = $("#fullname");
 	$email = $("#email");
 	$number = $("#number");
 	$address = $("#address");
-	$message = $("textarea[name*='message']");
+	$message = $("#message");
 
  	$fullname.on('blur', ValidateName);
  	$number.on('blur', ValidateNumber);
@@ -131,5 +130,4 @@ document.addEventListener("DOMContentLoaded", function(){
             e.preventDefault();
         }
  	});
-
 });

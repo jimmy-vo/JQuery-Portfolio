@@ -39,20 +39,6 @@
 /* ##################################################################### */
 /* invidual style                                                        */
 /* ##################################################################### */
-
-.font-title
-{
-    background: linear-gradient(rgb(10 ,11,29), rgb(72,104,127), rgb(10 ,11,29));
-    padding: 5px 30px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: 1px groove  black   ;
-    margin: 1px;
-    display: block;
-}
-
 a.font-title:hover
 {
     color: blue;

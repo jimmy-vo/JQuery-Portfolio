@@ -47,6 +47,25 @@
     float: left;
 }
 
+#map
+{
+    width: 100%!important;
+    height: 500px;
+    background-color: transparent;
+    clear: both!important;
+    float: none!important;
+
+}
+
+#map iframe
+{
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 50;
+
+}
+
 /* ----------------------------------------------------*/
 /* -- Form  font   ------------------------------------*/
 /* ----------------------------------------------------*/
