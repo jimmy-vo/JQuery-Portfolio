@@ -22,10 +22,10 @@
 		var url = imagePath + image;
 
 		var element_td1 = document.createElement("td");  
-		element_td1.appendChild(createTextElement("h1", degree, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", degree, 'font-topic'));
 		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
 		element_td1.appendChild(createTextElement("h3", institude + ", " + location, 'font-detail'));
-		element_td1.appendChild(createTextElement("h4", "Area: " + major, 'font-normal'));
+		element_td1.appendChild(createTextElement("p", "Area: " + major, 'font-normal'));
 
 		if (image != "")
 		{
@@ -70,10 +70,10 @@ function addAward(input, iD)
 		var element_ul = document.createElement("ul");     
 		element_td1.appendChild(element_ul);
 
-		element_td1.appendChild(createTextElement("h1", name, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", name, 'font-topic'));
 		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
 		element_td1.appendChild(createTextElement("h3", organization, 'font-detail'));
-		element_td1.appendChild(createTextElement("h4", description, 'font-normal'));
+		element_td1.appendChild(createTextElement("p", description, 'font-normal'));
 		
 
 		if (image != "")
@@ -110,7 +110,7 @@ function addSkill(input, iD)
 	    var topic = item.getElementsByTagName('topic')[0].firstChild.nodeValue;
 
 		var element_td1 = document.createElement("td");    
-		element_td1.appendChild(createTextElement("h1", topic, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", topic, 'font-topic'));
 
 		var element_ul = document.createElement("ul");     
 		element_td1.appendChild(element_ul);
@@ -187,7 +187,7 @@ function addExperience(input, iD)
 		var element_ul = document.createElement("ul");     
 
 		var element_td1 = document.createElement("td");    
-		element_td1.appendChild(createTextElement("h1", title, 'font-topic'));
+		element_td1.appendChild(createTextElement("h2", title, 'font-topic'));
 		element_td1.appendChild(createTextElement("h2", date, 'font-date'));
 		element_td1.appendChild(createTextElement("h3", organization + ", " + location, 'font-detail'));
 		element_td1.appendChild(element_ul);
@@ -216,7 +216,7 @@ function addExperience(input, iD)
 
 		    var topic = subitem.getElementsByTagName('topic')[0].firstChild.nodeValue;
 		    
-			element_td1.appendChild(createTextElement("h4", topic, 'font-normal'));
+			element_td1.appendChild(createTextElement("p", topic, 'font-normal'));
 
 			var element_ul = document.createElement("ul");  
 			element_td1.appendChild(element_ul);
