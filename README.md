@@ -10,8 +10,7 @@ Take it as your own risk when you use it, I am not responsible for any web secur
   * Auto generate content from XML format.
   * Loading HTML fragment template using Jquery
 
-## Demonstration:
-You can find a demonstration link from [here](https://jimmyvo2410.github.io/)    
+## Demonstration: 
 * Profile: 
 
     ![photo](https://github.com/jimmyvo2410/jimmyvo2410.github.io/blob/master/doc/profile.JPG)
@@ -27,9 +26,9 @@ You can find a demonstration link from [here](https://jimmyvo2410.github.io/)
     
 # How to modify it?
 The websites is coded in the way that you can easily modify the content by:
-* Edit xml files from [here](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/file)
+* Edit xml files from [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/xml) 
 * Update your photos in this [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/images) 
-* Put your resume in [folder](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/xml) 
+* Put your resume in [here](https://github.com/jimmyvo2410/jimmyvo2410.github.io/tree/master/static/file) 
 
 # Output
-You can find an output link from [here](https://jimmyvo2410.github.io)
+You can find an output link from [here](https://jimmy-vo.github.io/JQuery-Portfolio/)
